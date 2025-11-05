@@ -1,0 +1,21 @@
+mode: ContinuousDelivery
+branches:
+  main:
+    regex: ^main$
+    tag: ''
+    increment: patch
+    is-mainline: true
+  develop:
+    regex: ^develop$
+    tag: beta
+    increment: minor
+  release:
+    regex: ^release[/-]
+    tag: rc
+    increment: patch
+  feature:
+    regex: ^feature[/-]
+    tag: feature
+ignore:
+  sha: []
+commit-message-incrementing: Enabled
