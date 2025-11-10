@@ -1,0 +1,3087 @@
+{
+  "domains": [
+    {
+      "domain": "light",
+      "entities": [
+        {
+          "id": "light.lamp",
+          "friendlyName": "Lamp",
+          "cSharpName": "Lamp"
+        },
+        {
+          "id": "light.lamp_2",
+          "friendlyName": "Lamp",
+          "cSharpName": "Lamp2"
+        },
+        {
+          "id": "light.lamp_3",
+          "friendlyName": "Lamp",
+          "cSharpName": "Lamp3"
+        },
+        {
+          "id": "light.lamp_4",
+          "friendlyName": "Lamp",
+          "cSharpName": "Lamp4"
+        },
+        {
+          "id": "light.lamp_5",
+          "friendlyName": "Lamp",
+          "cSharpName": "Lamp5"
+        },
+        {
+          "id": "light.lamp_6",
+          "friendlyName": "Lamp",
+          "cSharpName": "Lamp6"
+        },
+        {
+          "id": "light.lamp_7",
+          "friendlyName": "Lamp",
+          "cSharpName": "Lamp7"
+        },
+        {
+          "id": "light.lamp_8",
+          "friendlyName": "Lamp",
+          "cSharpName": "Lamp8"
+        },
+        {
+          "id": "light.lamp_9",
+          "friendlyName": "Lamp",
+          "cSharpName": "Lamp9"
+        },
+        {
+          "id": "light.lamp_spiegel",
+          "friendlyName": "Lamp spiegel",
+          "cSharpName": "LampSpiegel"
+        },
+        {
+          "id": "light.shellydimmer2_c8c9a325aa51",
+          "friendlyName": "Serre",
+          "cSharpName": "Shellydimmer2C8c9a325aa51"
+        }
+      ],
+      "attributes": [
+        {
+          "jsonName": "supported_color_modes",
+          "cSharpName": "SupportedColorModes",
+          "clrType": "System.Collections.Generic.IReadOnlyList\u00601[System.String]"
+        },
+        {
+          "jsonName": "supported_features",
+          "cSharpName": "SupportedFeatures",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "color_mode",
+          "cSharpName": "ColorMode",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "min_color_temp_kelvin",
+          "cSharpName": "MinColorTempKelvin",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "max_color_temp_kelvin",
+          "cSharpName": "MaxColorTempKelvin",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "min_mireds",
+          "cSharpName": "MinMireds",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "max_mireds",
+          "cSharpName": "MaxMireds",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "brightness",
+          "cSharpName": "Brightness",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "color_temp_kelvin",
+          "cSharpName": "ColorTempKelvin",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "color_temp",
+          "cSharpName": "ColorTemp",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "hs_color",
+          "cSharpName": "HsColor",
+          "clrType": "System.Collections.Generic.IReadOnlyList\u00601[System.Double]"
+        },
+        {
+          "jsonName": "rgb_color",
+          "cSharpName": "RgbColor",
+          "clrType": "System.Collections.Generic.IReadOnlyList\u00601[System.Double]"
+        },
+        {
+          "jsonName": "xy_color",
+          "cSharpName": "XyColor",
+          "clrType": "System.Collections.Generic.IReadOnlyList\u00601[System.Double]"
+        },
+        {
+          "jsonName": "entity_id",
+          "cSharpName": "EntityId",
+          "clrType": "System.Collections.Generic.IReadOnlyList\u00601[System.String]"
+        },
+        {
+          "jsonName": "effect_list",
+          "cSharpName": "EffectList",
+          "clrType": "System.Collections.Generic.IReadOnlyList\u00601[System.String]"
+        },
+        {
+          "jsonName": "color",
+          "cSharpName": "Color",
+          "clrType": "System.Object"
+        },
+        {
+          "jsonName": "friendly_name",
+          "cSharpName": "FriendlyName",
+          "clrType": "System.String"
+        }
+      ]
+    },
+    {
+      "domain": "media_player",
+      "entities": [],
+      "attributes": [
+        {
+          "jsonName": "app_id",
+          "cSharpName": "AppId",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "app_name",
+          "cSharpName": "AppName",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "device_class",
+          "cSharpName": "DeviceClass",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "entity_picture_local",
+          "cSharpName": "EntityPictureLocal",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "entity_picture",
+          "cSharpName": "EntityPicture",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "icon",
+          "cSharpName": "Icon",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "friendly_name",
+          "cSharpName": "FriendlyName",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "supported_features",
+          "cSharpName": "SupportedFeatures",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "volume_level",
+          "cSharpName": "VolumeLevel",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "is_volume_muted",
+          "cSharpName": "IsVolumeMuted",
+          "clrType": "System.Boolean"
+        },
+        {
+          "jsonName": "media_content_id",
+          "cSharpName": "MediaContentId",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "media_content_type",
+          "cSharpName": "MediaContentType",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "media_duration",
+          "cSharpName": "MediaDuration",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "media_position",
+          "cSharpName": "MediaPosition",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "media_position_updated_at",
+          "cSharpName": "MediaPositionUpdatedAt",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "media_title",
+          "cSharpName": "MediaTitle",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "media_album_name",
+          "cSharpName": "MediaAlbumName",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "media_image_url",
+          "cSharpName": "MediaImageUrl",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "media_artist",
+          "cSharpName": "MediaArtist",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "sound_mode_list",
+          "cSharpName": "SoundModeList",
+          "clrType": "System.Collections.Generic.IReadOnlyList\u00601[System.String]"
+        },
+        {
+          "jsonName": "media_track",
+          "cSharpName": "MediaTrack",
+          "clrType": "System.Object"
+        },
+        {
+          "jsonName": "shuffle",
+          "cSharpName": "Shuffle",
+          "clrType": "System.Boolean"
+        },
+        {
+          "jsonName": "repeat",
+          "cSharpName": "Repeat",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "source_list",
+          "cSharpName": "SourceList",
+          "clrType": "System.Collections.Generic.IReadOnlyList\u00601[System.String]"
+        },
+        {
+          "jsonName": "source",
+          "cSharpName": "Source",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "adb_response",
+          "cSharpName": "AdbResponse",
+          "clrType": "System.Object"
+        },
+        {
+          "jsonName": "hdmi_input",
+          "cSharpName": "HdmiInput",
+          "clrType": "System.Object"
+        },
+        {
+          "jsonName": "sound_mode",
+          "cSharpName": "SoundMode",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "sound_mode_raw",
+          "cSharpName": "SoundModeRaw",
+          "clrType": "System.String"
+        }
+      ]
+    },
+    {
+      "domain": "binary_sensor",
+      "entities": [
+        {
+          "id": "binary_sensor.badkamer_connectiviteit",
+          "friendlyName": "Badkamer Connectiviteit",
+          "cSharpName": "BadkamerConnectiviteit"
+        },
+        {
+          "id": "binary_sensor.badkamer_overlay",
+          "friendlyName": "Badkamer Overlay",
+          "cSharpName": "BadkamerOverlay"
+        },
+        {
+          "id": "binary_sensor.badkamer_raam",
+          "friendlyName": "Badkamer Raam",
+          "cSharpName": "BadkamerRaam"
+        },
+        {
+          "id": "binary_sensor.badkamer_vermogen",
+          "friendlyName": "Badkamer Vermogen",
+          "cSharpName": "BadkamerVermogen"
+        },
+        {
+          "id": "binary_sensor.badkamer_vroege_start",
+          "friendlyName": "Badkamer Vroege start",
+          "cSharpName": "BadkamerVroegeStart"
+        },
+        {
+          "id": "binary_sensor.br1941187584_connectiestatus",
+          "friendlyName": "BR1941187584 Connectiestatus",
+          "cSharpName": "Br1941187584Connectiestatus"
+        },
+        {
+          "id": "binary_sensor.brok_b_s_input_0",
+          "friendlyName": "Lamp spiegel Input 0",
+          "cSharpName": "BrokBSInput0"
+        },
+        {
+          "id": "binary_sensor.energie_meter_overpowering",
+          "friendlyName": "Energie meter Overpowering",
+          "cSharpName": "EnergieMeterOverpowering"
+        },
+        {
+          "id": "binary_sensor.ib1911827456_connectiestatus",
+          "friendlyName": "IB1911827456 Connectiestatus",
+          "cSharpName": "Ib1911827456Connectiestatus"
+        },
+        {
+          "id": "binary_sensor.lamp_overloop_input",
+          "friendlyName": "Lamp Input",
+          "cSharpName": "LampOverloopInput"
+        },
+        {
+          "id": "binary_sensor.roldeur_garage_input",
+          "friendlyName": "Roldeur Garage Input",
+          "cSharpName": "RoldeurGarageInput"
+        },
+        {
+          "id": "binary_sensor.roldeur_garage_input_2",
+          "friendlyName": "Roldeur Garage Input",
+          "cSharpName": "RoldeurGarageInput2"
+        },
+        {
+          "id": "binary_sensor.roldeur_garage_overheating",
+          "friendlyName": "Roldeur Garage Overheating",
+          "cSharpName": "RoldeurGarageOverheating"
+        },
+        {
+          "id": "binary_sensor.ru2052150016_batterij",
+          "friendlyName": "RU2052150016 Batterij",
+          "cSharpName": "Ru2052150016Batterij"
+        },
+        {
+          "id": "binary_sensor.ru2052150016_connectiestatus",
+          "friendlyName": "RU2052150016 Connectiestatus",
+          "cSharpName": "Ru2052150016Connectiestatus"
+        },
+        {
+          "id": "binary_sensor.schakelaars_bar_schakelaar1_input",
+          "friendlyName": "Schakelaars bar Schakelaar1 input",
+          "cSharpName": "SchakelaarsBarSchakelaar1Input"
+        },
+        {
+          "id": "binary_sensor.schakelaars_bar_schakelaar2_input",
+          "friendlyName": "Schakelaars bar Schakelaar2 input",
+          "cSharpName": "SchakelaarsBarSchakelaar2Input"
+        },
+        {
+          "id": "binary_sensor.schakelaars_bar_schakelaar3_input",
+          "friendlyName": "Schakelaars bar Schakelaar3 input",
+          "cSharpName": "SchakelaarsBarSchakelaar3Input"
+        },
+        {
+          "id": "binary_sensor.shelly1mini_543204b8f5ec_input_0",
+          "friendlyName": "shelly1mini-543204b8f5ec Input 0",
+          "cSharpName": "Shelly1mini543204b8f5ecInput0"
+        },
+        {
+          "id": "binary_sensor.shelly1mini_543204b8f7a8_input_0",
+          "friendlyName": "Lamp Input 0",
+          "cSharpName": "Shelly1mini543204b8f7a8Input0"
+        },
+        {
+          "id": "binary_sensor.shelly1mini_543204b96788_input_0",
+          "friendlyName": "Lamp Input 0",
+          "cSharpName": "Shelly1mini543204b96788Input0"
+        },
+        {
+          "id": "binary_sensor.shelly1mini_543204b9b26c_input_0",
+          "friendlyName": "shelly1mini-543204b9b26c Input 0",
+          "cSharpName": "Shelly1mini543204b9b26cInput0"
+        },
+        {
+          "id": "binary_sensor.shelly1mini_543204b9d78c_input_0",
+          "friendlyName": "Lamp Input 0",
+          "cSharpName": "Shelly1mini543204b9d78cInput0"
+        },
+        {
+          "id": "binary_sensor.shelly1mini_543204b9eba0_input_0",
+          "friendlyName": "Lamp Input 0",
+          "cSharpName": "Shelly1mini543204b9eba0Input0"
+        },
+        {
+          "id": "binary_sensor.shelly1mini_543204ba9294_input_0",
+          "friendlyName": "Lamp Input 0",
+          "cSharpName": "Shelly1mini543204ba9294Input0"
+        },
+        {
+          "id": "binary_sensor.shelly1mini_543204ba9ca0_input_0",
+          "friendlyName": "Lamp Input 0",
+          "cSharpName": "Shelly1mini543204ba9ca0Input0"
+        },
+        {
+          "id": "binary_sensor.shelly1mini_543204baa850_input_0",
+          "friendlyName": "Afzuiger Input 0",
+          "cSharpName": "Shelly1mini543204baa850Input0"
+        },
+        {
+          "id": "binary_sensor.shelly1mini_543204baae20_input_0",
+          "friendlyName": "Lamp Input 0",
+          "cSharpName": "Shelly1mini543204baae20Input0"
+        },
+        {
+          "id": "binary_sensor.shelly1mini_543204bae5ec_input_0",
+          "friendlyName": "Stopcontact Input 0",
+          "cSharpName": "Shelly1mini543204bae5ecInput0"
+        },
+        {
+          "id": "binary_sensor.shelly1mini_543204bb90dc_input_0",
+          "friendlyName": "Lamp Input 0",
+          "cSharpName": "Shelly1mini543204bb90dcInput0"
+        },
+        {
+          "id": "binary_sensor.shelly1mini_543204bc1380_input_0",
+          "friendlyName": "shelly1mini-543204bc1380 Input 0",
+          "cSharpName": "Shelly1mini543204bc1380Input0"
+        },
+        {
+          "id": "binary_sensor.shellydimmer2_c8c9a325aa51_channel_1_input",
+          "friendlyName": "Serre Channel 1 input",
+          "cSharpName": "Shellydimmer2C8c9a325aa51Channel1Input"
+        },
+        {
+          "id": "binary_sensor.shellydimmer2_c8c9a325aa51_channel_2_input",
+          "friendlyName": "Serre Channel 2 input",
+          "cSharpName": "Shellydimmer2C8c9a325aa51Channel2Input"
+        },
+        {
+          "id": "binary_sensor.shellydimmer2_c8c9a325aa51_overheating",
+          "friendlyName": "Serre Overheating",
+          "cSharpName": "Shellydimmer2C8c9a325aa51Overheating"
+        },
+        {
+          "id": "binary_sensor.shellydimmer2_c8c9a325aa51_overpowering",
+          "friendlyName": "Serre Overpowering",
+          "cSharpName": "Shellydimmer2C8c9a325aa51Overpowering"
+        },
+        {
+          "id": "binary_sensor.slaapkamer_kasper_christel_connectiviteit",
+          "friendlyName": "Slaapkamer Kasper \u0026 Christel Connectiviteit",
+          "cSharpName": "SlaapkamerKasperChristelConnectiviteit"
+        },
+        {
+          "id": "binary_sensor.slaapkamer_kasper_christel_overlay",
+          "friendlyName": "Slaapkamer Kasper \u0026 Christel Overlay",
+          "cSharpName": "SlaapkamerKasperChristelOverlay"
+        },
+        {
+          "id": "binary_sensor.slaapkamer_kasper_christel_raam",
+          "friendlyName": "Slaapkamer Kasper \u0026 Christel Raam",
+          "cSharpName": "SlaapkamerKasperChristelRaam"
+        },
+        {
+          "id": "binary_sensor.slaapkamer_kasper_christel_vermogen",
+          "friendlyName": "Slaapkamer Kasper \u0026 Christel Vermogen",
+          "cSharpName": "SlaapkamerKasperChristelVermogen"
+        },
+        {
+          "id": "binary_sensor.slaapkamer_kasper_christel_vroege_start",
+          "friendlyName": "Slaapkamer Kasper \u0026 Christel Vroege start",
+          "cSharpName": "SlaapkamerKasperChristelVroegeStart"
+        },
+        {
+          "id": "binary_sensor.slaapkamer_sjoerd_connectiviteit",
+          "friendlyName": "Droog kamer Connectiviteit",
+          "cSharpName": "SlaapkamerSjoerdConnectiviteit"
+        },
+        {
+          "id": "binary_sensor.slaapkamer_sjoerd_overlay",
+          "friendlyName": "Droog kamer Overlay",
+          "cSharpName": "SlaapkamerSjoerdOverlay"
+        },
+        {
+          "id": "binary_sensor.slaapkamer_sjoerd_raam",
+          "friendlyName": "Droog kamer Raam",
+          "cSharpName": "SlaapkamerSjoerdRaam"
+        },
+        {
+          "id": "binary_sensor.slaapkamer_sjoerd_vermogen",
+          "friendlyName": "Droog kamer Vermogen",
+          "cSharpName": "SlaapkamerSjoerdVermogen"
+        },
+        {
+          "id": "binary_sensor.slaapkamer_sjoerd_vroege_start",
+          "friendlyName": "Droog kamer Vroege start",
+          "cSharpName": "SlaapkamerSjoerdVroegeStart"
+        },
+        {
+          "id": "binary_sensor.slaapkamer_wouter_connectiviteit",
+          "friendlyName": "Slaapkamer Sjoerd Connectiviteit",
+          "cSharpName": "SlaapkamerWouterConnectiviteit"
+        },
+        {
+          "id": "binary_sensor.slaapkamer_wouter_overlay",
+          "friendlyName": "Slaapkamer Sjoerd Overlay",
+          "cSharpName": "SlaapkamerWouterOverlay"
+        },
+        {
+          "id": "binary_sensor.slaapkamer_wouter_raam",
+          "friendlyName": "Slaapkamer Sjoerd Raam",
+          "cSharpName": "SlaapkamerWouterRaam"
+        },
+        {
+          "id": "binary_sensor.slaapkamer_wouter_vermogen",
+          "friendlyName": "Slaapkamer Sjoerd Vermogen",
+          "cSharpName": "SlaapkamerWouterVermogen"
+        },
+        {
+          "id": "binary_sensor.slaapkamer_wouter_vroege_start",
+          "friendlyName": "Slaapkamer Sjoerd Vroege start",
+          "cSharpName": "SlaapkamerWouterVroegeStart"
+        },
+        {
+          "id": "binary_sensor.su1413360640_batterij",
+          "friendlyName": "SU1413360640 Batterij",
+          "cSharpName": "Su1413360640Batterij"
+        },
+        {
+          "id": "binary_sensor.su1413360640_connectiestatus",
+          "friendlyName": "SU1413360640 Connectiestatus",
+          "cSharpName": "Su1413360640Connectiestatus"
+        },
+        {
+          "id": "binary_sensor.va1263479808_batterij",
+          "friendlyName": "VA1263479808 Batterij",
+          "cSharpName": "Va1263479808Batterij"
+        },
+        {
+          "id": "binary_sensor.va1263479808_connectiestatus",
+          "friendlyName": "VA1263479808 Connectiestatus",
+          "cSharpName": "Va1263479808Connectiestatus"
+        },
+        {
+          "id": "binary_sensor.va1330588672_batterij",
+          "friendlyName": "VA1330588672 Batterij",
+          "cSharpName": "Va1330588672Batterij"
+        },
+        {
+          "id": "binary_sensor.va1330588672_connectiestatus",
+          "friendlyName": "VA1330588672 Connectiestatus",
+          "cSharpName": "Va1330588672Connectiestatus"
+        },
+        {
+          "id": "binary_sensor.va2052271104_batterij",
+          "friendlyName": "VA2052271104 Batterij",
+          "cSharpName": "Va2052271104Batterij"
+        },
+        {
+          "id": "binary_sensor.va2052271104_connectiestatus",
+          "friendlyName": "VA2052271104 Connectiestatus",
+          "cSharpName": "Va2052271104Connectiestatus"
+        },
+        {
+          "id": "binary_sensor.va2203003904_batterij",
+          "friendlyName": "VA2203003904 Batterij",
+          "cSharpName": "Va2203003904Batterij"
+        },
+        {
+          "id": "binary_sensor.va2203003904_connectiestatus",
+          "friendlyName": "VA2203003904 Connectiestatus",
+          "cSharpName": "Va2203003904Connectiestatus"
+        },
+        {
+          "id": "binary_sensor.va2219781120_batterij",
+          "friendlyName": "VA2219781120 Batterij",
+          "cSharpName": "Va2219781120Batterij"
+        },
+        {
+          "id": "binary_sensor.va2219781120_connectiestatus",
+          "friendlyName": "VA2219781120 Connectiestatus",
+          "cSharpName": "Va2219781120Connectiestatus"
+        },
+        {
+          "id": "binary_sensor.va2290100736_batterij",
+          "friendlyName": "VA2290100736 Batterij",
+          "cSharpName": "Va2290100736Batterij"
+        },
+        {
+          "id": "binary_sensor.va2290100736_connectiestatus",
+          "friendlyName": "VA2290100736 Connectiestatus",
+          "cSharpName": "Va2290100736Connectiestatus"
+        },
+        {
+          "id": "binary_sensor.va2639473664_batterij",
+          "friendlyName": "VA2639473664 Batterij",
+          "cSharpName": "Va2639473664Batterij"
+        },
+        {
+          "id": "binary_sensor.va2639473664_connectiestatus",
+          "friendlyName": "VA2639473664 Connectiestatus",
+          "cSharpName": "Va2639473664Connectiestatus"
+        },
+        {
+          "id": "binary_sensor.va2807245824_batterij",
+          "friendlyName": "VA2807245824 Batterij",
+          "cSharpName": "Va2807245824Batterij"
+        },
+        {
+          "id": "binary_sensor.va2807245824_connectiestatus",
+          "friendlyName": "VA2807245824 Connectiestatus",
+          "cSharpName": "Va2807245824Connectiestatus"
+        },
+        {
+          "id": "binary_sensor.va3749194240_batterij",
+          "friendlyName": "VA3749194240 Batterij",
+          "cSharpName": "Va3749194240Batterij"
+        },
+        {
+          "id": "binary_sensor.va3749194240_connectiestatus",
+          "friendlyName": "VA3749194240 Connectiestatus",
+          "cSharpName": "Va3749194240Connectiestatus"
+        },
+        {
+          "id": "binary_sensor.voordeur_all_occupancy",
+          "friendlyName": "Voordeur All occupancy",
+          "cSharpName": "VoordeurAllOccupancy"
+        },
+        {
+          "id": "binary_sensor.voordeur_car_occupancy",
+          "friendlyName": "Voordeur Car occupancy",
+          "cSharpName": "VoordeurCarOccupancy"
+        },
+        {
+          "id": "binary_sensor.voordeur_cat_occupancy",
+          "friendlyName": "Voordeur Cat occupancy",
+          "cSharpName": "VoordeurCatOccupancy"
+        },
+        {
+          "id": "binary_sensor.voordeur_dog_occupancy",
+          "friendlyName": "Voordeur Dog occupancy",
+          "cSharpName": "VoordeurDogOccupancy"
+        },
+        {
+          "id": "binary_sensor.voordeur_motion",
+          "friendlyName": "Voordeur Motion",
+          "cSharpName": "VoordeurMotion"
+        },
+        {
+          "id": "binary_sensor.voordeur_person_occupancy",
+          "friendlyName": "Voordeur Person occupancy",
+          "cSharpName": "VoordeurPersonOccupancy"
+        },
+        {
+          "id": "binary_sensor.voorhal_connectiviteit",
+          "friendlyName": "Voorhal Connectiviteit",
+          "cSharpName": "VoorhalConnectiviteit"
+        },
+        {
+          "id": "binary_sensor.voorhal_overlay",
+          "friendlyName": "Voorhal Overlay",
+          "cSharpName": "VoorhalOverlay"
+        },
+        {
+          "id": "binary_sensor.voorhal_raam",
+          "friendlyName": "Voorhal Raam",
+          "cSharpName": "VoorhalRaam"
+        },
+        {
+          "id": "binary_sensor.voorhal_vermogen",
+          "friendlyName": "Voorhal Vermogen",
+          "cSharpName": "VoorhalVermogen"
+        },
+        {
+          "id": "binary_sensor.voorhal_vroege_start",
+          "friendlyName": "Voorhal Vroege start",
+          "cSharpName": "VoorhalVroegeStart"
+        },
+        {
+          "id": "binary_sensor.warm_water_connectiviteit",
+          "friendlyName": "Warm water Connectiviteit",
+          "cSharpName": "WarmWaterConnectiviteit"
+        },
+        {
+          "id": "binary_sensor.warm_water_overlay",
+          "friendlyName": "Warm water Overlay",
+          "cSharpName": "WarmWaterOverlay"
+        },
+        {
+          "id": "binary_sensor.warm_water_vermogen",
+          "friendlyName": "Warm water Vermogen",
+          "cSharpName": "WarmWaterVermogen"
+        },
+        {
+          "id": "binary_sensor.woonkamer_all_occupancy",
+          "friendlyName": "Woonkamer All occupancy",
+          "cSharpName": "WoonkamerAllOccupancy"
+        },
+        {
+          "id": "binary_sensor.woonkamer_car_occupancy",
+          "friendlyName": "Woonkamer Car occupancy",
+          "cSharpName": "WoonkamerCarOccupancy"
+        },
+        {
+          "id": "binary_sensor.woonkamer_cat_occupancy",
+          "friendlyName": "Woonkamer Cat occupancy",
+          "cSharpName": "WoonkamerCatOccupancy"
+        },
+        {
+          "id": "binary_sensor.woonkamer_connectiviteit",
+          "friendlyName": "Woonkamer Connectiviteit",
+          "cSharpName": "WoonkamerConnectiviteit"
+        },
+        {
+          "id": "binary_sensor.woonkamer_dog_occupancy",
+          "friendlyName": "Woonkamer Dog occupancy",
+          "cSharpName": "WoonkamerDogOccupancy"
+        },
+        {
+          "id": "binary_sensor.woonkamer_motion",
+          "friendlyName": "Woonkamer Motion",
+          "cSharpName": "WoonkamerMotion"
+        },
+        {
+          "id": "binary_sensor.woonkamer_overlay",
+          "friendlyName": "Woonkamer Overlay",
+          "cSharpName": "WoonkamerOverlay"
+        },
+        {
+          "id": "binary_sensor.woonkamer_person_occupancy",
+          "friendlyName": "Woonkamer Person occupancy",
+          "cSharpName": "WoonkamerPersonOccupancy"
+        },
+        {
+          "id": "binary_sensor.woonkamer_raam",
+          "friendlyName": "Woonkamer Raam",
+          "cSharpName": "WoonkamerRaam"
+        },
+        {
+          "id": "binary_sensor.woonkamer_vermogen",
+          "friendlyName": "Woonkamer Vermogen",
+          "cSharpName": "WoonkamerVermogen"
+        },
+        {
+          "id": "binary_sensor.woonkamer_vroege_start",
+          "friendlyName": "Woonkamer Vroege start",
+          "cSharpName": "WoonkamerVroegeStart"
+        },
+        {
+          "id": "binary_sensor.zolder_achterkant_connectiviteit",
+          "friendlyName": "Slaapkamer Jeroen Connectiviteit",
+          "cSharpName": "ZolderAchterkantConnectiviteit"
+        },
+        {
+          "id": "binary_sensor.zolder_achterkant_overlay",
+          "friendlyName": "Slaapkamer Jeroen Overlay",
+          "cSharpName": "ZolderAchterkantOverlay"
+        },
+        {
+          "id": "binary_sensor.zolder_achterkant_raam",
+          "friendlyName": "Slaapkamer Jeroen Raam",
+          "cSharpName": "ZolderAchterkantRaam"
+        },
+        {
+          "id": "binary_sensor.zolder_achterkant_vermogen",
+          "friendlyName": "Slaapkamer Jeroen Vermogen",
+          "cSharpName": "ZolderAchterkantVermogen"
+        },
+        {
+          "id": "binary_sensor.zolder_achterkant_vroege_start",
+          "friendlyName": "Slaapkamer Jeroen Vroege start",
+          "cSharpName": "ZolderAchterkantVroegeStart"
+        }
+      ],
+      "attributes": [
+        {
+          "jsonName": "device_class",
+          "cSharpName": "DeviceClass",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "friendly_name",
+          "cSharpName": "FriendlyName",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "termination",
+          "cSharpName": "Termination",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "icon",
+          "cSharpName": "Icon",
+          "clrType": "System.String"
+        }
+      ]
+    },
+    {
+      "domain": "button",
+      "entities": [
+        {
+          "id": "button.ac_pro_garage_restart",
+          "friendlyName": "AC Pro - Garage Restart",
+          "cSharpName": "AcProGarageRestart"
+        },
+        {
+          "id": "button.ac_pro_woonkamer_restart",
+          "friendlyName": "AC Pro - Woonkamer Restart",
+          "cSharpName": "AcProWoonkamerRestart"
+        },
+        {
+          "id": "button.ap_zolder_restart",
+          "friendlyName": "AP-zolder Restart",
+          "cSharpName": "ApZolderRestart"
+        },
+        {
+          "id": "button.brok_b_s_restart",
+          "friendlyName": "Lamp spiegel Restart",
+          "cSharpName": "BrokBSRestart"
+        },
+        {
+          "id": "button.energie_meter_restart",
+          "friendlyName": "Energie meter Restart",
+          "cSharpName": "EnergieMeterRestart"
+        },
+        {
+          "id": "button.fambrok_restart",
+          "friendlyName": "FamBrok Restart",
+          "cSharpName": "FambrokRestart"
+        },
+        {
+          "id": "button.lamp_overloop_restart",
+          "friendlyName": "Lamp Restart",
+          "cSharpName": "LampOverloopRestart"
+        },
+        {
+          "id": "button.roldeur_garage_restart",
+          "friendlyName": "Roldeur Garage Restart",
+          "cSharpName": "RoldeurGarageRestart"
+        },
+        {
+          "id": "button.schakelaars_bar_restart",
+          "friendlyName": "Schakelaars bar Restart",
+          "cSharpName": "SchakelaarsBarRestart"
+        },
+        {
+          "id": "button.shelly1mini_543204b8f5ec_restart",
+          "friendlyName": "shelly1mini-543204b8f5ec Restart",
+          "cSharpName": "Shelly1mini543204b8f5ecRestart"
+        },
+        {
+          "id": "button.shelly1mini_543204b8f67c_restart",
+          "friendlyName": "Lamp Restart",
+          "cSharpName": "Shelly1mini543204b8f67cRestart"
+        },
+        {
+          "id": "button.shelly1mini_543204b8f7a8_restart",
+          "friendlyName": "Lamp Restart",
+          "cSharpName": "Shelly1mini543204b8f7a8Restart"
+        },
+        {
+          "id": "button.shelly1mini_543204b96788_restart",
+          "friendlyName": "Lamp Restart",
+          "cSharpName": "Shelly1mini543204b96788Restart"
+        },
+        {
+          "id": "button.shelly1mini_543204b9b26c_restart",
+          "friendlyName": "shelly1mini-543204b9b26c Restart",
+          "cSharpName": "Shelly1mini543204b9b26cRestart"
+        },
+        {
+          "id": "button.shelly1mini_543204b9d78c_restart",
+          "friendlyName": "Lamp Restart",
+          "cSharpName": "Shelly1mini543204b9d78cRestart"
+        },
+        {
+          "id": "button.shelly1mini_543204b9eba0_restart",
+          "friendlyName": "Lamp Restart",
+          "cSharpName": "Shelly1mini543204b9eba0Restart"
+        },
+        {
+          "id": "button.shelly1mini_543204ba9294_restart",
+          "friendlyName": "Lamp Restart",
+          "cSharpName": "Shelly1mini543204ba9294Restart"
+        },
+        {
+          "id": "button.shelly1mini_543204ba9ca0_restart",
+          "friendlyName": "Lamp Restart",
+          "cSharpName": "Shelly1mini543204ba9ca0Restart"
+        },
+        {
+          "id": "button.shelly1mini_543204baa850_restart",
+          "friendlyName": "Afzuiger Restart",
+          "cSharpName": "Shelly1mini543204baa850Restart"
+        },
+        {
+          "id": "button.shelly1mini_543204baae20_restart",
+          "friendlyName": "Lamp Restart",
+          "cSharpName": "Shelly1mini543204baae20Restart"
+        },
+        {
+          "id": "button.shelly1mini_543204bae5ec_restart",
+          "friendlyName": "Stopcontact Restart",
+          "cSharpName": "Shelly1mini543204bae5ecRestart"
+        },
+        {
+          "id": "button.shelly1mini_543204bb90dc_restart",
+          "friendlyName": "Lamp Restart",
+          "cSharpName": "Shelly1mini543204bb90dcRestart"
+        },
+        {
+          "id": "button.shelly1mini_543204bc1380_restart",
+          "friendlyName": "shelly1mini-543204bc1380 Restart",
+          "cSharpName": "Shelly1mini543204bc1380Restart"
+        },
+        {
+          "id": "button.shellydimmer2_c8c9a325aa51_restart",
+          "friendlyName": "Serre Restart",
+          "cSharpName": "Shellydimmer2C8c9a325aa51Restart"
+        },
+        {
+          "id": "button.usw_16_poe_port_1_power_cycle",
+          "friendlyName": "USW-16-PoE Port 1 Power Cycle",
+          "cSharpName": "Usw16PoePort1PowerCycle"
+        },
+        {
+          "id": "button.usw_16_poe_port_2_power_cycle",
+          "friendlyName": "USW-16-PoE Port 2 Power Cycle",
+          "cSharpName": "Usw16PoePort2PowerCycle"
+        },
+        {
+          "id": "button.usw_16_poe_port_3_power_cycle",
+          "friendlyName": "USW-16-PoE Port 3 Power Cycle",
+          "cSharpName": "Usw16PoePort3PowerCycle"
+        },
+        {
+          "id": "button.usw_16_poe_port_4_power_cycle",
+          "friendlyName": "USW-16-PoE Port 4 Power Cycle",
+          "cSharpName": "Usw16PoePort4PowerCycle"
+        },
+        {
+          "id": "button.usw_16_poe_port_5_power_cycle",
+          "friendlyName": "USW-16-PoE Port 5 Power Cycle",
+          "cSharpName": "Usw16PoePort5PowerCycle"
+        },
+        {
+          "id": "button.usw_16_poe_port_6_power_cycle",
+          "friendlyName": "USW-16-PoE Port 6 Power Cycle",
+          "cSharpName": "Usw16PoePort6PowerCycle"
+        },
+        {
+          "id": "button.usw_16_poe_port_7_power_cycle",
+          "friendlyName": "USW-16-PoE Port 7 Power Cycle",
+          "cSharpName": "Usw16PoePort7PowerCycle"
+        },
+        {
+          "id": "button.usw_16_poe_port_8_power_cycle",
+          "friendlyName": "USW-16-PoE Port 8 Power Cycle",
+          "cSharpName": "Usw16PoePort8PowerCycle"
+        },
+        {
+          "id": "button.usw_16_poe_restart",
+          "friendlyName": "USW-16-PoE Restart",
+          "cSharpName": "Usw16PoeRestart"
+        },
+        {
+          "id": "button.usw_flex_mini_restart",
+          "friendlyName": "USW Flex Mini Restart",
+          "cSharpName": "UswFlexMiniRestart"
+        }
+      ],
+      "attributes": [
+        {
+          "jsonName": "device_class",
+          "cSharpName": "DeviceClass",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "friendly_name",
+          "cSharpName": "FriendlyName",
+          "clrType": "System.String"
+        }
+      ]
+    },
+    {
+      "domain": "camera",
+      "entities": [
+        {
+          "id": "camera.voordeur",
+          "friendlyName": "Voordeur",
+          "cSharpName": "Voordeur"
+        },
+        {
+          "id": "camera.woonkamer",
+          "friendlyName": "Woonkamer",
+          "cSharpName": "Woonkamer"
+        }
+      ],
+      "attributes": [
+        {
+          "jsonName": "access_token",
+          "cSharpName": "AccessToken",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "motion_detection",
+          "cSharpName": "MotionDetection",
+          "clrType": "System.Boolean"
+        },
+        {
+          "jsonName": "client_id",
+          "cSharpName": "ClientId",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "camera_name",
+          "cSharpName": "CameraName",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "device_class",
+          "cSharpName": "DeviceClass",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "entity_picture",
+          "cSharpName": "EntityPicture",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "friendly_name",
+          "cSharpName": "FriendlyName",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "supported_features",
+          "cSharpName": "SupportedFeatures",
+          "clrType": "System.Double"
+        }
+      ]
+    },
+    {
+      "domain": "climate",
+      "entities": [
+        {
+          "id": "climate.badkamer",
+          "friendlyName": "Badkamer",
+          "cSharpName": "Badkamer"
+        },
+        {
+          "id": "climate.slaapkamer_kasper_christel",
+          "friendlyName": "Slaapkamer Kasper \u0026 Christel",
+          "cSharpName": "SlaapkamerKasperChristel"
+        },
+        {
+          "id": "climate.slaapkamer_sjoerd",
+          "friendlyName": "Droog kamer",
+          "cSharpName": "SlaapkamerSjoerd"
+        },
+        {
+          "id": "climate.slaapkamer_wouter",
+          "friendlyName": "Slaapkamer Sjoerd",
+          "cSharpName": "SlaapkamerWouter"
+        },
+        {
+          "id": "climate.voorhal",
+          "friendlyName": "Voorhal",
+          "cSharpName": "Voorhal"
+        },
+        {
+          "id": "climate.woonkamer",
+          "friendlyName": "Woonkamer",
+          "cSharpName": "Woonkamer"
+        },
+        {
+          "id": "climate.zolder_achterkant",
+          "friendlyName": "Slaapkamer Jeroen",
+          "cSharpName": "ZolderAchterkant"
+        }
+      ],
+      "attributes": [
+        {
+          "jsonName": "hvac_modes",
+          "cSharpName": "HvacModes",
+          "clrType": "System.Collections.Generic.IReadOnlyList\u00601[System.String]"
+        },
+        {
+          "jsonName": "min_temp",
+          "cSharpName": "MinTemp",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "max_temp",
+          "cSharpName": "MaxTemp",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "target_temp_step",
+          "cSharpName": "TargetTempStep",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "preset_modes",
+          "cSharpName": "PresetModes",
+          "clrType": "System.Collections.Generic.IReadOnlyList\u00601[System.String]"
+        },
+        {
+          "jsonName": "current_temperature",
+          "cSharpName": "CurrentTemperature",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "temperature",
+          "cSharpName": "Temperature",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "current_humidity",
+          "cSharpName": "CurrentHumidity",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "hvac_action",
+          "cSharpName": "HvacAction",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "preset_mode",
+          "cSharpName": "PresetMode",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "offset_celsius",
+          "cSharpName": "OffsetCelsius",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "offset_fahrenheit",
+          "cSharpName": "OffsetFahrenheit",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "default_overlay_type",
+          "cSharpName": "DefaultOverlayType",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "default_overlay_seconds",
+          "cSharpName": "DefaultOverlaySeconds",
+          "clrType": null
+        },
+        {
+          "jsonName": "friendly_name",
+          "cSharpName": "FriendlyName",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "supported_features",
+          "cSharpName": "SupportedFeatures",
+          "clrType": "System.Double"
+        }
+      ]
+    },
+    {
+      "domain": "conversation",
+      "entities": [
+        {
+          "id": "conversation.home_assistant",
+          "friendlyName": "Home Assistant",
+          "cSharpName": "HomeAssistant"
+        }
+      ],
+      "attributes": [
+        {
+          "jsonName": "friendly_name",
+          "cSharpName": "FriendlyName",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "supported_features",
+          "cSharpName": "SupportedFeatures",
+          "clrType": "System.Double"
+        }
+      ]
+    },
+    {
+      "domain": "cover",
+      "entities": [
+        {
+          "id": "cover.roldeur_garage",
+          "friendlyName": "Roldeur Garage",
+          "cSharpName": "RoldeurGarage"
+        }
+      ],
+      "attributes": [
+        {
+          "jsonName": "device_class",
+          "cSharpName": "DeviceClass",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "friendly_name",
+          "cSharpName": "FriendlyName",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "supported_features",
+          "cSharpName": "SupportedFeatures",
+          "clrType": "System.Double"
+        }
+      ]
+    },
+    {
+      "domain": "device_tracker",
+      "entities": [
+        {
+          "id": "device_tracker.ac_pro_garage",
+          "friendlyName": "AC Pro - Garage",
+          "cSharpName": "AcProGarage"
+        },
+        {
+          "id": "device_tracker.ac_pro_woonkamer",
+          "friendlyName": "AC Pro - Woonkamer",
+          "cSharpName": "AcProWoonkamer"
+        },
+        {
+          "id": "device_tracker.ap_zolder",
+          "friendlyName": "AP-zolder",
+          "cSharpName": "ApZolder"
+        },
+        {
+          "id": "device_tracker.christel",
+          "friendlyName": "Christel",
+          "cSharpName": "Christel"
+        },
+        {
+          "id": "device_tracker.fambrok",
+          "friendlyName": "FamBrok",
+          "cSharpName": "Fambrok"
+        },
+        {
+          "id": "device_tracker.kasper_s_telefoon",
+          "friendlyName": "Kasper\u0027s telefoon",
+          "cSharpName": "KasperSTelefoon"
+        },
+        {
+          "id": "device_tracker.shelly1_34945470bd7d",
+          "friendlyName": "shelly1-34945470BD7D",
+          "cSharpName": "Shelly134945470bd7d"
+        },
+        {
+          "id": "device_tracker.shelly1mini_543204b8dce4",
+          "friendlyName": "shelly1mini-543204b8dce4",
+          "cSharpName": "Shelly1mini543204b8dce4"
+        },
+        {
+          "id": "device_tracker.shelly1mini_543204b8f5ec",
+          "friendlyName": "shelly1mini-543204b8f5ec",
+          "cSharpName": "Shelly1mini543204b8f5ec"
+        },
+        {
+          "id": "device_tracker.shelly1mini_543204b8f67c",
+          "friendlyName": "shelly1mini-543204b8f67c",
+          "cSharpName": "Shelly1mini543204b8f67c"
+        },
+        {
+          "id": "device_tracker.shelly1mini_543204b8f7a8",
+          "friendlyName": "shelly1mini-543204b8f7a8",
+          "cSharpName": "Shelly1mini543204b8f7a8"
+        },
+        {
+          "id": "device_tracker.shelly1mini_543204b96788",
+          "friendlyName": "shelly1mini-543204b96788",
+          "cSharpName": "Shelly1mini543204b96788"
+        },
+        {
+          "id": "device_tracker.shelly1mini_543204b9b26c",
+          "friendlyName": "shelly1mini-543204b9b26c",
+          "cSharpName": "Shelly1mini543204b9b26c"
+        },
+        {
+          "id": "device_tracker.shelly1mini_543204b9d78c",
+          "friendlyName": "shelly1mini-543204b9d78c",
+          "cSharpName": "Shelly1mini543204b9d78c"
+        },
+        {
+          "id": "device_tracker.shelly1mini_543204b9eba0",
+          "friendlyName": "shelly1mini-543204b9eba0",
+          "cSharpName": "Shelly1mini543204b9eba0"
+        },
+        {
+          "id": "device_tracker.shelly1mini_543204ba9294",
+          "friendlyName": "shelly1mini-543204ba9294",
+          "cSharpName": "Shelly1mini543204ba9294"
+        },
+        {
+          "id": "device_tracker.shelly1mini_543204ba9ca0",
+          "friendlyName": "shelly1mini-543204ba9ca0",
+          "cSharpName": "Shelly1mini543204ba9ca0"
+        },
+        {
+          "id": "device_tracker.shelly1mini_543204baa850",
+          "friendlyName": "shelly1mini-543204baa850",
+          "cSharpName": "Shelly1mini543204baa850"
+        },
+        {
+          "id": "device_tracker.shelly1mini_543204baae20",
+          "friendlyName": "shelly1mini-543204baae20",
+          "cSharpName": "Shelly1mini543204baae20"
+        },
+        {
+          "id": "device_tracker.shelly1mini_543204bae5ec",
+          "friendlyName": "Stopcontact shelly1mini-543204bae5ec",
+          "cSharpName": "Shelly1mini543204bae5ec"
+        },
+        {
+          "id": "device_tracker.shelly1mini_543204bb90dc",
+          "friendlyName": "shelly1mini-543204bb90dc",
+          "cSharpName": "Shelly1mini543204bb90dc"
+        },
+        {
+          "id": "device_tracker.shelly1mini_543204bc1380",
+          "friendlyName": "shelly1mini-543204bc1380",
+          "cSharpName": "Shelly1mini543204bc1380"
+        },
+        {
+          "id": "device_tracker.shellydimmer2_c8c9a325aa51",
+          "friendlyName": "shellydimmer2-C8C9A325AA51",
+          "cSharpName": "Shellydimmer2C8c9a325aa51"
+        },
+        {
+          "id": "device_tracker.shellyem3_40f52001a247",
+          "friendlyName": "shellyem3-40F52001A247",
+          "cSharpName": "Shellyem340f52001a247"
+        },
+        {
+          "id": "device_tracker.shellyix3_8caab5436ff2",
+          "friendlyName": "Schakelaars bar shellyix3-8CAAB5436FF2",
+          "cSharpName": "Shellyix38caab5436ff2"
+        },
+        {
+          "id": "device_tracker.shellyswitch25_40f52027ae4d",
+          "friendlyName": "shellyswitch25-40F52027AE4D",
+          "cSharpName": "Shellyswitch2540f52027ae4d"
+        },
+        {
+          "id": "device_tracker.sm_a556b",
+          "friendlyName": "SM-A556B",
+          "cSharpName": "SmA556b"
+        },
+        {
+          "id": "device_tracker.usw_16_poe",
+          "friendlyName": "USW-16-PoE",
+          "cSharpName": "Usw16Poe"
+        },
+        {
+          "id": "device_tracker.usw_flex_mini",
+          "friendlyName": "USW Flex Mini",
+          "cSharpName": "UswFlexMini"
+        }
+      ],
+      "attributes": [
+        {
+          "jsonName": "source_type",
+          "cSharpName": "SourceType",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "friendly_name",
+          "cSharpName": "FriendlyName",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "ip",
+          "cSharpName": "Ip",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "mac",
+          "cSharpName": "Mac",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "host_name",
+          "cSharpName": "HostName",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "_is_guest_by_uap",
+          "cSharpName": "IsGuestByUap",
+          "clrType": "System.Boolean"
+        },
+        {
+          "jsonName": "ap_mac",
+          "cSharpName": "ApMac",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "essid",
+          "cSharpName": "Essid",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "is_11r",
+          "cSharpName": "Is11r",
+          "clrType": "System.Boolean"
+        },
+        {
+          "jsonName": "is_guest",
+          "cSharpName": "IsGuest",
+          "clrType": "System.Boolean"
+        },
+        {
+          "jsonName": "qos_policy_applied",
+          "cSharpName": "QosPolicyApplied",
+          "clrType": "System.Boolean"
+        },
+        {
+          "jsonName": "radio",
+          "cSharpName": "Radio",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "radio_proto",
+          "cSharpName": "RadioProto",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "oui",
+          "cSharpName": "Oui",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "latitude",
+          "cSharpName": "Latitude",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "longitude",
+          "cSharpName": "Longitude",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "gps_accuracy",
+          "cSharpName": "GpsAccuracy",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "altitude",
+          "cSharpName": "Altitude",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "course",
+          "cSharpName": "Course",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "speed",
+          "cSharpName": "Speed",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "vertical_accuracy",
+          "cSharpName": "VerticalAccuracy",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "vlan",
+          "cSharpName": "Vlan",
+          "clrType": "System.Double"
+        }
+      ]
+    },
+    {
+      "domain": "event",
+      "entities": [
+        {
+          "id": "event.backup_automatic_backup",
+          "friendlyName": "Backup Automatische back-up",
+          "cSharpName": "BackupAutomaticBackup"
+        },
+        {
+          "id": "event.shelly1mini_543204b8f67c_input_0",
+          "friendlyName": "Lamp Input 0",
+          "cSharpName": "Shelly1mini543204b8f67cInput0"
+        }
+      ],
+      "attributes": [
+        {
+          "jsonName": "event_types",
+          "cSharpName": "EventTypes",
+          "clrType": "System.Collections.Generic.IReadOnlyList\u00601[System.String]"
+        },
+        {
+          "jsonName": "event_type",
+          "cSharpName": "EventType",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "friendly_name",
+          "cSharpName": "FriendlyName",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "device_class",
+          "cSharpName": "DeviceClass",
+          "clrType": "System.String"
+        }
+      ]
+    },
+    {
+      "domain": "fan",
+      "entities": [
+        {
+          "id": "fan.afzuiger",
+          "friendlyName": "Afzuiger",
+          "cSharpName": "Afzuiger"
+        }
+      ],
+      "attributes": [
+        {
+          "jsonName": "friendly_name",
+          "cSharpName": "FriendlyName",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "supported_features",
+          "cSharpName": "SupportedFeatures",
+          "clrType": "System.Double"
+        }
+      ]
+    },
+    {
+      "domain": "image",
+      "entities": [
+        {
+          "id": "image.voordeur_car",
+          "friendlyName": "Voordeur Car",
+          "cSharpName": "VoordeurCar"
+        },
+        {
+          "id": "image.voordeur_cat",
+          "friendlyName": "Voordeur Cat",
+          "cSharpName": "VoordeurCat"
+        },
+        {
+          "id": "image.voordeur_dog",
+          "friendlyName": "Voordeur Dog",
+          "cSharpName": "VoordeurDog"
+        },
+        {
+          "id": "image.voordeur_person",
+          "friendlyName": "Voordeur Person",
+          "cSharpName": "VoordeurPerson"
+        },
+        {
+          "id": "image.woonkamer_car",
+          "friendlyName": "Woonkamer Car",
+          "cSharpName": "WoonkamerCar"
+        },
+        {
+          "id": "image.woonkamer_cat",
+          "friendlyName": "Woonkamer Cat",
+          "cSharpName": "WoonkamerCat"
+        },
+        {
+          "id": "image.woonkamer_dog",
+          "friendlyName": "Woonkamer Dog",
+          "cSharpName": "WoonkamerDog"
+        },
+        {
+          "id": "image.woonkamer_person",
+          "friendlyName": "Woonkamer Person",
+          "cSharpName": "WoonkamerPerson"
+        }
+      ],
+      "attributes": [
+        {
+          "jsonName": "access_token",
+          "cSharpName": "AccessToken",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "entity_picture",
+          "cSharpName": "EntityPicture",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "friendly_name",
+          "cSharpName": "FriendlyName",
+          "clrType": "System.String"
+        }
+      ]
+    },
+    {
+      "domain": "input_boolean",
+      "entities": [
+        {
+          "id": "input_boolean.dev_netdaemon_hass_model_lights_auto_off_app_app",
+          "friendlyName": "dev_netdaemon_hass_model_lights_auto_off_app_app",
+          "cSharpName": "DevNetdaemonHassModelLightsAutoOffAppApp"
+        }
+      ],
+      "attributes": [
+        {
+          "jsonName": "editable",
+          "cSharpName": "Editable",
+          "clrType": "System.Boolean"
+        },
+        {
+          "jsonName": "friendly_name",
+          "cSharpName": "FriendlyName",
+          "clrType": "System.String"
+        }
+      ]
+    },
+    {
+      "domain": "person",
+      "entities": [
+        {
+          "id": "person.kasper_brok",
+          "friendlyName": "Kasper Brok",
+          "cSharpName": "KasperBrok"
+        }
+      ],
+      "attributes": [
+        {
+          "jsonName": "editable",
+          "cSharpName": "Editable",
+          "clrType": "System.Boolean"
+        },
+        {
+          "jsonName": "id",
+          "cSharpName": "Id",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "device_trackers",
+          "cSharpName": "DeviceTrackers",
+          "clrType": "System.Collections.Generic.IReadOnlyList\u00601[System.String]"
+        },
+        {
+          "jsonName": "latitude",
+          "cSharpName": "Latitude",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "longitude",
+          "cSharpName": "Longitude",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "gps_accuracy",
+          "cSharpName": "GpsAccuracy",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "source",
+          "cSharpName": "Source",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "user_id",
+          "cSharpName": "UserId",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "friendly_name",
+          "cSharpName": "FriendlyName",
+          "clrType": "System.String"
+        }
+      ]
+    },
+    {
+      "domain": "sensor",
+      "entities": [
+        {
+          "id": "sensor.ac_pro_garage_state",
+          "friendlyName": "AC Pro - Garage State",
+          "cSharpName": "AcProGarageState"
+        },
+        {
+          "id": "sensor.ac_pro_garage_uplink_mac",
+          "friendlyName": "AC Pro - Garage Uplink MAC",
+          "cSharpName": "AcProGarageUplinkMac"
+        },
+        {
+          "id": "sensor.ac_pro_garage_uptime",
+          "friendlyName": "AC Pro - Garage Uptime",
+          "cSharpName": "AcProGarageUptime"
+        },
+        {
+          "id": "sensor.ac_pro_woonkamer_state",
+          "friendlyName": "AC Pro - Woonkamer State",
+          "cSharpName": "AcProWoonkamerState"
+        },
+        {
+          "id": "sensor.ac_pro_woonkamer_uplink_mac",
+          "friendlyName": "AC Pro - Woonkamer Uplink MAC",
+          "cSharpName": "AcProWoonkamerUplinkMac"
+        },
+        {
+          "id": "sensor.ac_pro_woonkamer_uptime",
+          "friendlyName": "AC Pro - Woonkamer Uptime",
+          "cSharpName": "AcProWoonkamerUptime"
+        },
+        {
+          "id": "sensor.ap_zolder_state",
+          "friendlyName": "AP-zolder State",
+          "cSharpName": "ApZolderState"
+        },
+        {
+          "id": "sensor.ap_zolder_uplink_mac",
+          "friendlyName": "AP-zolder Uplink MAC",
+          "cSharpName": "ApZolderUplinkMac"
+        },
+        {
+          "id": "sensor.ap_zolder_uptime",
+          "friendlyName": "AP-zolder Uptime",
+          "cSharpName": "ApZolderUptime"
+        },
+        {
+          "id": "sensor.backup_backup_manager_state",
+          "friendlyName": "Backup Status Back-up Manager",
+          "cSharpName": "BackupBackupManagerState"
+        },
+        {
+          "id": "sensor.backup_last_attempted_automatic_backup",
+          "friendlyName": "Backup Recentste gepoogde automatische back-up",
+          "cSharpName": "BackupLastAttemptedAutomaticBackup"
+        },
+        {
+          "id": "sensor.backup_last_successful_automatic_backup",
+          "friendlyName": "Backup Laatste succesvolle automatische back-up",
+          "cSharpName": "BackupLastSuccessfulAutomaticBackup"
+        },
+        {
+          "id": "sensor.backup_next_scheduled_automatic_backup",
+          "friendlyName": "Backup Volgende geplande automatische back-up",
+          "cSharpName": "BackupNextScheduledAutomaticBackup"
+        },
+        {
+          "id": "sensor.badkamer_tado_mode",
+          "friendlyName": "Badkamer Tado mode",
+          "cSharpName": "BadkamerTadoMode"
+        },
+        {
+          "id": "sensor.fambrok",
+          "friendlyName": "FamBrok",
+          "cSharpName": "Fambrok"
+        },
+        {
+          "id": "sensor.fambrok_iot",
+          "friendlyName": "fambrok-iot",
+          "cSharpName": "FambrokIot"
+        },
+        {
+          "id": "sensor.fambrok_state",
+          "friendlyName": "FamBrok State",
+          "cSharpName": "FambrokState"
+        },
+        {
+          "id": "sensor.fambrok_uptime",
+          "friendlyName": "FamBrok Uptime",
+          "cSharpName": "FambrokUptime"
+        },
+        {
+          "id": "sensor.kasper_christel_automatisch_geo_fencing",
+          "friendlyName": "Kasper \u0026 Christel Automatisch geo-fencing",
+          "cSharpName": "KasperChristelAutomatischGeoFencing"
+        },
+        {
+          "id": "sensor.kasper_christel_geo_fencing_mode",
+          "friendlyName": "Kasper \u0026 Christel Geo-fencing mode",
+          "cSharpName": "KasperChristelGeoFencingMode"
+        },
+        {
+          "id": "sensor.kasper_christel_tado_mode",
+          "friendlyName": "Kasper \u0026 Christel Tado mode",
+          "cSharpName": "KasperChristelTadoMode"
+        },
+        {
+          "id": "sensor.kasper_christel_weersomstandigheden",
+          "friendlyName": "Kasper \u0026 Christel Weersomstandigheden",
+          "cSharpName": "KasperChristelWeersomstandigheden"
+        },
+        {
+          "id": "sensor.shellyem3_40f52001a247_phase_a_power_factor",
+          "friendlyName": "shellyem3-40F52001A247 Phase A Power factor",
+          "cSharpName": "Shellyem340f52001a247PhaseAPowerFactor"
+        },
+        {
+          "id": "sensor.shellyem3_40f52001a247_phase_b_power_factor",
+          "friendlyName": "Wasmachine Power factor",
+          "cSharpName": "Shellyem340f52001a247PhaseBPowerFactor"
+        },
+        {
+          "id": "sensor.shellyem3_40f52001a247_phase_c_power_factor",
+          "friendlyName": "shellyem3-40F52001A247 Phase C Power factor",
+          "cSharpName": "Shellyem340f52001a247PhaseCPowerFactor"
+        },
+        {
+          "id": "sensor.slaapkamer_kasper_christel_tado_mode",
+          "friendlyName": "Slaapkamer Kasper \u0026 Christel Tado mode",
+          "cSharpName": "SlaapkamerKasperChristelTadoMode"
+        },
+        {
+          "id": "sensor.slaapkamer_sjoerd_tado_mode",
+          "friendlyName": "Droog kamer Tado mode",
+          "cSharpName": "SlaapkamerSjoerdTadoMode"
+        },
+        {
+          "id": "sensor.slaapkamer_wouter_tado_mode",
+          "friendlyName": "Slaapkamer Sjoerd Tado mode",
+          "cSharpName": "SlaapkamerWouterTadoMode"
+        },
+        {
+          "id": "sensor.sm_a556b_battery_state",
+          "friendlyName": "SM-A556B Battery state",
+          "cSharpName": "SmA556bBatteryState"
+        },
+        {
+          "id": "sensor.sm_a556b_charger_type",
+          "friendlyName": "SM-A556B Charger type",
+          "cSharpName": "SmA556bChargerType"
+        },
+        {
+          "id": "sensor.sun_next_dawn",
+          "friendlyName": "Sun Volgende dageraad",
+          "cSharpName": "SunNextDawn"
+        },
+        {
+          "id": "sensor.sun_next_dusk",
+          "friendlyName": "Sun Volgende schemering",
+          "cSharpName": "SunNextDusk"
+        },
+        {
+          "id": "sensor.sun_next_midnight",
+          "friendlyName": "Sun Volgende middernacht",
+          "cSharpName": "SunNextMidnight"
+        },
+        {
+          "id": "sensor.sun_next_noon",
+          "friendlyName": "Sun Volgende middag",
+          "cSharpName": "SunNextNoon"
+        },
+        {
+          "id": "sensor.sun_next_rising",
+          "friendlyName": "Sun Volgende opkomst",
+          "cSharpName": "SunNextRising"
+        },
+        {
+          "id": "sensor.sun_next_setting",
+          "friendlyName": "Sun Volgende ondergang",
+          "cSharpName": "SunNextSetting"
+        },
+        {
+          "id": "sensor.usw_16_poe_state",
+          "friendlyName": "USW-16-PoE State",
+          "cSharpName": "Usw16PoeState"
+        },
+        {
+          "id": "sensor.usw_16_poe_uplink_mac",
+          "friendlyName": "USW-16-PoE Uplink MAC",
+          "cSharpName": "Usw16PoeUplinkMac"
+        },
+        {
+          "id": "sensor.usw_16_poe_uptime",
+          "friendlyName": "USW-16-PoE Uptime",
+          "cSharpName": "Usw16PoeUptime"
+        },
+        {
+          "id": "sensor.usw_flex_mini_state",
+          "friendlyName": "USW Flex Mini State",
+          "cSharpName": "UswFlexMiniState"
+        },
+        {
+          "id": "sensor.usw_flex_mini_uplink_mac",
+          "friendlyName": "USW Flex Mini Uplink MAC",
+          "cSharpName": "UswFlexMiniUplinkMac"
+        },
+        {
+          "id": "sensor.usw_flex_mini_uptime",
+          "friendlyName": "USW Flex Mini Uptime",
+          "cSharpName": "UswFlexMiniUptime"
+        },
+        {
+          "id": "sensor.voorhal_tado_mode",
+          "friendlyName": "Voorhal Tado mode",
+          "cSharpName": "VoorhalTadoMode"
+        },
+        {
+          "id": "sensor.warm_water_tado_mode",
+          "friendlyName": "Warm water Tado mode",
+          "cSharpName": "WarmWaterTadoMode"
+        },
+        {
+          "id": "sensor.woonkamer_tado_mode",
+          "friendlyName": "Woonkamer Tado mode",
+          "cSharpName": "WoonkamerTadoMode"
+        },
+        {
+          "id": "sensor.zolder_achterkant_tado_mode",
+          "friendlyName": "Slaapkamer Jeroen Tado mode",
+          "cSharpName": "ZolderAchterkantTadoMode"
+        }
+      ],
+      "attributes": [
+        {
+          "jsonName": "options",
+          "cSharpName": "Options",
+          "clrType": "System.Collections.Generic.IReadOnlyList\u00601[System.String]"
+        },
+        {
+          "jsonName": "device_class",
+          "cSharpName": "DeviceClass",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "friendly_name",
+          "cSharpName": "FriendlyName",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "time",
+          "cSharpName": "Time",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "state_class",
+          "cSharpName": "StateClass",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "icon",
+          "cSharpName": "Icon",
+          "clrType": "System.String"
+        }
+      ]
+    },
+    {
+      "domain": "sensor",
+      "isNumeric": true,
+      "entities": [
+        {
+          "id": "sensor.ac_pro_woonkamer_cpu_utilization",
+          "friendlyName": "AC Pro - Woonkamer CPU utilization",
+          "cSharpName": "AcProWoonkamerCpuUtilization"
+        },
+        {
+          "id": "sensor.ac_pro_woonkamer_memory_utilization",
+          "friendlyName": "AC Pro - Woonkamer Memory utilization",
+          "cSharpName": "AcProWoonkamerMemoryUtilization"
+        },
+        {
+          "id": "sensor.ap_zolder_cpu_utilization",
+          "friendlyName": "AP-zolder CPU utilization",
+          "cSharpName": "ApZolderCpuUtilization"
+        },
+        {
+          "id": "sensor.ap_zolder_memory_utilization",
+          "friendlyName": "AP-zolder Memory utilization",
+          "cSharpName": "ApZolderMemoryUtilization"
+        },
+        {
+          "id": "sensor.badkamer_luchtvochtigheid",
+          "friendlyName": "Badkamer Luchtvochtigheid",
+          "cSharpName": "BadkamerLuchtvochtigheid"
+        },
+        {
+          "id": "sensor.badkamer_temperatuur",
+          "friendlyName": "Badkamer Temperatuur",
+          "cSharpName": "BadkamerTemperatuur"
+        },
+        {
+          "id": "sensor.badkamer_verwarmen",
+          "friendlyName": "Badkamer Verwarmen",
+          "cSharpName": "BadkamerVerwarmen"
+        },
+        {
+          "id": "sensor.fambrok_cpu_utilization",
+          "friendlyName": "FamBrok CPU utilization",
+          "cSharpName": "FambrokCpuUtilization"
+        },
+        {
+          "id": "sensor.fambrok_memory_utilization",
+          "friendlyName": "FamBrok Memory utilization",
+          "cSharpName": "FambrokMemoryUtilization"
+        },
+        {
+          "id": "sensor.kasper_christel_buitentemperatuur",
+          "friendlyName": "Kasper \u0026 Christel Buitentemperatuur",
+          "cSharpName": "KasperChristelBuitentemperatuur"
+        },
+        {
+          "id": "sensor.kasper_christel_zonne_energie_percentage",
+          "friendlyName": "Kasper \u0026 Christel Zonne-energie percentage",
+          "cSharpName": "KasperChristelZonneEnergiePercentage"
+        },
+        {
+          "id": "sensor.roldeur_garage_energy",
+          "friendlyName": "Roldeur Garage Energy",
+          "cSharpName": "RoldeurGarageEnergy"
+        },
+        {
+          "id": "sensor.roldeur_garage_power",
+          "friendlyName": "Roldeur Garage Power",
+          "cSharpName": "RoldeurGaragePower"
+        },
+        {
+          "id": "sensor.shellyem3_40f52001a247_phase_a_current",
+          "friendlyName": "shellyem3-40F52001A247 Phase A Current",
+          "cSharpName": "Shellyem340f52001a247PhaseACurrent"
+        },
+        {
+          "id": "sensor.shellyem3_40f52001a247_phase_a_energy",
+          "friendlyName": "shellyem3-40F52001A247 Phase A Energy",
+          "cSharpName": "Shellyem340f52001a247PhaseAEnergy"
+        },
+        {
+          "id": "sensor.shellyem3_40f52001a247_phase_a_energy_returned",
+          "friendlyName": "shellyem3-40F52001A247 Phase A Energy returned",
+          "cSharpName": "Shellyem340f52001a247PhaseAEnergyReturned"
+        },
+        {
+          "id": "sensor.shellyem3_40f52001a247_phase_a_power",
+          "friendlyName": "shellyem3-40F52001A247 Phase A Power",
+          "cSharpName": "Shellyem340f52001a247PhaseAPower"
+        },
+        {
+          "id": "sensor.shellyem3_40f52001a247_phase_a_voltage",
+          "friendlyName": "shellyem3-40F52001A247 Phase A Voltage",
+          "cSharpName": "Shellyem340f52001a247PhaseAVoltage"
+        },
+        {
+          "id": "sensor.shellyem3_40f52001a247_phase_b_current",
+          "friendlyName": "Wasmachine Current",
+          "cSharpName": "Shellyem340f52001a247PhaseBCurrent"
+        },
+        {
+          "id": "sensor.shellyem3_40f52001a247_phase_b_energy",
+          "friendlyName": "Wasmachine Energy",
+          "cSharpName": "Shellyem340f52001a247PhaseBEnergy"
+        },
+        {
+          "id": "sensor.shellyem3_40f52001a247_phase_b_energy_returned",
+          "friendlyName": "Wasmachine Energy returned",
+          "cSharpName": "Shellyem340f52001a247PhaseBEnergyReturned"
+        },
+        {
+          "id": "sensor.shellyem3_40f52001a247_phase_b_power",
+          "friendlyName": "Wasmachine Power",
+          "cSharpName": "Shellyem340f52001a247PhaseBPower"
+        },
+        {
+          "id": "sensor.shellyem3_40f52001a247_phase_b_voltage",
+          "friendlyName": "Wasmachine Voltage",
+          "cSharpName": "Shellyem340f52001a247PhaseBVoltage"
+        },
+        {
+          "id": "sensor.shellyem3_40f52001a247_phase_c_current",
+          "friendlyName": "shellyem3-40F52001A247 Phase C Current",
+          "cSharpName": "Shellyem340f52001a247PhaseCCurrent"
+        },
+        {
+          "id": "sensor.shellyem3_40f52001a247_phase_c_energy",
+          "friendlyName": "shellyem3-40F52001A247 Phase C Energy",
+          "cSharpName": "Shellyem340f52001a247PhaseCEnergy"
+        },
+        {
+          "id": "sensor.shellyem3_40f52001a247_phase_c_energy_returned",
+          "friendlyName": "shellyem3-40F52001A247 Phase C Energy returned",
+          "cSharpName": "Shellyem340f52001a247PhaseCEnergyReturned"
+        },
+        {
+          "id": "sensor.shellyem3_40f52001a247_phase_c_power",
+          "friendlyName": "shellyem3-40F52001A247 Phase C Power",
+          "cSharpName": "Shellyem340f52001a247PhaseCPower"
+        },
+        {
+          "id": "sensor.shellyem3_40f52001a247_phase_c_voltage",
+          "friendlyName": "shellyem3-40F52001A247 Phase C Voltage",
+          "cSharpName": "Shellyem340f52001a247PhaseCVoltage"
+        },
+        {
+          "id": "sensor.slaapkamer_kasper_christel_luchtvochtigheid",
+          "friendlyName": "Slaapkamer Kasper \u0026 Christel Luchtvochtigheid",
+          "cSharpName": "SlaapkamerKasperChristelLuchtvochtigheid"
+        },
+        {
+          "id": "sensor.slaapkamer_kasper_christel_temperatuur",
+          "friendlyName": "Slaapkamer Kasper \u0026 Christel Temperatuur",
+          "cSharpName": "SlaapkamerKasperChristelTemperatuur"
+        },
+        {
+          "id": "sensor.slaapkamer_kasper_christel_verwarmen",
+          "friendlyName": "Slaapkamer Kasper \u0026 Christel Verwarmen",
+          "cSharpName": "SlaapkamerKasperChristelVerwarmen"
+        },
+        {
+          "id": "sensor.slaapkamer_sjoerd_luchtvochtigheid",
+          "friendlyName": "Droog kamer Luchtvochtigheid",
+          "cSharpName": "SlaapkamerSjoerdLuchtvochtigheid"
+        },
+        {
+          "id": "sensor.slaapkamer_sjoerd_temperatuur",
+          "friendlyName": "Droog kamer Temperatuur",
+          "cSharpName": "SlaapkamerSjoerdTemperatuur"
+        },
+        {
+          "id": "sensor.slaapkamer_sjoerd_verwarmen",
+          "friendlyName": "Droog kamer Verwarmen",
+          "cSharpName": "SlaapkamerSjoerdVerwarmen"
+        },
+        {
+          "id": "sensor.slaapkamer_wouter_luchtvochtigheid",
+          "friendlyName": "Slaapkamer Sjoerd Luchtvochtigheid",
+          "cSharpName": "SlaapkamerWouterLuchtvochtigheid"
+        },
+        {
+          "id": "sensor.slaapkamer_wouter_temperatuur",
+          "friendlyName": "Slaapkamer Sjoerd Temperatuur",
+          "cSharpName": "SlaapkamerWouterTemperatuur"
+        },
+        {
+          "id": "sensor.slaapkamer_wouter_verwarmen",
+          "friendlyName": "Slaapkamer Sjoerd Verwarmen",
+          "cSharpName": "SlaapkamerWouterVerwarmen"
+        },
+        {
+          "id": "sensor.sm_a556b_battery_level",
+          "friendlyName": "SM-A556B Battery level",
+          "cSharpName": "SmA556bBatteryLevel"
+        },
+        {
+          "id": "sensor.usw_16_poe_cpu_utilization",
+          "friendlyName": "USW-16-PoE CPU utilization",
+          "cSharpName": "Usw16PoeCpuUtilization"
+        },
+        {
+          "id": "sensor.usw_16_poe_memory_utilization",
+          "friendlyName": "USW-16-PoE Memory utilization",
+          "cSharpName": "Usw16PoeMemoryUtilization"
+        },
+        {
+          "id": "sensor.usw_flex_mini_cpu_utilization",
+          "friendlyName": "USW Flex Mini CPU utilization",
+          "cSharpName": "UswFlexMiniCpuUtilization"
+        },
+        {
+          "id": "sensor.usw_flex_mini_memory_utilization",
+          "friendlyName": "USW Flex Mini Memory utilization",
+          "cSharpName": "UswFlexMiniMemoryUtilization"
+        },
+        {
+          "id": "sensor.voordeur_all_active_count",
+          "friendlyName": "Voordeur All Active Count",
+          "cSharpName": "VoordeurAllActiveCount"
+        },
+        {
+          "id": "sensor.voordeur_all_count",
+          "friendlyName": "Voordeur All count",
+          "cSharpName": "VoordeurAllCount"
+        },
+        {
+          "id": "sensor.voordeur_car_active_count",
+          "friendlyName": "Voordeur Car Active Count",
+          "cSharpName": "VoordeurCarActiveCount"
+        },
+        {
+          "id": "sensor.voordeur_car_count",
+          "friendlyName": "Voordeur Car count",
+          "cSharpName": "VoordeurCarCount"
+        },
+        {
+          "id": "sensor.voordeur_cat_active_count",
+          "friendlyName": "Voordeur Cat Active Count",
+          "cSharpName": "VoordeurCatActiveCount"
+        },
+        {
+          "id": "sensor.voordeur_cat_count",
+          "friendlyName": "Voordeur Cat count",
+          "cSharpName": "VoordeurCatCount"
+        },
+        {
+          "id": "sensor.voordeur_dog_active_count",
+          "friendlyName": "Voordeur Dog Active Count",
+          "cSharpName": "VoordeurDogActiveCount"
+        },
+        {
+          "id": "sensor.voordeur_dog_count",
+          "friendlyName": "Voordeur Dog count",
+          "cSharpName": "VoordeurDogCount"
+        },
+        {
+          "id": "sensor.voordeur_person_active_count",
+          "friendlyName": "Voordeur Person Active Count",
+          "cSharpName": "VoordeurPersonActiveCount"
+        },
+        {
+          "id": "sensor.voordeur_person_count",
+          "friendlyName": "Voordeur Person count",
+          "cSharpName": "VoordeurPersonCount"
+        },
+        {
+          "id": "sensor.voorhal_luchtvochtigheid",
+          "friendlyName": "Voorhal Luchtvochtigheid",
+          "cSharpName": "VoorhalLuchtvochtigheid"
+        },
+        {
+          "id": "sensor.voorhal_temperatuur",
+          "friendlyName": "Voorhal Temperatuur",
+          "cSharpName": "VoorhalTemperatuur"
+        },
+        {
+          "id": "sensor.voorhal_verwarmen",
+          "friendlyName": "Voorhal Verwarmen",
+          "cSharpName": "VoorhalVerwarmen"
+        },
+        {
+          "id": "sensor.woonkamer_all_active_count",
+          "friendlyName": "Woonkamer All Active Count",
+          "cSharpName": "WoonkamerAllActiveCount"
+        },
+        {
+          "id": "sensor.woonkamer_all_count",
+          "friendlyName": "Woonkamer All count",
+          "cSharpName": "WoonkamerAllCount"
+        },
+        {
+          "id": "sensor.woonkamer_car_active_count",
+          "friendlyName": "Woonkamer Car Active Count",
+          "cSharpName": "WoonkamerCarActiveCount"
+        },
+        {
+          "id": "sensor.woonkamer_car_count",
+          "friendlyName": "Woonkamer Car count",
+          "cSharpName": "WoonkamerCarCount"
+        },
+        {
+          "id": "sensor.woonkamer_cat_active_count",
+          "friendlyName": "Woonkamer Cat Active Count",
+          "cSharpName": "WoonkamerCatActiveCount"
+        },
+        {
+          "id": "sensor.woonkamer_cat_count",
+          "friendlyName": "Woonkamer Cat count",
+          "cSharpName": "WoonkamerCatCount"
+        },
+        {
+          "id": "sensor.woonkamer_dog_active_count",
+          "friendlyName": "Woonkamer Dog Active Count",
+          "cSharpName": "WoonkamerDogActiveCount"
+        },
+        {
+          "id": "sensor.woonkamer_dog_count",
+          "friendlyName": "Woonkamer Dog count",
+          "cSharpName": "WoonkamerDogCount"
+        },
+        {
+          "id": "sensor.woonkamer_luchtvochtigheid",
+          "friendlyName": "Woonkamer Luchtvochtigheid",
+          "cSharpName": "WoonkamerLuchtvochtigheid"
+        },
+        {
+          "id": "sensor.woonkamer_person_active_count",
+          "friendlyName": "Woonkamer Person Active Count",
+          "cSharpName": "WoonkamerPersonActiveCount"
+        },
+        {
+          "id": "sensor.woonkamer_person_count",
+          "friendlyName": "Woonkamer Person count",
+          "cSharpName": "WoonkamerPersonCount"
+        },
+        {
+          "id": "sensor.woonkamer_temperatuur",
+          "friendlyName": "Woonkamer Temperatuur",
+          "cSharpName": "WoonkamerTemperatuur"
+        },
+        {
+          "id": "sensor.woonkamer_verwarmen",
+          "friendlyName": "Woonkamer Verwarmen",
+          "cSharpName": "WoonkamerVerwarmen"
+        },
+        {
+          "id": "sensor.zolder_achterkant_luchtvochtigheid",
+          "friendlyName": "Slaapkamer Jeroen Luchtvochtigheid",
+          "cSharpName": "ZolderAchterkantLuchtvochtigheid"
+        },
+        {
+          "id": "sensor.zolder_achterkant_temperatuur",
+          "friendlyName": "Slaapkamer Jeroen Temperatuur",
+          "cSharpName": "ZolderAchterkantTemperatuur"
+        },
+        {
+          "id": "sensor.zolder_achterkant_verwarmen",
+          "friendlyName": "Slaapkamer Jeroen Verwarmen",
+          "cSharpName": "ZolderAchterkantVerwarmen"
+        }
+      ],
+      "attributes": [
+        {
+          "jsonName": "state_class",
+          "cSharpName": "StateClass",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "time",
+          "cSharpName": "Time",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "unit_of_measurement",
+          "cSharpName": "UnitOfMeasurement",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "device_class",
+          "cSharpName": "DeviceClass",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "friendly_name",
+          "cSharpName": "FriendlyName",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "setting",
+          "cSharpName": "Setting",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "icon",
+          "cSharpName": "Icon",
+          "clrType": "System.String"
+        }
+      ]
+    },
+    {
+      "domain": "sun",
+      "entities": [
+        {
+          "id": "sun.sun",
+          "friendlyName": "Sun",
+          "cSharpName": "Sun"
+        }
+      ],
+      "attributes": [
+        {
+          "jsonName": "next_dawn",
+          "cSharpName": "NextDawn",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "next_dusk",
+          "cSharpName": "NextDusk",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "next_midnight",
+          "cSharpName": "NextMidnight",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "next_noon",
+          "cSharpName": "NextNoon",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "next_rising",
+          "cSharpName": "NextRising",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "next_setting",
+          "cSharpName": "NextSetting",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "elevation",
+          "cSharpName": "Elevation",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "azimuth",
+          "cSharpName": "Azimuth",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "rising",
+          "cSharpName": "Rising",
+          "clrType": "System.Boolean"
+        },
+        {
+          "jsonName": "friendly_name",
+          "cSharpName": "FriendlyName",
+          "clrType": "System.String"
+        }
+      ]
+    },
+    {
+      "domain": "switch",
+      "entities": [
+        {
+          "id": "switch.brok_b_s",
+          "friendlyName": "Lamp spiegel",
+          "cSharpName": "BrokBS"
+        },
+        {
+          "id": "switch.energie_meter",
+          "friendlyName": "Energie meter",
+          "cSharpName": "EnergieMeter"
+        },
+        {
+          "id": "switch.fambrok",
+          "friendlyName": "FamBrok",
+          "cSharpName": "Fambrok"
+        },
+        {
+          "id": "switch.fambrok_iot",
+          "friendlyName": "fambrok-iot",
+          "cSharpName": "FambrokIot"
+        },
+        {
+          "id": "switch.lamp_overloop",
+          "friendlyName": "Lamp",
+          "cSharpName": "LampOverloop"
+        },
+        {
+          "id": "switch.shelly1mini_543204b8f5ec",
+          "friendlyName": "shelly1mini-543204b8f5ec",
+          "cSharpName": "Shelly1mini543204b8f5ec"
+        },
+        {
+          "id": "switch.shelly1mini_543204b8f67c",
+          "friendlyName": "Lamp",
+          "cSharpName": "Shelly1mini543204b8f67c"
+        },
+        {
+          "id": "switch.shelly1mini_543204b8f7a8",
+          "friendlyName": "Lamp",
+          "cSharpName": "Shelly1mini543204b8f7a8"
+        },
+        {
+          "id": "switch.shelly1mini_543204b96788",
+          "friendlyName": "Lamp",
+          "cSharpName": "Shelly1mini543204b96788"
+        },
+        {
+          "id": "switch.shelly1mini_543204b9b26c",
+          "friendlyName": "shelly1mini-543204b9b26c",
+          "cSharpName": "Shelly1mini543204b9b26c"
+        },
+        {
+          "id": "switch.shelly1mini_543204b9d78c",
+          "friendlyName": "Lamp",
+          "cSharpName": "Shelly1mini543204b9d78c"
+        },
+        {
+          "id": "switch.shelly1mini_543204b9eba0",
+          "friendlyName": "Lamp",
+          "cSharpName": "Shelly1mini543204b9eba0"
+        },
+        {
+          "id": "switch.shelly1mini_543204ba9294",
+          "friendlyName": "Lamp",
+          "cSharpName": "Shelly1mini543204ba9294"
+        },
+        {
+          "id": "switch.shelly1mini_543204ba9ca0",
+          "friendlyName": "Lamp",
+          "cSharpName": "Shelly1mini543204ba9ca0"
+        },
+        {
+          "id": "switch.shelly1mini_543204baa850",
+          "friendlyName": "Afzuiger",
+          "cSharpName": "Shelly1mini543204baa850"
+        },
+        {
+          "id": "switch.shelly1mini_543204baae20",
+          "friendlyName": "Lamp",
+          "cSharpName": "Shelly1mini543204baae20"
+        },
+        {
+          "id": "switch.shelly1mini_543204bae5ec",
+          "friendlyName": "Stopcontact",
+          "cSharpName": "Shelly1mini543204bae5ec"
+        },
+        {
+          "id": "switch.shelly1mini_543204bb90dc",
+          "friendlyName": "Lamp",
+          "cSharpName": "Shelly1mini543204bb90dc"
+        },
+        {
+          "id": "switch.shelly1mini_543204bc1380",
+          "friendlyName": "shelly1mini-543204bc1380",
+          "cSharpName": "Shelly1mini543204bc1380"
+        },
+        {
+          "id": "switch.slaapkamer_kasper_christel_kinderslot",
+          "friendlyName": "Slaapkamer Kasper \u0026 Christel Kinderslot",
+          "cSharpName": "SlaapkamerKasperChristelKinderslot"
+        },
+        {
+          "id": "switch.slaapkamer_sjoerd_kinderslot",
+          "friendlyName": "Droog kamer Kinderslot",
+          "cSharpName": "SlaapkamerSjoerdKinderslot"
+        },
+        {
+          "id": "switch.slaapkamer_wouter_kinderslot",
+          "friendlyName": "Slaapkamer Sjoerd Kinderslot",
+          "cSharpName": "SlaapkamerWouterKinderslot"
+        },
+        {
+          "id": "switch.unifi_network_allowed_internal",
+          "friendlyName": "UniFi Network allowed internal",
+          "cSharpName": "UnifiNetworkAllowedInternal"
+        },
+        {
+          "id": "switch.unifi_network_mail",
+          "friendlyName": "UniFi Network mail",
+          "cSharpName": "UnifiNetworkMail"
+        },
+        {
+          "id": "switch.unifi_network_portainer_temp",
+          "friendlyName": "UniFi Network portainer temp",
+          "cSharpName": "UnifiNetworkPortainerTemp"
+        },
+        {
+          "id": "switch.unifi_network_web",
+          "friendlyName": "UniFi Network Web",
+          "cSharpName": "UnifiNetworkWeb"
+        },
+        {
+          "id": "switch.voordeur_detect",
+          "friendlyName": "Voordeur Detect",
+          "cSharpName": "VoordeurDetect"
+        },
+        {
+          "id": "switch.voordeur_motion",
+          "friendlyName": "Voordeur Motion",
+          "cSharpName": "VoordeurMotion"
+        },
+        {
+          "id": "switch.voordeur_recordings",
+          "friendlyName": "Voordeur Recordings",
+          "cSharpName": "VoordeurRecordings"
+        },
+        {
+          "id": "switch.voordeur_snapshots",
+          "friendlyName": "Voordeur Snapshots",
+          "cSharpName": "VoordeurSnapshots"
+        },
+        {
+          "id": "switch.voorhal_kinderslot",
+          "friendlyName": "Voorhal Kinderslot",
+          "cSharpName": "VoorhalKinderslot"
+        },
+        {
+          "id": "switch.woonkamer_detect",
+          "friendlyName": "Woonkamer Detect",
+          "cSharpName": "WoonkamerDetect"
+        },
+        {
+          "id": "switch.woonkamer_motion",
+          "friendlyName": "Woonkamer Motion",
+          "cSharpName": "WoonkamerMotion"
+        },
+        {
+          "id": "switch.woonkamer_recordings",
+          "friendlyName": "Woonkamer Recordings",
+          "cSharpName": "WoonkamerRecordings"
+        },
+        {
+          "id": "switch.woonkamer_snapshots",
+          "friendlyName": "Woonkamer Snapshots",
+          "cSharpName": "WoonkamerSnapshots"
+        },
+        {
+          "id": "switch.zolder_achterkant_kinderslot",
+          "friendlyName": "Slaapkamer Jeroen Kinderslot",
+          "cSharpName": "ZolderAchterkantKinderslot"
+        }
+      ],
+      "attributes": [
+        {
+          "jsonName": "friendly_name",
+          "cSharpName": "FriendlyName",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "icon",
+          "cSharpName": "Icon",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "device_class",
+          "cSharpName": "DeviceClass",
+          "clrType": "System.String"
+        }
+      ]
+    },
+    {
+      "domain": "todo",
+      "entities": [
+        {
+          "id": "todo.shopping_list",
+          "friendlyName": "Shopping List",
+          "cSharpName": "ShoppingList"
+        }
+      ],
+      "attributes": [
+        {
+          "jsonName": "friendly_name",
+          "cSharpName": "FriendlyName",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "supported_features",
+          "cSharpName": "SupportedFeatures",
+          "clrType": "System.Double"
+        }
+      ]
+    },
+    {
+      "domain": "tts",
+      "entities": [
+        {
+          "id": "tts.google_translate_en_com",
+          "friendlyName": "Google Translate en com",
+          "cSharpName": "GoogleTranslateEnCom"
+        }
+      ],
+      "attributes": [
+        {
+          "jsonName": "friendly_name",
+          "cSharpName": "FriendlyName",
+          "clrType": "System.String"
+        }
+      ]
+    },
+    {
+      "domain": "update",
+      "entities": [
+        {
+          "id": "update.ac_pro_garage",
+          "friendlyName": "AC Pro - Garage",
+          "cSharpName": "AcProGarage"
+        },
+        {
+          "id": "update.ac_pro_woonkamer",
+          "friendlyName": "AC Pro - Woonkamer",
+          "cSharpName": "AcProWoonkamer"
+        },
+        {
+          "id": "update.ap_zolder",
+          "friendlyName": "AP-zolder",
+          "cSharpName": "ApZolder"
+        },
+        {
+          "id": "update.brok_b_s_firmware",
+          "friendlyName": "Lamp spiegel Firmware",
+          "cSharpName": "BrokBSFirmware"
+        },
+        {
+          "id": "update.fambrok",
+          "friendlyName": "FamBrok",
+          "cSharpName": "Fambrok"
+        },
+        {
+          "id": "update.frigate_server",
+          "friendlyName": "Frigate Server",
+          "cSharpName": "FrigateServer"
+        },
+        {
+          "id": "update.frigate_update",
+          "friendlyName": "Frigate update",
+          "cSharpName": "FrigateUpdate"
+        },
+        {
+          "id": "update.hacs_update",
+          "friendlyName": "HACS update",
+          "cSharpName": "HacsUpdate"
+        },
+        {
+          "id": "update.shelly1mini_543204b8f5ec_firmware",
+          "friendlyName": "shelly1mini-543204b8f5ec Firmware",
+          "cSharpName": "Shelly1mini543204b8f5ecFirmware"
+        },
+        {
+          "id": "update.shelly1mini_543204b8f67c_firmware",
+          "friendlyName": "Lamp Firmware",
+          "cSharpName": "Shelly1mini543204b8f67cFirmware"
+        },
+        {
+          "id": "update.shelly1mini_543204b8f7a8_firmware",
+          "friendlyName": "Lamp Firmware",
+          "cSharpName": "Shelly1mini543204b8f7a8Firmware"
+        },
+        {
+          "id": "update.shelly1mini_543204b96788_firmware",
+          "friendlyName": "Lamp Firmware",
+          "cSharpName": "Shelly1mini543204b96788Firmware"
+        },
+        {
+          "id": "update.shelly1mini_543204b9b26c_firmware",
+          "friendlyName": "shelly1mini-543204b9b26c Firmware",
+          "cSharpName": "Shelly1mini543204b9b26cFirmware"
+        },
+        {
+          "id": "update.shelly1mini_543204b9d78c_firmware",
+          "friendlyName": "Lamp Firmware",
+          "cSharpName": "Shelly1mini543204b9d78cFirmware"
+        },
+        {
+          "id": "update.shelly1mini_543204b9eba0_firmware",
+          "friendlyName": "Lamp Firmware",
+          "cSharpName": "Shelly1mini543204b9eba0Firmware"
+        },
+        {
+          "id": "update.shelly1mini_543204ba9294_firmware",
+          "friendlyName": "Lamp Firmware",
+          "cSharpName": "Shelly1mini543204ba9294Firmware"
+        },
+        {
+          "id": "update.shelly1mini_543204ba9ca0_firmware",
+          "friendlyName": "Lamp Firmware",
+          "cSharpName": "Shelly1mini543204ba9ca0Firmware"
+        },
+        {
+          "id": "update.shelly1mini_543204baa850_firmware",
+          "friendlyName": "Afzuiger Firmware",
+          "cSharpName": "Shelly1mini543204baa850Firmware"
+        },
+        {
+          "id": "update.shelly1mini_543204baae20_firmware",
+          "friendlyName": "Lamp Firmware",
+          "cSharpName": "Shelly1mini543204baae20Firmware"
+        },
+        {
+          "id": "update.shelly1mini_543204bae5ec_firmware",
+          "friendlyName": "Stopcontact Firmware",
+          "cSharpName": "Shelly1mini543204bae5ecFirmware"
+        },
+        {
+          "id": "update.shelly1mini_543204bb90dc_firmware",
+          "friendlyName": "Lamp Firmware",
+          "cSharpName": "Shelly1mini543204bb90dcFirmware"
+        },
+        {
+          "id": "update.shelly1mini_543204bc1380_firmware",
+          "friendlyName": "shelly1mini-543204bc1380 Firmware",
+          "cSharpName": "Shelly1mini543204bc1380Firmware"
+        },
+        {
+          "id": "update.usw_16_poe",
+          "friendlyName": "USW-16-PoE",
+          "cSharpName": "Usw16Poe"
+        },
+        {
+          "id": "update.usw_flex_mini",
+          "friendlyName": "USW Flex Mini",
+          "cSharpName": "UswFlexMini"
+        }
+      ],
+      "attributes": [
+        {
+          "jsonName": "device_class",
+          "cSharpName": "DeviceClass",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "entity_picture",
+          "cSharpName": "EntityPicture",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "friendly_name",
+          "cSharpName": "FriendlyName",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "supported_features",
+          "cSharpName": "SupportedFeatures",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "auto_update",
+          "cSharpName": "AutoUpdate",
+          "clrType": "System.Boolean"
+        },
+        {
+          "jsonName": "display_precision",
+          "cSharpName": "DisplayPrecision",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "installed_version",
+          "cSharpName": "InstalledVersion",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "in_progress",
+          "cSharpName": "InProgress",
+          "clrType": "System.Boolean"
+        },
+        {
+          "jsonName": "latest_version",
+          "cSharpName": "LatestVersion",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "release_summary",
+          "cSharpName": "ReleaseSummary",
+          "clrType": null
+        },
+        {
+          "jsonName": "release_url",
+          "cSharpName": "ReleaseUrl",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "skipped_version",
+          "cSharpName": "SkippedVersion",
+          "clrType": null
+        },
+        {
+          "jsonName": "title",
+          "cSharpName": "Title",
+          "clrType": null
+        },
+        {
+          "jsonName": "update_percentage",
+          "cSharpName": "UpdatePercentage",
+          "clrType": null
+        }
+      ]
+    },
+    {
+      "domain": "water_heater",
+      "entities": [
+        {
+          "id": "water_heater.warm_water",
+          "friendlyName": "Warm water",
+          "cSharpName": "WarmWater"
+        }
+      ],
+      "attributes": [
+        {
+          "jsonName": "min_temp",
+          "cSharpName": "MinTemp",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "max_temp",
+          "cSharpName": "MaxTemp",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "operation_list",
+          "cSharpName": "OperationList",
+          "clrType": "System.Collections.Generic.IReadOnlyList\u00601[System.String]"
+        },
+        {
+          "jsonName": "current_temperature",
+          "cSharpName": "CurrentTemperature",
+          "clrType": null
+        },
+        {
+          "jsonName": "temperature",
+          "cSharpName": "Temperature",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "target_temp_high",
+          "cSharpName": "TargetTempHigh",
+          "clrType": null
+        },
+        {
+          "jsonName": "target_temp_low",
+          "cSharpName": "TargetTempLow",
+          "clrType": null
+        },
+        {
+          "jsonName": "operation_mode",
+          "cSharpName": "OperationMode",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "friendly_name",
+          "cSharpName": "FriendlyName",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "supported_features",
+          "cSharpName": "SupportedFeatures",
+          "clrType": "System.Double"
+        }
+      ]
+    },
+    {
+      "domain": "weather",
+      "entities": [
+        {
+          "id": "weather.forecast_thuis",
+          "friendlyName": "Forecast Thuis",
+          "cSharpName": "ForecastThuis"
+        }
+      ],
+      "attributes": [
+        {
+          "jsonName": "temperature",
+          "cSharpName": "Temperature",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "dew_point",
+          "cSharpName": "DewPoint",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "temperature_unit",
+          "cSharpName": "TemperatureUnit",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "humidity",
+          "cSharpName": "Humidity",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "cloud_coverage",
+          "cSharpName": "CloudCoverage",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "uv_index",
+          "cSharpName": "UvIndex",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "pressure",
+          "cSharpName": "Pressure",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "pressure_unit",
+          "cSharpName": "PressureUnit",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "wind_bearing",
+          "cSharpName": "WindBearing",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "wind_speed",
+          "cSharpName": "WindSpeed",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "wind_speed_unit",
+          "cSharpName": "WindSpeedUnit",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "visibility_unit",
+          "cSharpName": "VisibilityUnit",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "precipitation_unit",
+          "cSharpName": "PrecipitationUnit",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "attribution",
+          "cSharpName": "Attribution",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "friendly_name",
+          "cSharpName": "FriendlyName",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "supported_features",
+          "cSharpName": "SupportedFeatures",
+          "clrType": "System.Double"
+        }
+      ]
+    },
+    {
+      "domain": "zone",
+      "entities": [
+        {
+          "id": "zone.grootvalk",
+          "friendlyName": "Grootvalk",
+          "cSharpName": "Grootvalk"
+        },
+        {
+          "id": "zone.home",
+          "friendlyName": "Thuis",
+          "cSharpName": "Home"
+        },
+        {
+          "id": "zone.mondcentrum_drunen",
+          "friendlyName": "Mondcentrum Drunen",
+          "cSharpName": "MondcentrumDrunen"
+        }
+      ],
+      "attributes": [
+        {
+          "jsonName": "latitude",
+          "cSharpName": "Latitude",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "longitude",
+          "cSharpName": "Longitude",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "radius",
+          "cSharpName": "Radius",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "passive",
+          "cSharpName": "Passive",
+          "clrType": "System.Boolean"
+        },
+        {
+          "jsonName": "persons",
+          "cSharpName": "Persons",
+          "clrType": "System.Collections.Generic.IReadOnlyList\u00601[System.String]"
+        },
+        {
+          "jsonName": "editable",
+          "cSharpName": "Editable",
+          "clrType": "System.Boolean"
+        },
+        {
+          "jsonName": "icon",
+          "cSharpName": "Icon",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "friendly_name",
+          "cSharpName": "FriendlyName",
+          "clrType": "System.String"
+        }
+      ]
+    }
+  ]
+}
