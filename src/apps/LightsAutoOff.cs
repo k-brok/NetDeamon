@@ -13,7 +13,7 @@ public class LightsAutoOffAppApp
 {
     public LightsAutoOffAppApp(Entities entities)
     {
-        entities.Switch.WcLampSwitch0.StateChanges().Where(e => e.New?.State == "on")
+        entities.
             .Subscribe(async _ =>
             {
                 await Task.Delay(TimeSpan.FromMinutes(5));
