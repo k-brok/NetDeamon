@@ -4,144 +4,9 @@
       "domain": "light",
       "entities": [
         {
-          "id": "light.achtertuin",
-          "friendlyName": "Achtertuin",
-          "cSharpName": "Achtertuin"
-        },
-        {
-          "id": "light.all",
-          "friendlyName": "All",
-          "cSharpName": "All"
-        },
-        {
-          "id": "light.badkamer",
-          "friendlyName": "Badkamer",
-          "cSharpName": "Badkamer"
-        },
-        {
-          "id": "light.binnen",
-          "friendlyName": "Binnen",
-          "cSharpName": "Binnen"
-        },
-        {
-          "id": "light.brok_b_s_switch_0",
-          "friendlyName": "Lamp spiegel",
-          "cSharpName": "BrokBSSwitch0"
-        },
-        {
-          "id": "light.garage",
-          "friendlyName": "Garage",
-          "cSharpName": "Garage"
-        },
-        {
-          "id": "light.grotekamerachterkant",
-          "friendlyName": "GroteKamerAchterkant",
-          "cSharpName": "Grotekamerachterkant"
-        },
-        {
-          "id": "light.grotekamerachterlamp",
-          "friendlyName": "GroteKamerAchter-Lamp",
-          "cSharpName": "Grotekamerachterlamp"
-        },
-        {
-          "id": "light.grotekamervoorlamp",
-          "friendlyName": "Grote kamer voor Lamp",
-          "cSharpName": "Grotekamervoorlamp"
-        },
-        {
-          "id": "light.kerstverlichting",
-          "friendlyName": "Kerstverlichting",
-          "cSharpName": "Kerstverlichting"
-        },
-        {
-          "id": "light.kleinekamerachterkant",
-          "friendlyName": "KleineKamerAchterkant",
-          "cSharpName": "Kleinekamerachterkant"
-        },
-        {
-          "id": "light.kleinekamerachterkantlamp",
-          "friendlyName": "KleineKamerAchterkantLamp switch_0",
-          "cSharpName": "Kleinekamerachterkantlamp"
-        },
-        {
-          "id": "light.lamp_serre",
-          "friendlyName": "Lamp Serre",
-          "cSharpName": "LampSerre"
-        },
-        {
-          "id": "light.overdaguit",
-          "friendlyName": "OverdagUit",
-          "cSharpName": "Overdaguit"
-        },
-        {
-          "id": "light.shelly1mini_543204b8f67c_switch_0",
-          "friendlyName": "Garage-Lamp",
-          "cSharpName": "Shelly1mini543204b8f67cSwitch0"
-        },
-        {
-          "id": "light.shelly1mini_543204b8f7a8_switch_0",
-          "friendlyName": "ZolderAchterkant-Lamp switch_0",
-          "cSharpName": "Shelly1mini543204b8f7a8Switch0"
-        },
-        {
-          "id": "light.shelly1mini_543204b9eba0_switch_0",
-          "friendlyName": "Lamp badkamer",
-          "cSharpName": "Shelly1mini543204b9eba0Switch0"
-        },
-        {
-          "id": "light.slaapkamer_c_k",
-          "friendlyName": "Grote kamer voor",
-          "cSharpName": "SlaapkamerCK"
-        },
-        {
-          "id": "light.trapkastlamp",
-          "friendlyName": "Lamp trapkast",
-          "cSharpName": "Trapkastlamp"
-        },
-        {
-          "id": "light.voortuin",
-          "friendlyName": "Voortuin",
-          "cSharpName": "Voortuin"
-        },
-        {
-          "id": "light.voortuinlamp",
-          "friendlyName": "Voortuin lamp",
-          "cSharpName": "Voortuinlamp"
-        },
-        {
-          "id": "light.wclamp",
-          "friendlyName": "WC-Lamp switch_0",
-          "cSharpName": "Wclamp"
-        },
-        {
-          "id": "light.woonkamer",
-          "friendlyName": "Woonkamer",
-          "cSharpName": "Woonkamer"
-        },
-        {
-          "id": "light.woonkamerlamp",
-          "friendlyName": "Woonkamer Lamp",
-          "cSharpName": "Woonkamerlamp"
-        },
-        {
-          "id": "light.zolderachterkant",
-          "friendlyName": "ZolderAchterkant",
-          "cSharpName": "Zolderachterkant"
-        },
-        {
-          "id": "light.zolderachterkantlamp",
-          "friendlyName": "Zolder Achterkant Lamp",
-          "cSharpName": "Zolderachterkantlamp"
-        },
-        {
-          "id": "light.zoldervoorkant",
-          "friendlyName": "ZolderVoorkant",
-          "cSharpName": "Zoldervoorkant"
-        },
-        {
-          "id": "light.zoldervoorkantlamp",
-          "friendlyName": "Lamp Zolder Voorkant",
-          "cSharpName": "Zoldervoorkantlamp"
+          "id": "light.shellydimmer2_c8c9a325aa51",
+          "friendlyName": "Serre",
+          "cSharpName": "Shellydimmer2C8c9a325aa51"
         }
       ],
       "attributes": [
@@ -659,29 +524,14 @@
           "cSharpName": "Br1941187584Connectiestatus"
         },
         {
-          "id": "binary_sensor.co2_detector_veiligheid",
-          "friendlyName": "CO2_DETECTOR  Veiligheid",
-          "cSharpName": "Co2DetectorVeiligheid"
-        },
-        {
-          "id": "binary_sensor.droger",
-          "friendlyName": "Droger",
-          "cSharpName": "Droger"
+          "id": "binary_sensor.brok_b_s_input_0",
+          "friendlyName": "Lamp spiegel Input 0",
+          "cSharpName": "BrokBSInput0"
         },
         {
           "id": "binary_sensor.energie_meter_overpowering",
-          "friendlyName": "Energie-Meter overpowering",
+          "friendlyName": "Energie meter Overpowering",
           "cSharpName": "EnergieMeterOverpowering"
-        },
-        {
-          "id": "binary_sensor.garage_roldeur_overheating",
-          "friendlyName": "Garage-Roldeur overheating",
-          "cSharpName": "GarageRoldeurOverheating"
-        },
-        {
-          "id": "binary_sensor.home_assistant_versions_update_available",
-          "friendlyName": "Home Assistant Versions Update Available",
-          "cSharpName": "HomeAssistantVersionsUpdateAvailable"
         },
         {
           "id": "binary_sensor.ib1911827456_connectiestatus",
@@ -689,129 +539,24 @@
           "cSharpName": "Ib1911827456Connectiestatus"
         },
         {
-          "id": "binary_sensor.inverter_482231095526_communicating",
-          "friendlyName": "Inverter 482231095526 Communicating",
-          "cSharpName": "Inverter482231095526Communicating"
+          "id": "binary_sensor.lamp_overloop_input",
+          "friendlyName": "Lamp Input",
+          "cSharpName": "LampOverloopInput"
         },
         {
-          "id": "binary_sensor.inverter_482231095526_producing",
-          "friendlyName": "Inverter 482231095526 Producing",
-          "cSharpName": "Inverter482231095526Producing"
+          "id": "binary_sensor.roldeur_garage_input",
+          "friendlyName": "Roldeur Garage Input",
+          "cSharpName": "RoldeurGarageInput"
         },
         {
-          "id": "binary_sensor.inverter_482231098740_communicating",
-          "friendlyName": "Inverter 482231098740 Communicating",
-          "cSharpName": "Inverter482231098740Communicating"
+          "id": "binary_sensor.roldeur_garage_input_2",
+          "friendlyName": "Roldeur Garage Input",
+          "cSharpName": "RoldeurGarageInput2"
         },
         {
-          "id": "binary_sensor.inverter_482231098740_producing",
-          "friendlyName": "Inverter 482231098740 Producing",
-          "cSharpName": "Inverter482231098740Producing"
-        },
-        {
-          "id": "binary_sensor.inverter_482231099070_communicating",
-          "friendlyName": "Inverter 482231099070 Communicating",
-          "cSharpName": "Inverter482231099070Communicating"
-        },
-        {
-          "id": "binary_sensor.inverter_482231099070_producing",
-          "friendlyName": "Inverter 482231099070 Producing",
-          "cSharpName": "Inverter482231099070Producing"
-        },
-        {
-          "id": "binary_sensor.inverter_482231099073_communicating",
-          "friendlyName": "Inverter 482231099073 Communicating",
-          "cSharpName": "Inverter482231099073Communicating"
-        },
-        {
-          "id": "binary_sensor.inverter_482231099073_producing",
-          "friendlyName": "Inverter 482231099073 Producing",
-          "cSharpName": "Inverter482231099073Producing"
-        },
-        {
-          "id": "binary_sensor.inverter_482231099074_communicating",
-          "friendlyName": "Inverter 482231099074 Communicating",
-          "cSharpName": "Inverter482231099074Communicating"
-        },
-        {
-          "id": "binary_sensor.inverter_482231099074_producing",
-          "friendlyName": "Inverter 482231099074 Producing",
-          "cSharpName": "Inverter482231099074Producing"
-        },
-        {
-          "id": "binary_sensor.inverter_482231099077_communicating",
-          "friendlyName": "Inverter 482231099077 Communicating",
-          "cSharpName": "Inverter482231099077Communicating"
-        },
-        {
-          "id": "binary_sensor.inverter_482231099077_producing",
-          "friendlyName": "Inverter 482231099077 Producing",
-          "cSharpName": "Inverter482231099077Producing"
-        },
-        {
-          "id": "binary_sensor.inverter_482231099157_communicating",
-          "friendlyName": "Inverter 482231099157 Communicating",
-          "cSharpName": "Inverter482231099157Communicating"
-        },
-        {
-          "id": "binary_sensor.inverter_482231099157_producing",
-          "friendlyName": "Inverter 482231099157 Producing",
-          "cSharpName": "Inverter482231099157Producing"
-        },
-        {
-          "id": "binary_sensor.inverter_482231099164_communicating",
-          "friendlyName": "Inverter 482231099164 Communicating",
-          "cSharpName": "Inverter482231099164Communicating"
-        },
-        {
-          "id": "binary_sensor.inverter_482231099164_producing",
-          "friendlyName": "Inverter 482231099164 Producing",
-          "cSharpName": "Inverter482231099164Producing"
-        },
-        {
-          "id": "binary_sensor.inverter_482245045431_communicating",
-          "friendlyName": "Inverter 482245045431 Communicating",
-          "cSharpName": "Inverter482245045431Communicating"
-        },
-        {
-          "id": "binary_sensor.inverter_482245045431_producing",
-          "friendlyName": "Inverter 482245045431 Producing",
-          "cSharpName": "Inverter482245045431Producing"
-        },
-        {
-          "id": "binary_sensor.inverter_482245046121_communicating",
-          "friendlyName": "Inverter 482245046121 Communicating",
-          "cSharpName": "Inverter482245046121Communicating"
-        },
-        {
-          "id": "binary_sensor.inverter_482245046121_producing",
-          "friendlyName": "Inverter 482245046121 Producing",
-          "cSharpName": "Inverter482245046121Producing"
-        },
-        {
-          "id": "binary_sensor.lamp_serre_overheating",
-          "friendlyName": "Lamp Serre overheating",
-          "cSharpName": "LampSerreOverheating"
-        },
-        {
-          "id": "binary_sensor.lamp_serre_overpowering",
-          "friendlyName": "Lamp Serre overpowering",
-          "cSharpName": "LampSerreOverpowering"
-        },
-        {
-          "id": "binary_sensor.relay_122230039629_communicating",
-          "friendlyName": "Relay 122230039629 Communicating",
-          "cSharpName": "Relay122230039629Communicating"
-        },
-        {
-          "id": "binary_sensor.relay_122230039629_communicating_2",
-          "friendlyName": "Relay 122230039629 Communicating",
-          "cSharpName": "Relay122230039629Communicating2"
-        },
-        {
-          "id": "binary_sensor.relay_122230039629_contact",
-          "friendlyName": "Relay 122230039629 Contact",
-          "cSharpName": "Relay122230039629Contact"
+          "id": "binary_sensor.roldeur_garage_overheating",
+          "friendlyName": "Roldeur Garage Overheating",
+          "cSharpName": "RoldeurGarageOverheating"
         },
         {
           "id": "binary_sensor.ru2052150016_batterij",
@@ -824,19 +569,104 @@
           "cSharpName": "Ru2052150016Connectiestatus"
         },
         {
-          "id": "binary_sensor.schakelaar_bar_1",
-          "friendlyName": "Schakelaar 1",
-          "cSharpName": "SchakelaarBar1"
+          "id": "binary_sensor.schakelaars_bar_schakelaar1_input",
+          "friendlyName": "Schakelaars bar Schakelaar1 input",
+          "cSharpName": "SchakelaarsBarSchakelaar1Input"
         },
         {
-          "id": "binary_sensor.schakelaar_bar_2",
-          "friendlyName": "Schakelaar 2",
-          "cSharpName": "SchakelaarBar2"
+          "id": "binary_sensor.schakelaars_bar_schakelaar2_input",
+          "friendlyName": "Schakelaars bar Schakelaar2 input",
+          "cSharpName": "SchakelaarsBarSchakelaar2Input"
         },
         {
-          "id": "binary_sensor.schakelaar_bar_3",
-          "friendlyName": "Schakelaar 3",
-          "cSharpName": "SchakelaarBar3"
+          "id": "binary_sensor.schakelaars_bar_schakelaar3_input",
+          "friendlyName": "Schakelaars bar Schakelaar3 input",
+          "cSharpName": "SchakelaarsBarSchakelaar3Input"
+        },
+        {
+          "id": "binary_sensor.shelly1mini_543204b8f5ec_input_0",
+          "friendlyName": "shelly1mini-543204b8f5ec Input 0",
+          "cSharpName": "Shelly1mini543204b8f5ecInput0"
+        },
+        {
+          "id": "binary_sensor.shelly1mini_543204b8f7a8_input_0",
+          "friendlyName": "Lamp Input 0",
+          "cSharpName": "Shelly1mini543204b8f7a8Input0"
+        },
+        {
+          "id": "binary_sensor.shelly1mini_543204b96788_input_0",
+          "friendlyName": "Lamp Input 0",
+          "cSharpName": "Shelly1mini543204b96788Input0"
+        },
+        {
+          "id": "binary_sensor.shelly1mini_543204b9b26c_input_0",
+          "friendlyName": "shelly1mini-543204b9b26c Input 0",
+          "cSharpName": "Shelly1mini543204b9b26cInput0"
+        },
+        {
+          "id": "binary_sensor.shelly1mini_543204b9d78c_input_0",
+          "friendlyName": "Lamp Input 0",
+          "cSharpName": "Shelly1mini543204b9d78cInput0"
+        },
+        {
+          "id": "binary_sensor.shelly1mini_543204b9eba0_input_0",
+          "friendlyName": "Lamp Input 0",
+          "cSharpName": "Shelly1mini543204b9eba0Input0"
+        },
+        {
+          "id": "binary_sensor.shelly1mini_543204ba9294_input_0",
+          "friendlyName": "Lamp Input 0",
+          "cSharpName": "Shelly1mini543204ba9294Input0"
+        },
+        {
+          "id": "binary_sensor.shelly1mini_543204ba9ca0_input_0",
+          "friendlyName": "Lamp Input 0",
+          "cSharpName": "Shelly1mini543204ba9ca0Input0"
+        },
+        {
+          "id": "binary_sensor.shelly1mini_543204baa850_input_0",
+          "friendlyName": "Afzuiger Input 0",
+          "cSharpName": "Shelly1mini543204baa850Input0"
+        },
+        {
+          "id": "binary_sensor.shelly1mini_543204baae20_input_0",
+          "friendlyName": "Lamp Input 0",
+          "cSharpName": "Shelly1mini543204baae20Input0"
+        },
+        {
+          "id": "binary_sensor.shelly1mini_543204bae5ec_input_0",
+          "friendlyName": "Stopcontact Input 0",
+          "cSharpName": "Shelly1mini543204bae5ecInput0"
+        },
+        {
+          "id": "binary_sensor.shelly1mini_543204bb90dc_input_0",
+          "friendlyName": "Lamp Input 0",
+          "cSharpName": "Shelly1mini543204bb90dcInput0"
+        },
+        {
+          "id": "binary_sensor.shelly1mini_543204bc1380_input_0",
+          "friendlyName": "shelly1mini-543204bc1380 Input 0",
+          "cSharpName": "Shelly1mini543204bc1380Input0"
+        },
+        {
+          "id": "binary_sensor.shellydimmer2_c8c9a325aa51_channel_1_input",
+          "friendlyName": "Serre Channel 1 input",
+          "cSharpName": "Shellydimmer2C8c9a325aa51Channel1Input"
+        },
+        {
+          "id": "binary_sensor.shellydimmer2_c8c9a325aa51_channel_2_input",
+          "friendlyName": "Serre Channel 2 input",
+          "cSharpName": "Shellydimmer2C8c9a325aa51Channel2Input"
+        },
+        {
+          "id": "binary_sensor.shellydimmer2_c8c9a325aa51_overheating",
+          "friendlyName": "Serre Overheating",
+          "cSharpName": "Shellydimmer2C8c9a325aa51Overheating"
+        },
+        {
+          "id": "binary_sensor.shellydimmer2_c8c9a325aa51_overpowering",
+          "friendlyName": "Serre Overpowering",
+          "cSharpName": "Shellydimmer2C8c9a325aa51Overpowering"
         },
         {
           "id": "binary_sensor.slaapkamer_kasper_christel_connectiviteit",
@@ -865,53 +695,53 @@
         },
         {
           "id": "binary_sensor.slaapkamer_sjoerd_connectiviteit",
-          "friendlyName": "Slaapkamer Sjoerd Connectiviteit",
+          "friendlyName": "Droog kamer Connectiviteit",
           "cSharpName": "SlaapkamerSjoerdConnectiviteit"
         },
         {
           "id": "binary_sensor.slaapkamer_sjoerd_overlay",
-          "friendlyName": "Slaapkamer Sjoerd Overlay",
+          "friendlyName": "Droog kamer Overlay",
           "cSharpName": "SlaapkamerSjoerdOverlay"
         },
         {
           "id": "binary_sensor.slaapkamer_sjoerd_raam",
-          "friendlyName": "Slaapkamer Sjoerd Raam",
+          "friendlyName": "Droog kamer Raam",
           "cSharpName": "SlaapkamerSjoerdRaam"
         },
         {
           "id": "binary_sensor.slaapkamer_sjoerd_vermogen",
-          "friendlyName": "Slaapkamer Sjoerd Vermogen",
+          "friendlyName": "Droog kamer Vermogen",
           "cSharpName": "SlaapkamerSjoerdVermogen"
         },
         {
           "id": "binary_sensor.slaapkamer_sjoerd_vroege_start",
-          "friendlyName": "Slaapkamer Sjoerd Vroege start",
+          "friendlyName": "Droog kamer Vroege start",
           "cSharpName": "SlaapkamerSjoerdVroegeStart"
         },
         {
-          "id": "binary_sensor.slaapkamer_wouter_jeroen_connectiviteit",
-          "friendlyName": "Slaapkamer Wouter Connectiviteit",
-          "cSharpName": "SlaapkamerWouterJeroenConnectiviteit"
+          "id": "binary_sensor.slaapkamer_wouter_connectiviteit",
+          "friendlyName": "Slaapkamer Sjoerd Connectiviteit",
+          "cSharpName": "SlaapkamerWouterConnectiviteit"
         },
         {
-          "id": "binary_sensor.slaapkamer_wouter_jeroen_overlay",
-          "friendlyName": "Slaapkamer Wouter Overlay",
-          "cSharpName": "SlaapkamerWouterJeroenOverlay"
+          "id": "binary_sensor.slaapkamer_wouter_overlay",
+          "friendlyName": "Slaapkamer Sjoerd Overlay",
+          "cSharpName": "SlaapkamerWouterOverlay"
         },
         {
-          "id": "binary_sensor.slaapkamer_wouter_jeroen_raam",
-          "friendlyName": "Slaapkamer Wouter Raam",
-          "cSharpName": "SlaapkamerWouterJeroenRaam"
+          "id": "binary_sensor.slaapkamer_wouter_raam",
+          "friendlyName": "Slaapkamer Sjoerd Raam",
+          "cSharpName": "SlaapkamerWouterRaam"
         },
         {
-          "id": "binary_sensor.slaapkamer_wouter_jeroen_vermogen",
-          "friendlyName": "Slaapkamer Wouter Vermogen",
-          "cSharpName": "SlaapkamerWouterJeroenVermogen"
+          "id": "binary_sensor.slaapkamer_wouter_vermogen",
+          "friendlyName": "Slaapkamer Sjoerd Vermogen",
+          "cSharpName": "SlaapkamerWouterVermogen"
         },
         {
-          "id": "binary_sensor.slaapkamer_wouter_jeroen_vroege_start",
-          "friendlyName": "Slaapkamer Wouter Vroege start",
-          "cSharpName": "SlaapkamerWouterJeroenVroegeStart"
+          "id": "binary_sensor.slaapkamer_wouter_vroege_start",
+          "friendlyName": "Slaapkamer Sjoerd Vroege start",
+          "cSharpName": "SlaapkamerWouterVroegeStart"
         },
         {
           "id": "binary_sensor.su1413360640_batterij",
@@ -1014,14 +844,24 @@
           "cSharpName": "Va3749194240Connectiestatus"
         },
         {
-          "id": "binary_sensor.vaatwasser",
-          "friendlyName": "Vaatwasser",
-          "cSharpName": "Vaatwasser"
-        },
-        {
           "id": "binary_sensor.voordeur_all_occupancy",
           "friendlyName": "Voordeur All occupancy",
           "cSharpName": "VoordeurAllOccupancy"
+        },
+        {
+          "id": "binary_sensor.voordeur_car_occupancy",
+          "friendlyName": "Voordeur Car occupancy",
+          "cSharpName": "VoordeurCarOccupancy"
+        },
+        {
+          "id": "binary_sensor.voordeur_cat_occupancy",
+          "friendlyName": "Voordeur Cat occupancy",
+          "cSharpName": "VoordeurCatOccupancy"
+        },
+        {
+          "id": "binary_sensor.voordeur_dog_occupancy",
+          "friendlyName": "Voordeur Dog occupancy",
+          "cSharpName": "VoordeurDogOccupancy"
         },
         {
           "id": "binary_sensor.voordeur_motion",
@@ -1074,19 +914,29 @@
           "cSharpName": "WarmWaterVermogen"
         },
         {
-          "id": "binary_sensor.wasmachine",
-          "friendlyName": "Wasmachine",
-          "cSharpName": "Wasmachine"
-        },
-        {
           "id": "binary_sensor.woonkamer_all_occupancy",
           "friendlyName": "Woonkamer All occupancy",
           "cSharpName": "WoonkamerAllOccupancy"
         },
         {
+          "id": "binary_sensor.woonkamer_car_occupancy",
+          "friendlyName": "Woonkamer Car occupancy",
+          "cSharpName": "WoonkamerCarOccupancy"
+        },
+        {
+          "id": "binary_sensor.woonkamer_cat_occupancy",
+          "friendlyName": "Woonkamer Cat occupancy",
+          "cSharpName": "WoonkamerCatOccupancy"
+        },
+        {
           "id": "binary_sensor.woonkamer_connectiviteit",
           "friendlyName": "Woonkamer Connectiviteit",
           "cSharpName": "WoonkamerConnectiviteit"
+        },
+        {
+          "id": "binary_sensor.woonkamer_dog_occupancy",
+          "friendlyName": "Woonkamer Dog occupancy",
+          "cSharpName": "WoonkamerDogOccupancy"
         },
         {
           "id": "binary_sensor.woonkamer_motion",
@@ -1119,33 +969,28 @@
           "cSharpName": "WoonkamerVroegeStart"
         },
         {
-          "id": "binary_sensor.workday_sensor",
-          "friendlyName": "Workday Sensor",
-          "cSharpName": "WorkdaySensor"
-        },
-        {
           "id": "binary_sensor.zolder_achterkant_connectiviteit",
-          "friendlyName": "Zolder achterkant Connectiviteit",
+          "friendlyName": "Slaapkamer Jeroen Connectiviteit",
           "cSharpName": "ZolderAchterkantConnectiviteit"
         },
         {
           "id": "binary_sensor.zolder_achterkant_overlay",
-          "friendlyName": "Zolder achterkant Overlay",
+          "friendlyName": "Slaapkamer Jeroen Overlay",
           "cSharpName": "ZolderAchterkantOverlay"
         },
         {
           "id": "binary_sensor.zolder_achterkant_raam",
-          "friendlyName": "Zolder achterkant Raam",
+          "friendlyName": "Slaapkamer Jeroen Raam",
           "cSharpName": "ZolderAchterkantRaam"
         },
         {
           "id": "binary_sensor.zolder_achterkant_vermogen",
-          "friendlyName": "Zolder achterkant Vermogen",
+          "friendlyName": "Slaapkamer Jeroen Vermogen",
           "cSharpName": "ZolderAchterkantVermogen"
         },
         {
           "id": "binary_sensor.zolder_achterkant_vroege_start",
-          "friendlyName": "Zolder achterkant Vroege start",
+          "friendlyName": "Slaapkamer Jeroen Vroege start",
           "cSharpName": "ZolderAchterkantVroegeStart"
         }
       ],
@@ -1251,214 +1096,174 @@
       "domain": "button",
       "entities": [
         {
-          "id": "button.achtertuin_stopcontact_reboot",
-          "friendlyName": "Achtertuin-Stopcontact Reboot",
-          "cSharpName": "AchtertuinStopcontactReboot"
+          "id": "button.ac_pro_garage_restart",
+          "friendlyName": "AC Pro - Garage Restart",
+          "cSharpName": "AcProGarageRestart"
         },
         {
-          "id": "button.anycubic_kobra_s1_combo_cancel_print",
-          "friendlyName": "Cancel Print",
-          "cSharpName": "AnycubicKobraS1ComboCancelPrint"
+          "id": "button.ac_pro_woonkamer_restart",
+          "friendlyName": "AC Pro - Woonkamer Restart",
+          "cSharpName": "AcProWoonkamerRestart"
         },
         {
-          "id": "button.anycubic_kobra_s1_combo_emergency_stop",
-          "friendlyName": "Emergency Stop",
-          "cSharpName": "AnycubicKobraS1ComboEmergencyStop"
+          "id": "button.ap_zolder_restart",
+          "friendlyName": "AP-zolder Restart",
+          "cSharpName": "ApZolderRestart"
         },
         {
-          "id": "button.anycubic_kobra_s1_combo_firmware_restart",
-          "friendlyName": "Firmware Restart",
-          "cSharpName": "AnycubicKobraS1ComboFirmwareRestart"
+          "id": "button.brok_b_s_restart",
+          "friendlyName": "Lamp spiegel Restart",
+          "cSharpName": "BrokBSRestart"
         },
         {
-          "id": "button.anycubic_kobra_s1_combo_home_all_axes",
-          "friendlyName": "Home All Axes",
-          "cSharpName": "AnycubicKobraS1ComboHomeAllAxes"
+          "id": "button.energie_meter_restart",
+          "friendlyName": "Energie meter Restart",
+          "cSharpName": "EnergieMeterRestart"
         },
         {
-          "id": "button.anycubic_kobra_s1_combo_home_x_axis",
-          "friendlyName": "Home X Axis",
-          "cSharpName": "AnycubicKobraS1ComboHomeXAxis"
+          "id": "button.fambrok_restart",
+          "friendlyName": "FamBrok Restart",
+          "cSharpName": "FambrokRestart"
         },
         {
-          "id": "button.anycubic_kobra_s1_combo_home_y_axis",
-          "friendlyName": "Home Y Axis",
-          "cSharpName": "AnycubicKobraS1ComboHomeYAxis"
+          "id": "button.lamp_overloop_restart",
+          "friendlyName": "Lamp Restart",
+          "cSharpName": "LampOverloopRestart"
         },
         {
-          "id": "button.anycubic_kobra_s1_combo_home_z_axis",
-          "friendlyName": "Home Z Axis",
-          "cSharpName": "AnycubicKobraS1ComboHomeZAxis"
+          "id": "button.roldeur_garage_restart",
+          "friendlyName": "Roldeur Garage Restart",
+          "cSharpName": "RoldeurGarageRestart"
         },
         {
-          "id": "button.anycubic_kobra_s1_combo_host_restart",
-          "friendlyName": "Host Restart",
-          "cSharpName": "AnycubicKobraS1ComboHostRestart"
+          "id": "button.schakelaars_bar_restart",
+          "friendlyName": "Schakelaars bar Restart",
+          "cSharpName": "SchakelaarsBarRestart"
         },
         {
-          "id": "button.anycubic_kobra_s1_combo_host_shutdown",
-          "friendlyName": "Host Shutdown",
-          "cSharpName": "AnycubicKobraS1ComboHostShutdown"
+          "id": "button.shelly1mini_543204b8f5ec_restart",
+          "friendlyName": "shelly1mini-543204b8f5ec Restart",
+          "cSharpName": "Shelly1mini543204b8f5ecRestart"
         },
         {
-          "id": "button.anycubic_kobra_s1_combo_machine_update_refresh",
-          "friendlyName": "Machine Update Refresh",
-          "cSharpName": "AnycubicKobraS1ComboMachineUpdateRefresh"
+          "id": "button.shelly1mini_543204b8f67c_restart",
+          "friendlyName": "Lamp Restart",
+          "cSharpName": "Shelly1mini543204b8f67cRestart"
         },
         {
-          "id": "button.anycubic_kobra_s1_combo_macro_cancel_print",
-          "friendlyName": "Macro Cancel Print",
-          "cSharpName": "AnycubicKobraS1ComboMacroCancelPrint"
+          "id": "button.shelly1mini_543204b8f7a8_restart",
+          "friendlyName": "Lamp Restart",
+          "cSharpName": "Shelly1mini543204b8f7a8Restart"
         },
         {
-          "id": "button.anycubic_kobra_s1_combo_macro_to_throw_position",
-          "friendlyName": "Macro To Throw Position",
-          "cSharpName": "AnycubicKobraS1ComboMacroToThrowPosition"
+          "id": "button.shelly1mini_543204b96788_restart",
+          "friendlyName": "Lamp Restart",
+          "cSharpName": "Shelly1mini543204b96788Restart"
         },
         {
-          "id": "button.anycubic_kobra_s1_combo_macro_wipe_enter",
-          "friendlyName": "Macro Wipe Enter",
-          "cSharpName": "AnycubicKobraS1ComboMacroWipeEnter"
+          "id": "button.shelly1mini_543204b9b26c_restart",
+          "friendlyName": "shelly1mini-543204b9b26c Restart",
+          "cSharpName": "Shelly1mini543204b9b26cRestart"
         },
         {
-          "id": "button.anycubic_kobra_s1_combo_macro_wipe_exit",
-          "friendlyName": "Macro Wipe Exit",
-          "cSharpName": "AnycubicKobraS1ComboMacroWipeExit"
+          "id": "button.shelly1mini_543204b9d78c_restart",
+          "friendlyName": "Lamp Restart",
+          "cSharpName": "Shelly1mini543204b9d78cRestart"
         },
         {
-          "id": "button.anycubic_kobra_s1_combo_macro_wipe_nozzle",
-          "friendlyName": "Macro Wipe Nozzle",
-          "cSharpName": "AnycubicKobraS1ComboMacroWipeNozzle"
+          "id": "button.shelly1mini_543204b9eba0_restart",
+          "friendlyName": "Lamp Restart",
+          "cSharpName": "Shelly1mini543204b9eba0Restart"
         },
         {
-          "id": "button.anycubic_kobra_s1_combo_macro_wipe_nozzle1",
-          "friendlyName": "Macro Wipe Nozzle1",
-          "cSharpName": "AnycubicKobraS1ComboMacroWipeNozzle1"
+          "id": "button.shelly1mini_543204ba9294_restart",
+          "friendlyName": "Lamp Restart",
+          "cSharpName": "Shelly1mini543204ba9294Restart"
         },
         {
-          "id": "button.anycubic_kobra_s1_combo_macro_wipe_stop",
-          "friendlyName": "Macro Wipe Stop",
-          "cSharpName": "AnycubicKobraS1ComboMacroWipeStop"
+          "id": "button.shelly1mini_543204ba9ca0_restart",
+          "friendlyName": "Lamp Restart",
+          "cSharpName": "Shelly1mini543204ba9ca0Restart"
         },
         {
-          "id": "button.anycubic_kobra_s1_combo_macro_wipe_stop1",
-          "friendlyName": "Macro Wipe Stop1",
-          "cSharpName": "AnycubicKobraS1ComboMacroWipeStop1"
+          "id": "button.shelly1mini_543204baa850_restart",
+          "friendlyName": "Afzuiger Restart",
+          "cSharpName": "Shelly1mini543204baa850Restart"
         },
         {
-          "id": "button.anycubic_kobra_s1_combo_pause_print",
-          "friendlyName": "Pause Print",
-          "cSharpName": "AnycubicKobraS1ComboPausePrint"
+          "id": "button.shelly1mini_543204baae20_restart",
+          "friendlyName": "Lamp Restart",
+          "cSharpName": "Shelly1mini543204baae20Restart"
         },
         {
-          "id": "button.anycubic_kobra_s1_combo_resume_print",
-          "friendlyName": "Resume Print",
-          "cSharpName": "AnycubicKobraS1ComboResumePrint"
+          "id": "button.shelly1mini_543204bae5ec_restart",
+          "friendlyName": "Stopcontact Restart",
+          "cSharpName": "Shelly1mini543204bae5ecRestart"
         },
         {
-          "id": "button.anycubic_kobra_s1_combo_server_restart",
-          "friendlyName": "Server Restart",
-          "cSharpName": "AnycubicKobraS1ComboServerRestart"
+          "id": "button.shelly1mini_543204bb90dc_restart",
+          "friendlyName": "Lamp Restart",
+          "cSharpName": "Shelly1mini543204bb90dcRestart"
         },
         {
-          "id": "button.anycubic_kobra_s1_combo_start_print_from_queue",
-          "friendlyName": "Start Print from Queue",
-          "cSharpName": "AnycubicKobraS1ComboStartPrintFromQueue"
+          "id": "button.shelly1mini_543204bc1380_restart",
+          "friendlyName": "shelly1mini-543204bc1380 Restart",
+          "cSharpName": "Shelly1mini543204bc1380Restart"
         },
         {
-          "id": "button.badkamer_afzuiger_reboot",
-          "friendlyName": "Badkamer-Afzuiger Reboot",
-          "cSharpName": "BadkamerAfzuigerReboot"
+          "id": "button.shellydimmer2_c8c9a325aa51_restart",
+          "friendlyName": "Serre Restart",
+          "cSharpName": "Shellydimmer2C8c9a325aa51Restart"
         },
         {
-          "id": "button.badkamer_lamp_reboot",
-          "friendlyName": "Badkamer-Lamp Reboot",
-          "cSharpName": "BadkamerLampReboot"
+          "id": "button.usw_16_poe_port_1_power_cycle",
+          "friendlyName": "USW-16-PoE Port 1 Power Cycle",
+          "cSharpName": "Usw16PoePort1PowerCycle"
         },
         {
-          "id": "button.badkamer_spiegel_reboot",
-          "friendlyName": "Badkamer-Spiegel Reboot",
-          "cSharpName": "BadkamerSpiegelReboot"
+          "id": "button.usw_16_poe_port_2_power_cycle",
+          "friendlyName": "USW-16-PoE Port 2 Power Cycle",
+          "cSharpName": "Usw16PoePort2PowerCycle"
         },
         {
-          "id": "button.bar_schakelaar_reboot",
-          "friendlyName": "Bar-Schakelaar Reboot",
-          "cSharpName": "BarSchakelaarReboot"
+          "id": "button.usw_16_poe_port_3_power_cycle",
+          "friendlyName": "USW-16-PoE Port 3 Power Cycle",
+          "cSharpName": "Usw16PoePort3PowerCycle"
         },
         {
-          "id": "button.energie_meter_reboot",
-          "friendlyName": "Energie-Meter Reboot",
-          "cSharpName": "EnergieMeterReboot"
+          "id": "button.usw_16_poe_port_4_power_cycle",
+          "friendlyName": "USW-16-PoE Port 4 Power Cycle",
+          "cSharpName": "Usw16PoePort4PowerCycle"
         },
         {
-          "id": "button.garage_lamp_reboot",
-          "friendlyName": "Garage-Lamp Reboot",
-          "cSharpName": "GarageLampReboot"
+          "id": "button.usw_16_poe_port_5_power_cycle",
+          "friendlyName": "USW-16-PoE Port 5 Power Cycle",
+          "cSharpName": "Usw16PoePort5PowerCycle"
         },
         {
-          "id": "button.garage_roldeur_reboot",
-          "friendlyName": "Garage-Roldeur Reboot",
-          "cSharpName": "GarageRoldeurReboot"
+          "id": "button.usw_16_poe_port_6_power_cycle",
+          "friendlyName": "USW-16-PoE Port 6 Power Cycle",
+          "cSharpName": "Usw16PoePort6PowerCycle"
         },
         {
-          "id": "button.grote_kamer_voor_lamp_reboot",
-          "friendlyName": "Grote kamer voor Lamp Reboot",
-          "cSharpName": "GroteKamerVoorLampReboot"
+          "id": "button.usw_16_poe_port_7_power_cycle",
+          "friendlyName": "USW-16-PoE Port 7 Power Cycle",
+          "cSharpName": "Usw16PoePort7PowerCycle"
         },
         {
-          "id": "button.grotekamerachter_lamp_reboot",
-          "friendlyName": "GroteKamerAchter-Lamp Reboot",
-          "cSharpName": "GrotekamerachterLampReboot"
+          "id": "button.usw_16_poe_port_8_power_cycle",
+          "friendlyName": "USW-16-PoE Port 8 Power Cycle",
+          "cSharpName": "Usw16PoePort8PowerCycle"
         },
         {
-          "id": "button.kleinekamerachterkantlamp_reboot",
-          "friendlyName": "KleineKamerAchterkantLamp Reboot",
-          "cSharpName": "KleinekamerachterkantlampReboot"
+          "id": "button.usw_16_poe_restart",
+          "friendlyName": "USW-16-PoE Restart",
+          "cSharpName": "Usw16PoeRestart"
         },
         {
-          "id": "button.lamp_overloop_reboot",
-          "friendlyName": "Lamp Overloop Reboot",
-          "cSharpName": "LampOverloopReboot"
-        },
-        {
-          "id": "button.lamp_serre_reboot",
-          "friendlyName": "Lamp Serre Reboot",
-          "cSharpName": "LampSerreReboot"
-        },
-        {
-          "id": "button.stopcontact_voortuin_reboot",
-          "friendlyName": "Stopcontact voortuin Reboot",
-          "cSharpName": "StopcontactVoortuinReboot"
-        },
-        {
-          "id": "button.trapkast_lamp_reboot",
-          "friendlyName": "Trapkast Lamp Reboot",
-          "cSharpName": "TrapkastLampReboot"
-        },
-        {
-          "id": "button.voortuin_lamp_reboot",
-          "friendlyName": "Voortuin lamp Reboot",
-          "cSharpName": "VoortuinLampReboot"
-        },
-        {
-          "id": "button.wc_lamp_reboot",
-          "friendlyName": "WC-Lamp Reboot",
-          "cSharpName": "WcLampReboot"
-        },
-        {
-          "id": "button.woonkamer_lamp_reboot",
-          "friendlyName": "Woonkamer Lamp Reboot",
-          "cSharpName": "WoonkamerLampReboot"
-        },
-        {
-          "id": "button.zolderachterkant_lamp_reboot",
-          "friendlyName": "ZolderAchterkant-Lamp Reboot",
-          "cSharpName": "ZolderachterkantLampReboot"
-        },
-        {
-          "id": "button.zoldervoorkant_lamp_reboot",
-          "friendlyName": "ZolderVoorkant-Lamp Reboot",
-          "cSharpName": "ZoldervoorkantLampReboot"
+          "id": "button.usw_flex_mini_restart",
+          "friendlyName": "USW Flex Mini Restart",
+          "cSharpName": "UswFlexMiniRestart"
         }
       ],
       "attributes": [
@@ -1585,24 +1390,9 @@
       "domain": "camera",
       "entities": [
         {
-          "id": "camera.buienradar",
-          "friendlyName": "Buienradar",
-          "cSharpName": "Buienradar"
-        },
-        {
-          "id": "camera.thumbnail",
-          "friendlyName": "Anycubic kobra s1 combo Thumbnail",
-          "cSharpName": "Thumbnail"
-        },
-        {
           "id": "camera.voordeur",
           "friendlyName": "Voordeur",
           "cSharpName": "Voordeur"
-        },
-        {
-          "id": "camera.webcam",
-          "friendlyName": "Anycubic kobra s1 combo Webcam",
-          "cSharpName": "Webcam"
         },
         {
           "id": "camera.woonkamer",
@@ -1673,13 +1463,13 @@
         },
         {
           "id": "climate.slaapkamer_sjoerd",
-          "friendlyName": "Slaapkamer Sjoerd",
+          "friendlyName": "Droog kamer",
           "cSharpName": "SlaapkamerSjoerd"
         },
         {
-          "id": "climate.slaapkamer_wouter_jeroen",
-          "friendlyName": "Slaapkamer Wouter",
-          "cSharpName": "SlaapkamerWouterJeroen"
+          "id": "climate.slaapkamer_wouter",
+          "friendlyName": "Slaapkamer Sjoerd",
+          "cSharpName": "SlaapkamerWouter"
         },
         {
           "id": "climate.voorhal",
@@ -1693,7 +1483,7 @@
         },
         {
           "id": "climate.zolder_achterkant",
-          "friendlyName": "Zolder achterkant",
+          "friendlyName": "Slaapkamer Jeroen",
           "cSharpName": "ZolderAchterkant"
         }
       ],
@@ -1787,11 +1577,6 @@
           "id": "conversation.home_assistant",
           "friendlyName": "Home Assistant",
           "cSharpName": "HomeAssistant"
-        },
-        {
-          "id": "conversation.openai_conversation",
-          "friendlyName": "OpenAI Conversation",
-          "cSharpName": "OpenaiConversation"
         }
       ],
       "attributes": [
@@ -1811,9 +1596,9 @@
       "domain": "cover",
       "entities": [
         {
-          "id": "cover.deur_garage",
-          "friendlyName": "Garagedeur",
-          "cSharpName": "DeurGarage"
+          "id": "cover.roldeur_garage",
+          "friendlyName": "Roldeur Garage",
+          "cSharpName": "RoldeurGarage"
         }
       ],
       "attributes": [
@@ -1843,9 +1628,19 @@
       "domain": "device_tracker",
       "entities": [
         {
-          "id": "device_tracker.01_c9_53_b5_01_44",
-          "friendlyName": "01:C9:53:B5:01:44",
-          "cSharpName": "_01C953B50144"
+          "id": "device_tracker.ac_pro_garage",
+          "friendlyName": "AC Pro - Garage",
+          "cSharpName": "AcProGarage"
+        },
+        {
+          "id": "device_tracker.ac_pro_woonkamer",
+          "friendlyName": "AC Pro - Woonkamer",
+          "cSharpName": "AcProWoonkamer"
+        },
+        {
+          "id": "device_tracker.ap_zolder",
+          "friendlyName": "AP-zolder",
+          "cSharpName": "ApZolder"
         },
         {
           "id": "device_tracker.christel",
@@ -1853,24 +1648,114 @@
           "cSharpName": "Christel"
         },
         {
+          "id": "device_tracker.fambrok",
+          "friendlyName": "FamBrok",
+          "cSharpName": "Fambrok"
+        },
+        {
           "id": "device_tracker.kasper_s_telefoon",
           "friendlyName": "Kasper\u0027s telefoon",
           "cSharpName": "KasperSTelefoon"
         },
         {
-          "id": "device_tracker.kasper_s_telefoon_2",
-          "friendlyName": "Kasper\u0027s telefoon",
-          "cSharpName": "KasperSTelefoon2"
+          "id": "device_tracker.shelly1_34945470bd7d",
+          "friendlyName": "shelly1-34945470BD7D",
+          "cSharpName": "Shelly134945470bd7d"
         },
         {
-          "id": "device_tracker.kasper_s_telefoon_3",
-          "friendlyName": "Kasper\u0027s telefoon",
-          "cSharpName": "KasperSTelefoon3"
+          "id": "device_tracker.shelly1mini_543204b8dce4",
+          "friendlyName": "shelly1mini-543204b8dce4",
+          "cSharpName": "Shelly1mini543204b8dce4"
         },
         {
-          "id": "device_tracker.land_rover_explore_r",
-          "friendlyName": "Land Rover Explore R",
-          "cSharpName": "LandRoverExploreR"
+          "id": "device_tracker.shelly1mini_543204b8f5ec",
+          "friendlyName": "shelly1mini-543204b8f5ec",
+          "cSharpName": "Shelly1mini543204b8f5ec"
+        },
+        {
+          "id": "device_tracker.shelly1mini_543204b8f67c",
+          "friendlyName": "shelly1mini-543204b8f67c",
+          "cSharpName": "Shelly1mini543204b8f67c"
+        },
+        {
+          "id": "device_tracker.shelly1mini_543204b8f7a8",
+          "friendlyName": "shelly1mini-543204b8f7a8",
+          "cSharpName": "Shelly1mini543204b8f7a8"
+        },
+        {
+          "id": "device_tracker.shelly1mini_543204b96788",
+          "friendlyName": "shelly1mini-543204b96788",
+          "cSharpName": "Shelly1mini543204b96788"
+        },
+        {
+          "id": "device_tracker.shelly1mini_543204b9b26c",
+          "friendlyName": "shelly1mini-543204b9b26c",
+          "cSharpName": "Shelly1mini543204b9b26c"
+        },
+        {
+          "id": "device_tracker.shelly1mini_543204b9d78c",
+          "friendlyName": "shelly1mini-543204b9d78c",
+          "cSharpName": "Shelly1mini543204b9d78c"
+        },
+        {
+          "id": "device_tracker.shelly1mini_543204b9eba0",
+          "friendlyName": "shelly1mini-543204b9eba0",
+          "cSharpName": "Shelly1mini543204b9eba0"
+        },
+        {
+          "id": "device_tracker.shelly1mini_543204ba9294",
+          "friendlyName": "shelly1mini-543204ba9294",
+          "cSharpName": "Shelly1mini543204ba9294"
+        },
+        {
+          "id": "device_tracker.shelly1mini_543204ba9ca0",
+          "friendlyName": "shelly1mini-543204ba9ca0",
+          "cSharpName": "Shelly1mini543204ba9ca0"
+        },
+        {
+          "id": "device_tracker.shelly1mini_543204baa850",
+          "friendlyName": "shelly1mini-543204baa850",
+          "cSharpName": "Shelly1mini543204baa850"
+        },
+        {
+          "id": "device_tracker.shelly1mini_543204baae20",
+          "friendlyName": "shelly1mini-543204baae20",
+          "cSharpName": "Shelly1mini543204baae20"
+        },
+        {
+          "id": "device_tracker.shelly1mini_543204bae5ec",
+          "friendlyName": "Stopcontact shelly1mini-543204bae5ec",
+          "cSharpName": "Shelly1mini543204bae5ec"
+        },
+        {
+          "id": "device_tracker.shelly1mini_543204bb90dc",
+          "friendlyName": "shelly1mini-543204bb90dc",
+          "cSharpName": "Shelly1mini543204bb90dc"
+        },
+        {
+          "id": "device_tracker.shelly1mini_543204bc1380",
+          "friendlyName": "shelly1mini-543204bc1380",
+          "cSharpName": "Shelly1mini543204bc1380"
+        },
+        {
+          "id": "device_tracker.shellydimmer2_c8c9a325aa51",
+          "friendlyName": "shellydimmer2-C8C9A325AA51",
+          "cSharpName": "Shellydimmer2C8c9a325aa51"
+        },
+        {
+          "id": "device_tracker.shellyem3_40f52001a247",
+          "friendlyName": "shellyem3-40F52001A247",
+          "cSharpName": "Shellyem340f52001a247"
+        },
+        {
+          "id": "device_tracker.shellyix3_8caab5436ff2",
+          "friendlyName": "Schakelaars bar shellyix3-8CAAB5436FF2",
+          "cSharpName": "Shellyix38caab5436ff2"
+        },
+        {
+          "id": "device_tracker.shellyswitch25_40f52027ae4d",
+          "friendlyName": "shellyswitch25-40F52027AE4D",
+          "cSharpName": "Shellyswitch2540f52027ae4d"
         },
         {
           "id": "device_tracker.sm_a556b",
@@ -1878,9 +1763,14 @@
           "cSharpName": "SmA556b"
         },
         {
-          "id": "device_tracker.xq_cc54",
-          "friendlyName": "XQ-CC54",
-          "cSharpName": "XqCc54"
+          "id": "device_tracker.usw_16_poe",
+          "friendlyName": "USW-16-PoE",
+          "cSharpName": "Usw16Poe"
+        },
+        {
+          "id": "device_tracker.usw_flex_mini",
+          "friendlyName": "USW Flex Mini",
+          "cSharpName": "UswFlexMini"
         }
       ],
       "attributes": [
@@ -1938,6 +1828,71 @@
           "jsonName": "supported_features",
           "cSharpName": "SupportedFeatures",
           "clrType": "System.Double"
+        },
+        {
+          "jsonName": "ip",
+          "cSharpName": "Ip",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "mac",
+          "cSharpName": "Mac",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "host_name",
+          "cSharpName": "HostName",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "_is_guest_by_uap",
+          "cSharpName": "IsGuestByUap",
+          "clrType": "System.Boolean"
+        },
+        {
+          "jsonName": "ap_mac",
+          "cSharpName": "ApMac",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "essid",
+          "cSharpName": "Essid",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "is_11r",
+          "cSharpName": "Is11r",
+          "clrType": "System.Boolean"
+        },
+        {
+          "jsonName": "is_guest",
+          "cSharpName": "IsGuest",
+          "clrType": "System.Boolean"
+        },
+        {
+          "jsonName": "qos_policy_applied",
+          "cSharpName": "QosPolicyApplied",
+          "clrType": "System.Boolean"
+        },
+        {
+          "jsonName": "radio",
+          "cSharpName": "Radio",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "radio_proto",
+          "cSharpName": "RadioProto",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "oui",
+          "cSharpName": "Oui",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "vlan",
+          "cSharpName": "Vlan",
+          "clrType": "System.Double"
         }
       ]
     },
@@ -1946,13 +1901,13 @@
       "entities": [
         {
           "id": "event.backup_automatic_backup",
-          "friendlyName": "Backup Automatic backup",
+          "friendlyName": "Backup Automatische back-up",
           "cSharpName": "BackupAutomaticBackup"
         },
         {
-          "id": "event.garage_lamp_input_0",
-          "friendlyName": "Garage-Lamp input_0",
-          "cSharpName": "GarageLampInput0"
+          "id": "event.shelly1mini_543204b8f67c_input_0",
+          "friendlyName": "Lamp Input 0",
+          "cSharpName": "Shelly1mini543204b8f67cInput0"
         }
       ],
       "attributes": [
@@ -2014,9 +1969,39 @@
       "domain": "image",
       "entities": [
         {
+          "id": "image.voordeur_car",
+          "friendlyName": "Voordeur Car",
+          "cSharpName": "VoordeurCar"
+        },
+        {
+          "id": "image.voordeur_cat",
+          "friendlyName": "Voordeur Cat",
+          "cSharpName": "VoordeurCat"
+        },
+        {
+          "id": "image.voordeur_dog",
+          "friendlyName": "Voordeur Dog",
+          "cSharpName": "VoordeurDog"
+        },
+        {
           "id": "image.voordeur_person",
           "friendlyName": "Voordeur Person",
           "cSharpName": "VoordeurPerson"
+        },
+        {
+          "id": "image.woonkamer_car",
+          "friendlyName": "Woonkamer Car",
+          "cSharpName": "WoonkamerCar"
+        },
+        {
+          "id": "image.woonkamer_cat",
+          "friendlyName": "Woonkamer Cat",
+          "cSharpName": "WoonkamerCat"
+        },
+        {
+          "id": "image.woonkamer_dog",
+          "friendlyName": "Woonkamer Dog",
+          "cSharpName": "WoonkamerDog"
         },
         {
           "id": "image.woonkamer_person",
@@ -2046,84 +2031,9 @@
       "domain": "input_boolean",
       "entities": [
         {
-          "id": "input_boolean.achtertuin_snachts",
-          "friendlyName": "Achtertuin-snachts",
-          "cSharpName": "AchtertuinSnachts"
-        },
-        {
-          "id": "input_boolean.dev_netdaemon_app_model_hello_yaml_app",
-          "friendlyName": "dev_netdaemon_app_model_hello_yaml_app",
-          "cSharpName": "DevNetdaemonAppModelHelloYamlApp"
-        },
-        {
-          "id": "input_boolean.dev_netdaemon_extensions_scheduling_scheduling_app",
-          "friendlyName": "dev_netdaemon_extensions_scheduling_scheduling_app",
-          "cSharpName": "DevNetdaemonExtensionsSchedulingSchedulingApp"
-        },
-        {
-          "id": "input_boolean.dev_netdaemon_hass_model_hello_world_app",
-          "friendlyName": "dev_netdaemon_hass_model_hello_world_app",
-          "cSharpName": "DevNetdaemonHassModelHelloWorldApp"
-        },
-        {
-          "id": "input_boolean.dev_netdaemon_hass_model_light_on_movement",
-          "friendlyName": "dev_netdaemon_hass_model_light_on_movement",
-          "cSharpName": "DevNetdaemonHassModelLightOnMovement"
-        },
-        {
-          "id": "input_boolean.droger_melding_actief",
-          "friendlyName": "Droger melding actief",
-          "cSharpName": "DrogerMeldingActief"
-        },
-        {
-          "id": "input_boolean.kerst_snachts",
-          "friendlyName": "Kerst-snachts",
-          "cSharpName": "KerstSnachts"
-        },
-        {
-          "id": "input_boolean.kiosk_mode",
-          "friendlyName": "kiosk mode",
-          "cSharpName": "KioskMode"
-        },
-        {
-          "id": "input_boolean.lampen_overdag_uit",
-          "friendlyName": "Lampen overdag uit",
-          "cSharpName": "LampenOverdagUit"
-        },
-        {
-          "id": "input_boolean.melding_vaatwasser_actief",
-          "friendlyName": "Vaatwasser melding actief",
-          "cSharpName": "MeldingVaatwasserActief"
-        },
-        {
-          "id": "input_boolean.minimalist_dropdown",
-          "friendlyName": "minimalist dropdown",
-          "cSharpName": "MinimalistDropdown"
-        },
-        {
-          "id": "input_boolean.netdaemon_automations_lampen_lampen",
-          "friendlyName": "netdaemon_automations_lampen_lampen",
-          "cSharpName": "NetdaemonAutomationsLampenLampen"
-        },
-        {
-          "id": "input_boolean.netdaemon_automations_update_checker_hello_world_app",
-          "friendlyName": "netdaemon_automations_update_checker_hello_world_app",
-          "cSharpName": "NetdaemonAutomationsUpdateCheckerHelloWorldApp"
-        },
-        {
-          "id": "input_boolean.netdaemon_automations_zononder_zononder",
-          "friendlyName": "netdaemon_automations_zononder_zononder",
-          "cSharpName": "NetdaemonAutomationsZononderZononder"
-        },
-        {
-          "id": "input_boolean.voortuin_snachts",
-          "friendlyName": "Voortuin-snachts",
-          "cSharpName": "VoortuinSnachts"
-        },
-        {
-          "id": "input_boolean.wasmachine_melding_actief",
-          "friendlyName": "Wasmachine melding actief",
-          "cSharpName": "WasmachineMeldingActief"
+          "id": "input_boolean.dev_netdaemon_hass_model_lights_auto_off_app_app",
+          "friendlyName": "dev_netdaemon_hass_model_lights_auto_off_app_app",
+          "cSharpName": "DevNetdaemonHassModelLightsAutoOffAppApp"
         }
       ],
       "attributes": [
@@ -2258,34 +2168,9 @@
       "domain": "person",
       "entities": [
         {
-          "id": "person.christe_brok_stravers",
-          "friendlyName": "Christe Brok-Stravers",
-          "cSharpName": "ChristeBrokStravers"
-        },
-        {
-          "id": "person.jeroen_brok",
-          "friendlyName": "Jeroen Brok",
-          "cSharpName": "JeroenBrok"
-        },
-        {
           "id": "person.kasper_brok",
           "friendlyName": "Kasper Brok",
           "cSharpName": "KasperBrok"
-        },
-        {
-          "id": "person.mqtt",
-          "friendlyName": "mqtt",
-          "cSharpName": "Mqtt"
-        },
-        {
-          "id": "person.sjoerd_brok",
-          "friendlyName": "Sjoerd Brok",
-          "cSharpName": "SjoerdBrok"
-        },
-        {
-          "id": "person.wouter_brok",
-          "friendlyName": "Wouter Brok",
-          "cSharpName": "WouterBrok"
         }
       ],
       "attributes": [
@@ -2409,133 +2294,68 @@
       "domain": "sensor",
       "entities": [
         {
-          "id": "sensor.afvalwijzer_day_after_tomorrow_2",
-          "friendlyName": "afvalwijzer day_after_tomorrow",
-          "cSharpName": "AfvalwijzerDayAfterTomorrow2"
+          "id": "sensor.ac_pro_garage_state",
+          "friendlyName": "AC Pro - Garage State",
+          "cSharpName": "AcProGarageState"
         },
         {
-          "id": "sensor.afvalwijzer_gft_2",
-          "friendlyName": "afvalwijzer gft",
-          "cSharpName": "AfvalwijzerGft2"
+          "id": "sensor.ac_pro_garage_uplink_mac",
+          "friendlyName": "AC Pro - Garage Uplink MAC",
+          "cSharpName": "AcProGarageUplinkMac"
         },
         {
-          "id": "sensor.afvalwijzer_next_date_2",
-          "friendlyName": "afvalwijzer next_date",
-          "cSharpName": "AfvalwijzerNextDate2"
+          "id": "sensor.ac_pro_garage_uptime",
+          "friendlyName": "AC Pro - Garage Uptime",
+          "cSharpName": "AcProGarageUptime"
         },
         {
-          "id": "sensor.afvalwijzer_next_in_days_2",
-          "friendlyName": "afvalwijzer next_in_days",
-          "cSharpName": "AfvalwijzerNextInDays2"
+          "id": "sensor.ac_pro_woonkamer_state",
+          "friendlyName": "AC Pro - Woonkamer State",
+          "cSharpName": "AcProWoonkamerState"
         },
         {
-          "id": "sensor.afvalwijzer_next_type_2",
-          "friendlyName": "afvalwijzer next_type",
-          "cSharpName": "AfvalwijzerNextType2"
+          "id": "sensor.ac_pro_woonkamer_uplink_mac",
+          "friendlyName": "AC Pro - Woonkamer Uplink MAC",
+          "cSharpName": "AcProWoonkamerUplinkMac"
         },
         {
-          "id": "sensor.afvalwijzer_papier_2",
-          "friendlyName": "afvalwijzer papier",
-          "cSharpName": "AfvalwijzerPapier2"
+          "id": "sensor.ac_pro_woonkamer_uptime",
+          "friendlyName": "AC Pro - Woonkamer Uptime",
+          "cSharpName": "AcProWoonkamerUptime"
         },
         {
-          "id": "sensor.afvalwijzer_pmd_2",
-          "friendlyName": "afvalwijzer pmd",
-          "cSharpName": "AfvalwijzerPmd2"
+          "id": "sensor.ap_zolder_state",
+          "friendlyName": "AP-zolder State",
+          "cSharpName": "ApZolderState"
         },
         {
-          "id": "sensor.afvalwijzer_today_2",
-          "friendlyName": "afvalwijzer today",
-          "cSharpName": "AfvalwijzerToday2"
+          "id": "sensor.ap_zolder_uplink_mac",
+          "friendlyName": "AP-zolder Uplink MAC",
+          "cSharpName": "ApZolderUplinkMac"
         },
         {
-          "id": "sensor.afvalwijzer_tomorrow_2",
-          "friendlyName": "afvalwijzer tomorrow",
-          "cSharpName": "AfvalwijzerTomorrow2"
-        },
-        {
-          "id": "sensor.anycubic_kobra_s1_combo_current_display_message",
-          "friendlyName": "Current Display Message",
-          "cSharpName": "AnycubicKobraS1ComboCurrentDisplayMessage"
-        },
-        {
-          "id": "sensor.anycubic_kobra_s1_combo_current_layer",
-          "friendlyName": "Current Layer",
-          "cSharpName": "AnycubicKobraS1ComboCurrentLayer"
-        },
-        {
-          "id": "sensor.anycubic_kobra_s1_combo_current_print_message",
-          "friendlyName": "Current Print Message",
-          "cSharpName": "AnycubicKobraS1ComboCurrentPrintMessage"
-        },
-        {
-          "id": "sensor.anycubic_kobra_s1_combo_current_print_state",
-          "friendlyName": "Current Print State",
-          "cSharpName": "AnycubicKobraS1ComboCurrentPrintState"
-        },
-        {
-          "id": "sensor.anycubic_kobra_s1_combo_filename",
-          "friendlyName": "Filename",
-          "cSharpName": "AnycubicKobraS1ComboFilename"
-        },
-        {
-          "id": "sensor.anycubic_kobra_s1_combo_longest_print",
-          "friendlyName": "Longest Print",
-          "cSharpName": "AnycubicKobraS1ComboLongestPrint"
-        },
-        {
-          "id": "sensor.anycubic_kobra_s1_combo_print_eta",
-          "friendlyName": "Print ETA",
-          "cSharpName": "AnycubicKobraS1ComboPrintEta"
-        },
-        {
-          "id": "sensor.anycubic_kobra_s1_combo_printer_message",
-          "friendlyName": "Printer Message",
-          "cSharpName": "AnycubicKobraS1ComboPrinterMessage"
-        },
-        {
-          "id": "sensor.anycubic_kobra_s1_combo_printer_state",
-          "friendlyName": "Printer State",
-          "cSharpName": "AnycubicKobraS1ComboPrinterState"
-        },
-        {
-          "id": "sensor.anycubic_kobra_s1_combo_queue_state",
-          "friendlyName": "Queue State",
-          "cSharpName": "AnycubicKobraS1ComboQueueState"
-        },
-        {
-          "id": "sensor.anycubic_kobra_s1_combo_system_load",
-          "friendlyName": "System Load",
-          "cSharpName": "AnycubicKobraS1ComboSystemLoad"
-        },
-        {
-          "id": "sensor.anycubic_kobra_s1_combo_total_layer",
-          "friendlyName": "Total Layer",
-          "cSharpName": "AnycubicKobraS1ComboTotalLayer"
-        },
-        {
-          "id": "sensor.anycubic_kobra_s1_combo_totals_print_time",
-          "friendlyName": "Totals Print Time",
-          "cSharpName": "AnycubicKobraS1ComboTotalsPrintTime"
+          "id": "sensor.ap_zolder_uptime",
+          "friendlyName": "AP-zolder Uptime",
+          "cSharpName": "ApZolderUptime"
         },
         {
           "id": "sensor.backup_backup_manager_state",
-          "friendlyName": "Backup Backup Manager state",
+          "friendlyName": "Backup Status Back-up Manager",
           "cSharpName": "BackupBackupManagerState"
         },
         {
           "id": "sensor.backup_last_attempted_automatic_backup",
-          "friendlyName": "Backup Last attempted automatic backup",
+          "friendlyName": "Backup Recentste gepoogde automatische back-up",
           "cSharpName": "BackupLastAttemptedAutomaticBackup"
         },
         {
           "id": "sensor.backup_last_successful_automatic_backup",
-          "friendlyName": "Backup Last successful automatic backup",
+          "friendlyName": "Backup Laatste succesvolle automatische back-up",
           "cSharpName": "BackupLastSuccessfulAutomaticBackup"
         },
         {
           "id": "sensor.backup_next_scheduled_automatic_backup",
-          "friendlyName": "Backup Next scheduled automatic backup",
+          "friendlyName": "Backup Volgende geplande automatische back-up",
           "cSharpName": "BackupNextScheduledAutomaticBackup"
         },
         {
@@ -2544,249 +2364,24 @@
           "cSharpName": "BadkamerTadoMode"
         },
         {
-          "id": "sensor.co2_detector_batterijstatus",
-          "friendlyName": "CO2_DETECTOR  Batterijstatus",
-          "cSharpName": "Co2DetectorBatterijstatus"
+          "id": "sensor.fambrok",
+          "friendlyName": "FamBrok",
+          "cSharpName": "Fambrok"
         },
         {
-          "id": "sensor.energie_meter_channel_a_power_factor",
-          "friendlyName": "Energie-Meter channel A power factor",
-          "cSharpName": "EnergieMeterChannelAPowerFactor"
+          "id": "sensor.fambrok_iot",
+          "friendlyName": "fambrok-iot",
+          "cSharpName": "FambrokIot"
         },
         {
-          "id": "sensor.energie_meter_channel_b_power_factor",
-          "friendlyName": "Energie-Meter channel B power factor",
-          "cSharpName": "EnergieMeterChannelBPowerFactor"
+          "id": "sensor.fambrok_state",
+          "friendlyName": "FamBrok State",
+          "cSharpName": "FambrokState"
         },
         {
-          "id": "sensor.energie_meter_channel_c_power_factor",
-          "friendlyName": "Energie-Meter channel C power factor",
-          "cSharpName": "EnergieMeterChannelCPowerFactor"
-        },
-        {
-          "id": "sensor.energyzero_today_energy_highest_price_time",
-          "friendlyName": "Energy market price Time of highest price - today",
-          "cSharpName": "EnergyzeroTodayEnergyHighestPriceTime"
-        },
-        {
-          "id": "sensor.energyzero_today_energy_lowest_price_time",
-          "friendlyName": "Energy market price Time of lowest price - today",
-          "cSharpName": "EnergyzeroTodayEnergyLowestPriceTime"
-        },
-        {
-          "id": "sensor.envoy_122234050736_firmware_version",
-          "friendlyName": "Envoy 122234050736 Firmware Version",
-          "cSharpName": "Envoy122234050736FirmwareVersion"
-        },
-        {
-          "id": "sensor.familie_brok_s_onedrive_schijfstatus",
-          "friendlyName": "Schijfstatus",
-          "cSharpName": "FamilieBrokSOnedriveSchijfstatus"
-        },
-        {
-          "id": "sensor.home_assistant_versions",
-          "friendlyName": "Home Assistant Versions",
-          "cSharpName": "HomeAssistantVersions"
-        },
-        {
-          "id": "sensor.inverter_482231095526_firmware_version",
-          "friendlyName": "Inverter 482231095526 Firmware Version",
-          "cSharpName": "Inverter482231095526FirmwareVersion"
-        },
-        {
-          "id": "sensor.inverter_482231095526_firmware_version_2",
-          "friendlyName": "Inverter 482231095526 Firmware Version",
-          "cSharpName": "Inverter482231095526FirmwareVersion2"
-        },
-        {
-          "id": "sensor.inverter_482231095526_last_reading",
-          "friendlyName": "Inverter 482231095526 Last Reading",
-          "cSharpName": "Inverter482231095526LastReading"
-        },
-        {
-          "id": "sensor.inverter_482231095526_power_conversion_error_cycles",
-          "friendlyName": "Inverter 482231095526 Power Conversion Error Cycles",
-          "cSharpName": "Inverter482231095526PowerConversionErrorCycles"
-        },
-        {
-          "id": "sensor.inverter_482231098740_firmware_version",
-          "friendlyName": "Inverter 482231098740 Firmware Version",
-          "cSharpName": "Inverter482231098740FirmwareVersion"
-        },
-        {
-          "id": "sensor.inverter_482231098740_firmware_version_2",
-          "friendlyName": "Inverter 482231098740 Firmware Version",
-          "cSharpName": "Inverter482231098740FirmwareVersion2"
-        },
-        {
-          "id": "sensor.inverter_482231098740_last_reading",
-          "friendlyName": "Inverter 482231098740 Last Reading",
-          "cSharpName": "Inverter482231098740LastReading"
-        },
-        {
-          "id": "sensor.inverter_482231098740_power_conversion_error_cycles",
-          "friendlyName": "Inverter 482231098740 Power Conversion Error Cycles",
-          "cSharpName": "Inverter482231098740PowerConversionErrorCycles"
-        },
-        {
-          "id": "sensor.inverter_482231099070_firmware_version",
-          "friendlyName": "Inverter 482231099070 Firmware Version",
-          "cSharpName": "Inverter482231099070FirmwareVersion"
-        },
-        {
-          "id": "sensor.inverter_482231099070_firmware_version_2",
-          "friendlyName": "Inverter 482231099070 Firmware Version",
-          "cSharpName": "Inverter482231099070FirmwareVersion2"
-        },
-        {
-          "id": "sensor.inverter_482231099070_last_reading",
-          "friendlyName": "Inverter 482231099070 Last Reading",
-          "cSharpName": "Inverter482231099070LastReading"
-        },
-        {
-          "id": "sensor.inverter_482231099070_power_conversion_error_cycles",
-          "friendlyName": "Inverter 482231099070 Power Conversion Error Cycles",
-          "cSharpName": "Inverter482231099070PowerConversionErrorCycles"
-        },
-        {
-          "id": "sensor.inverter_482231099073_firmware_version",
-          "friendlyName": "Inverter 482231099073 Firmware Version",
-          "cSharpName": "Inverter482231099073FirmwareVersion"
-        },
-        {
-          "id": "sensor.inverter_482231099073_firmware_version_2",
-          "friendlyName": "Inverter 482231099073 Firmware Version",
-          "cSharpName": "Inverter482231099073FirmwareVersion2"
-        },
-        {
-          "id": "sensor.inverter_482231099073_last_reading",
-          "friendlyName": "Inverter 482231099073 Last Reading",
-          "cSharpName": "Inverter482231099073LastReading"
-        },
-        {
-          "id": "sensor.inverter_482231099073_power_conversion_error_cycles",
-          "friendlyName": "Inverter 482231099073 Power Conversion Error Cycles",
-          "cSharpName": "Inverter482231099073PowerConversionErrorCycles"
-        },
-        {
-          "id": "sensor.inverter_482231099074_firmware_version",
-          "friendlyName": "Inverter 482231099074 Firmware Version",
-          "cSharpName": "Inverter482231099074FirmwareVersion"
-        },
-        {
-          "id": "sensor.inverter_482231099074_firmware_version_2",
-          "friendlyName": "Inverter 482231099074 Firmware Version",
-          "cSharpName": "Inverter482231099074FirmwareVersion2"
-        },
-        {
-          "id": "sensor.inverter_482231099074_last_reading",
-          "friendlyName": "Inverter 482231099074 Last Reading",
-          "cSharpName": "Inverter482231099074LastReading"
-        },
-        {
-          "id": "sensor.inverter_482231099074_power_conversion_error_cycles",
-          "friendlyName": "Inverter 482231099074 Power Conversion Error Cycles",
-          "cSharpName": "Inverter482231099074PowerConversionErrorCycles"
-        },
-        {
-          "id": "sensor.inverter_482231099077_firmware_version",
-          "friendlyName": "Inverter 482231099077 Firmware Version",
-          "cSharpName": "Inverter482231099077FirmwareVersion"
-        },
-        {
-          "id": "sensor.inverter_482231099077_firmware_version_2",
-          "friendlyName": "Inverter 482231099077 Firmware Version",
-          "cSharpName": "Inverter482231099077FirmwareVersion2"
-        },
-        {
-          "id": "sensor.inverter_482231099077_last_reading",
-          "friendlyName": "Inverter 482231099077 Last Reading",
-          "cSharpName": "Inverter482231099077LastReading"
-        },
-        {
-          "id": "sensor.inverter_482231099077_power_conversion_error_cycles",
-          "friendlyName": "Inverter 482231099077 Power Conversion Error Cycles",
-          "cSharpName": "Inverter482231099077PowerConversionErrorCycles"
-        },
-        {
-          "id": "sensor.inverter_482231099157_firmware_version",
-          "friendlyName": "Inverter 482231099157 Firmware Version",
-          "cSharpName": "Inverter482231099157FirmwareVersion"
-        },
-        {
-          "id": "sensor.inverter_482231099157_firmware_version_2",
-          "friendlyName": "Inverter 482231099157 Firmware Version",
-          "cSharpName": "Inverter482231099157FirmwareVersion2"
-        },
-        {
-          "id": "sensor.inverter_482231099157_last_reading",
-          "friendlyName": "Inverter 482231099157 Last Reading",
-          "cSharpName": "Inverter482231099157LastReading"
-        },
-        {
-          "id": "sensor.inverter_482231099157_power_conversion_error_cycles",
-          "friendlyName": "Inverter 482231099157 Power Conversion Error Cycles",
-          "cSharpName": "Inverter482231099157PowerConversionErrorCycles"
-        },
-        {
-          "id": "sensor.inverter_482231099164_firmware_version",
-          "friendlyName": "Inverter 482231099164 Firmware Version",
-          "cSharpName": "Inverter482231099164FirmwareVersion"
-        },
-        {
-          "id": "sensor.inverter_482231099164_firmware_version_2",
-          "friendlyName": "Inverter 482231099164 Firmware Version",
-          "cSharpName": "Inverter482231099164FirmwareVersion2"
-        },
-        {
-          "id": "sensor.inverter_482231099164_last_reading",
-          "friendlyName": "Inverter 482231099164 Last Reading",
-          "cSharpName": "Inverter482231099164LastReading"
-        },
-        {
-          "id": "sensor.inverter_482231099164_power_conversion_error_cycles",
-          "friendlyName": "Inverter 482231099164 Power Conversion Error Cycles",
-          "cSharpName": "Inverter482231099164PowerConversionErrorCycles"
-        },
-        {
-          "id": "sensor.inverter_482245045431_firmware_version",
-          "friendlyName": "Inverter 482245045431 Firmware Version",
-          "cSharpName": "Inverter482245045431FirmwareVersion"
-        },
-        {
-          "id": "sensor.inverter_482245045431_firmware_version_2",
-          "friendlyName": "Inverter 482245045431 Firmware Version",
-          "cSharpName": "Inverter482245045431FirmwareVersion2"
-        },
-        {
-          "id": "sensor.inverter_482245045431_last_reading",
-          "friendlyName": "Inverter 482245045431 Last Reading",
-          "cSharpName": "Inverter482245045431LastReading"
-        },
-        {
-          "id": "sensor.inverter_482245045431_power_conversion_error_cycles",
-          "friendlyName": "Inverter 482245045431 Power Conversion Error Cycles",
-          "cSharpName": "Inverter482245045431PowerConversionErrorCycles"
-        },
-        {
-          "id": "sensor.inverter_482245046121_firmware_version",
-          "friendlyName": "Inverter 482245046121 Firmware Version",
-          "cSharpName": "Inverter482245046121FirmwareVersion"
-        },
-        {
-          "id": "sensor.inverter_482245046121_firmware_version_2",
-          "friendlyName": "Inverter 482245046121 Firmware Version",
-          "cSharpName": "Inverter482245046121FirmwareVersion2"
-        },
-        {
-          "id": "sensor.inverter_482245046121_last_reading",
-          "friendlyName": "Inverter 482245046121 Last Reading",
-          "cSharpName": "Inverter482245046121LastReading"
-        },
-        {
-          "id": "sensor.inverter_482245046121_power_conversion_error_cycles",
-          "friendlyName": "Inverter 482245046121 Power Conversion Error Cycles",
-          "cSharpName": "Inverter482245046121PowerConversionErrorCycles"
+          "id": "sensor.fambrok_uptime",
+          "friendlyName": "FamBrok Uptime",
+          "cSharpName": "FambrokUptime"
         },
         {
           "id": "sensor.kasper_christel_automatisch_geo_fencing",
@@ -2809,119 +2404,19 @@
           "cSharpName": "KasperChristelWeersomstandigheden"
         },
         {
-          "id": "sensor.land_rover_explore_r_battery_state",
-          "friendlyName": "Land Rover Explore R Battery state",
-          "cSharpName": "LandRoverExploreRBatteryState"
+          "id": "sensor.shellyem3_40f52001a247_phase_a_power_factor",
+          "friendlyName": "shellyem3-40F52001A247 Phase A Power factor",
+          "cSharpName": "Shellyem340f52001a247PhaseAPowerFactor"
         },
         {
-          "id": "sensor.land_rover_explore_r_charger_type",
-          "friendlyName": "Land Rover Explore R Charger type",
-          "cSharpName": "LandRoverExploreRChargerType"
+          "id": "sensor.shellyem3_40f52001a247_phase_b_power_factor",
+          "friendlyName": "Wasmachine Power factor",
+          "cSharpName": "Shellyem340f52001a247PhaseBPowerFactor"
         },
         {
-          "id": "sensor.onedrive_schijfstatus",
-          "friendlyName": "OneDrive Schijfstatus",
-          "cSharpName": "OnedriveSchijfstatus"
-        },
-        {
-          "id": "sensor.p1_meter_aantal_lange_stroomuitvallen",
-          "friendlyName": "P1-meter Aantal lange stroomuitvallen",
-          "cSharpName": "P1MeterAantalLangeStroomuitvallen"
-        },
-        {
-          "id": "sensor.p1_meter_actief_tarief",
-          "friendlyName": "P1-meter Actief tarief",
-          "cSharpName": "P1MeterActiefTarief"
-        },
-        {
-          "id": "sensor.p1_meter_dsmr_foutmeldingen",
-          "friendlyName": "P1-meter dsmr foutmeldingen",
-          "cSharpName": "P1MeterDsmrFoutmeldingen"
-        },
-        {
-          "id": "sensor.p1_meter_dsmr_identificatie",
-          "friendlyName": "P1-meter dsmr Identificatie",
-          "cSharpName": "P1MeterDsmrIdentificatie"
-        },
-        {
-          "id": "sensor.p1_meter_gas_meter_identificatie",
-          "friendlyName": "P1-meter Gas meter identificatie",
-          "cSharpName": "P1MeterGasMeterIdentificatie"
-        },
-        {
-          "id": "sensor.p1_meter_kort_bericht",
-          "friendlyName": "P1-meter kort bericht",
-          "cSharpName": "P1MeterKortBericht"
-        },
-        {
-          "id": "sensor.p1_meter_lang_bericht",
-          "friendlyName": "P1-meter lang bericht",
-          "cSharpName": "P1MeterLangBericht"
-        },
-        {
-          "id": "sensor.p1_meter_p1_versie",
-          "friendlyName": "P1-meter p1 Versie",
-          "cSharpName": "P1MeterP1Versie"
-        },
-        {
-          "id": "sensor.p1_meter_spanningsdip_aantal_fase_l1",
-          "friendlyName": "P1-meter Spanningsdip aantal Fase L1",
-          "cSharpName": "P1MeterSpanningsdipAantalFaseL1"
-        },
-        {
-          "id": "sensor.p1_meter_spanningsdip_aantal_fase_l2",
-          "friendlyName": "P1-meter Spanningsdip aantal Fase L2",
-          "cSharpName": "P1MeterSpanningsdipAantalFaseL2"
-        },
-        {
-          "id": "sensor.p1_meter_spanningsdip_aantal_fase_l3",
-          "friendlyName": "P1-meter Spanningsdip aantal Fase L3",
-          "cSharpName": "P1MeterSpanningsdipAantalFaseL3"
-        },
-        {
-          "id": "sensor.p1_meter_spanningspiek_aantal_fase_1",
-          "friendlyName": "P1-meter Spanningspiek aantal Fase 1",
-          "cSharpName": "P1MeterSpanningspiekAantalFase1"
-        },
-        {
-          "id": "sensor.p1_meter_spanningspiek_aantal_fase_2",
-          "friendlyName": "P1-meter Spanningspiek aantal Fase 2",
-          "cSharpName": "P1MeterSpanningspiekAantalFase2"
-        },
-        {
-          "id": "sensor.p1_meter_spanningspiek_aantal_fase_3",
-          "friendlyName": "P1-meter Spanningspiek aantal Fase 3",
-          "cSharpName": "P1MeterSpanningspiekAantalFase3"
-        },
-        {
-          "id": "sensor.p1_meter_telling_korte_stroomuitvallen",
-          "friendlyName": "P1-meter Telling korte stroomuitvallen",
-          "cSharpName": "P1MeterTellingKorteStroomuitvallen"
-        },
-        {
-          "id": "sensor.p1_meter_tijdstip",
-          "friendlyName": "P1-meter Tijdstip",
-          "cSharpName": "P1MeterTijdstip"
-        },
-        {
-          "id": "sensor.relay_122230039629_firmware_version",
-          "friendlyName": "Relay 122230039629 Firmware Version",
-          "cSharpName": "Relay122230039629FirmwareVersion"
-        },
-        {
-          "id": "sensor.relay_122230039629_firmware_version_2",
-          "friendlyName": "Relay 122230039629 Firmware Version",
-          "cSharpName": "Relay122230039629FirmwareVersion2"
-        },
-        {
-          "id": "sensor.relay_122230039629_last_reading",
-          "friendlyName": "Relay 122230039629 Last Reading",
-          "cSharpName": "Relay122230039629LastReading"
-        },
-        {
-          "id": "sensor.relay_122230039629_state_change_count",
-          "friendlyName": "Relay 122230039629 State Change Count",
-          "cSharpName": "Relay122230039629StateChangeCount"
+          "id": "sensor.shellyem3_40f52001a247_phase_c_power_factor",
+          "friendlyName": "shellyem3-40F52001A247 Phase C Power factor",
+          "cSharpName": "Shellyem340f52001a247PhaseCPowerFactor"
         },
         {
           "id": "sensor.slaapkamer_kasper_christel_tado_mode",
@@ -2930,13 +2425,13 @@
         },
         {
           "id": "sensor.slaapkamer_sjoerd_tado_mode",
-          "friendlyName": "Slaapkamer Sjoerd Tado mode",
+          "friendlyName": "Droog kamer Tado mode",
           "cSharpName": "SlaapkamerSjoerdTadoMode"
         },
         {
-          "id": "sensor.slaapkamer_wouter_jeroen_tado_mode",
-          "friendlyName": "Slaapkamer Wouter Tado mode",
-          "cSharpName": "SlaapkamerWouterJeroenTadoMode"
+          "id": "sensor.slaapkamer_wouter_tado_mode",
+          "friendlyName": "Slaapkamer Sjoerd Tado mode",
+          "cSharpName": "SlaapkamerWouterTadoMode"
         },
         {
           "id": "sensor.sm_a556b_battery_state",
@@ -2947,36 +2442,6 @@
           "id": "sensor.sm_a556b_charger_type",
           "friendlyName": "SM-A556B Charger type",
           "cSharpName": "SmA556bChargerType"
-        },
-        {
-          "id": "sensor.smart_series_8000_1041_mode",
-          "friendlyName": "Smart Series 8000 1041 Mode",
-          "cSharpName": "SmartSeries80001041Mode"
-        },
-        {
-          "id": "sensor.smart_series_8000_1041_number_of_sectors",
-          "friendlyName": "Smart Series 8000 1041 Number of sectors",
-          "cSharpName": "SmartSeries80001041NumberOfSectors"
-        },
-        {
-          "id": "sensor.smart_series_8000_1041_pressure",
-          "friendlyName": "Smart Series 8000 1041 Pressure",
-          "cSharpName": "SmartSeries80001041Pressure"
-        },
-        {
-          "id": "sensor.smart_series_8000_1041_sector",
-          "friendlyName": "Smart Series 8000 1041 Sector",
-          "cSharpName": "SmartSeries80001041Sector"
-        },
-        {
-          "id": "sensor.smart_series_8000_1041_toothbrush_state",
-          "friendlyName": "Smart Series 8000 1041 Toothbrush State",
-          "cSharpName": "SmartSeries80001041ToothbrushState"
-        },
-        {
-          "id": "sensor.staat",
-          "friendlyName": "Staat",
-          "cSharpName": "Staat"
         },
         {
           "id": "sensor.sun_next_dawn",
@@ -3009,6 +2474,36 @@
           "cSharpName": "SunNextSetting"
         },
         {
+          "id": "sensor.usw_16_poe_state",
+          "friendlyName": "USW-16-PoE State",
+          "cSharpName": "Usw16PoeState"
+        },
+        {
+          "id": "sensor.usw_16_poe_uplink_mac",
+          "friendlyName": "USW-16-PoE Uplink MAC",
+          "cSharpName": "Usw16PoeUplinkMac"
+        },
+        {
+          "id": "sensor.usw_16_poe_uptime",
+          "friendlyName": "USW-16-PoE Uptime",
+          "cSharpName": "Usw16PoeUptime"
+        },
+        {
+          "id": "sensor.usw_flex_mini_state",
+          "friendlyName": "USW Flex Mini State",
+          "cSharpName": "UswFlexMiniState"
+        },
+        {
+          "id": "sensor.usw_flex_mini_uplink_mac",
+          "friendlyName": "USW Flex Mini Uplink MAC",
+          "cSharpName": "UswFlexMiniUplinkMac"
+        },
+        {
+          "id": "sensor.usw_flex_mini_uptime",
+          "friendlyName": "USW Flex Mini Uptime",
+          "cSharpName": "UswFlexMiniUptime"
+        },
+        {
           "id": "sensor.voorhal_tado_mode",
           "friendlyName": "Voorhal Tado mode",
           "cSharpName": "VoorhalTadoMode"
@@ -3024,18 +2519,8 @@
           "cSharpName": "WoonkamerTadoMode"
         },
         {
-          "id": "sensor.xq_cc54_battery_state",
-          "friendlyName": "XQ-CC54 Battery state",
-          "cSharpName": "XqCc54BatteryState"
-        },
-        {
-          "id": "sensor.xq_cc54_charger_type",
-          "friendlyName": "XQ-CC54 Charger type",
-          "cSharpName": "XqCc54ChargerType"
-        },
-        {
           "id": "sensor.zolder_achterkant_tado_mode",
-          "friendlyName": "Zolder achterkant Tado mode",
+          "friendlyName": "Slaapkamer Jeroen Tado mode",
           "cSharpName": "ZolderAchterkantTadoMode"
         }
       ],
@@ -3187,129 +2672,24 @@
       "isNumeric": true,
       "entities": [
         {
-          "id": "sensor.anycubic_kobra_s1_combo_air_filter_fan",
-          "friendlyName": "Air Filter Fan",
-          "cSharpName": "AnycubicKobraS1ComboAirFilterFan"
+          "id": "sensor.ac_pro_woonkamer_cpu_utilization",
+          "friendlyName": "AC Pro - Woonkamer CPU utilization",
+          "cSharpName": "AcProWoonkamerCpuUtilization"
         },
         {
-          "id": "sensor.anycubic_kobra_s1_combo_bed_power",
-          "friendlyName": "Bed Power",
-          "cSharpName": "AnycubicKobraS1ComboBedPower"
+          "id": "sensor.ac_pro_woonkamer_memory_utilization",
+          "friendlyName": "AC Pro - Woonkamer Memory utilization",
+          "cSharpName": "AcProWoonkamerMemoryUtilization"
         },
         {
-          "id": "sensor.anycubic_kobra_s1_combo_bed_temperature",
-          "friendlyName": "Bed Temperature",
-          "cSharpName": "AnycubicKobraS1ComboBedTemperature"
+          "id": "sensor.ap_zolder_cpu_utilization",
+          "friendlyName": "AP-zolder CPU utilization",
+          "cSharpName": "ApZolderCpuUtilization"
         },
         {
-          "id": "sensor.anycubic_kobra_s1_combo_box_fan",
-          "friendlyName": "Box Fan",
-          "cSharpName": "AnycubicKobraS1ComboBoxFan"
-        },
-        {
-          "id": "sensor.anycubic_kobra_s1_combo_extruder_power",
-          "friendlyName": "Extruder Power",
-          "cSharpName": "AnycubicKobraS1ComboExtruderPower"
-        },
-        {
-          "id": "sensor.anycubic_kobra_s1_combo_extruder_temperature",
-          "friendlyName": "Extruder Temperature",
-          "cSharpName": "AnycubicKobraS1ComboExtruderTemperature"
-        },
-        {
-          "id": "sensor.anycubic_kobra_s1_combo_filament_used",
-          "friendlyName": "Filament Used",
-          "cSharpName": "AnycubicKobraS1ComboFilamentUsed"
-        },
-        {
-          "id": "sensor.anycubic_kobra_s1_combo_jobs_in_queue",
-          "friendlyName": "Jobs in queue",
-          "cSharpName": "AnycubicKobraS1ComboJobsInQueue"
-        },
-        {
-          "id": "sensor.anycubic_kobra_s1_combo_mcu_awake",
-          "friendlyName": "Mcu Awake",
-          "cSharpName": "AnycubicKobraS1ComboMcuAwake"
-        },
-        {
-          "id": "sensor.anycubic_kobra_s1_combo_mcu_load",
-          "friendlyName": "Mcu Load",
-          "cSharpName": "AnycubicKobraS1ComboMcuLoad"
-        },
-        {
-          "id": "sensor.anycubic_kobra_s1_combo_mcu_nozzle_mcu_awake",
-          "friendlyName": "Mcu Nozzle Mcu Awake",
-          "cSharpName": "AnycubicKobraS1ComboMcuNozzleMcuAwake"
-        },
-        {
-          "id": "sensor.anycubic_kobra_s1_combo_mcu_nozzle_mcu_load",
-          "friendlyName": "Mcu Nozzle Mcu Load",
-          "cSharpName": "AnycubicKobraS1ComboMcuNozzleMcuLoad"
-        },
-        {
-          "id": "sensor.anycubic_kobra_s1_combo_memory_used",
-          "friendlyName": "Memory Used",
-          "cSharpName": "AnycubicKobraS1ComboMemoryUsed"
-        },
-        {
-          "id": "sensor.anycubic_kobra_s1_combo_object_height",
-          "friendlyName": "Object Height",
-          "cSharpName": "AnycubicKobraS1ComboObjectHeight"
-        },
-        {
-          "id": "sensor.anycubic_kobra_s1_combo_print_duration",
-          "friendlyName": "Print Duration",
-          "cSharpName": "AnycubicKobraS1ComboPrintDuration"
-        },
-        {
-          "id": "sensor.anycubic_kobra_s1_combo_print_projected_total_duration",
-          "friendlyName": "Print Projected Total Duration",
-          "cSharpName": "AnycubicKobraS1ComboPrintProjectedTotalDuration"
-        },
-        {
-          "id": "sensor.anycubic_kobra_s1_combo_print_time_left",
-          "friendlyName": "Print Time Left",
-          "cSharpName": "AnycubicKobraS1ComboPrintTimeLeft"
-        },
-        {
-          "id": "sensor.anycubic_kobra_s1_combo_progress",
-          "friendlyName": "Progress",
-          "cSharpName": "AnycubicKobraS1ComboProgress"
-        },
-        {
-          "id": "sensor.anycubic_kobra_s1_combo_slicer_print_duration_estimate",
-          "friendlyName": "Slicer Print Duration Estimate",
-          "cSharpName": "AnycubicKobraS1ComboSlicerPrintDurationEstimate"
-        },
-        {
-          "id": "sensor.anycubic_kobra_s1_combo_slicer_print_time_left_estimate",
-          "friendlyName": "Slicer Print Time Left Estimate",
-          "cSharpName": "AnycubicKobraS1ComboSlicerPrintTimeLeftEstimate"
-        },
-        {
-          "id": "sensor.anycubic_kobra_s1_combo_toolhead_position_x",
-          "friendlyName": "Toolhead position X",
-          "cSharpName": "AnycubicKobraS1ComboToolheadPositionX"
-        },
-        {
-          "id": "sensor.anycubic_kobra_s1_combo_toolhead_position_y",
-          "friendlyName": "Toolhead position Y",
-          "cSharpName": "AnycubicKobraS1ComboToolheadPositionY"
-        },
-        {
-          "id": "sensor.anycubic_kobra_s1_combo_toolhead_position_z",
-          "friendlyName": "Toolhead position Z",
-          "cSharpName": "AnycubicKobraS1ComboToolheadPositionZ"
-        },
-        {
-          "id": "sensor.anycubic_kobra_s1_combo_totals_filament_used",
-          "friendlyName": "Totals Filament Used",
-          "cSharpName": "AnycubicKobraS1ComboTotalsFilamentUsed"
-        },
-        {
-          "id": "sensor.anycubic_kobra_s1_combo_totals_jobs",
-          "friendlyName": "Totals jobs",
-          "cSharpName": "AnycubicKobraS1ComboTotalsJobs"
+          "id": "sensor.ap_zolder_memory_utilization",
+          "friendlyName": "AP-zolder Memory utilization",
+          "cSharpName": "ApZolderMemoryUtilization"
         },
         {
           "id": "sensor.badkamer_luchtvochtigheid",
@@ -3327,999 +2707,14 @@
           "cSharpName": "BadkamerVerwarmen"
         },
         {
-          "id": "sensor.co2_detector_batterij",
-          "friendlyName": "CO2_DETECTOR  Batterij",
-          "cSharpName": "Co2DetectorBatterij"
+          "id": "sensor.fambrok_cpu_utilization",
+          "friendlyName": "FamBrok CPU utilization",
+          "cSharpName": "FambrokCpuUtilization"
         },
         {
-          "id": "sensor.co2_detector_kooldioxide",
-          "friendlyName": "CO2_DETECTOR  Kooldioxide",
-          "cSharpName": "Co2DetectorKooldioxide"
-        },
-        {
-          "id": "sensor.co2_detector_luchtvochtigheid",
-          "friendlyName": "CO2_DETECTOR  Luchtvochtigheid",
-          "cSharpName": "Co2DetectorLuchtvochtigheid"
-        },
-        {
-          "id": "sensor.co2_detector_temperatuur",
-          "friendlyName": "CO2_DETECTOR  Temperatuur",
-          "cSharpName": "Co2DetectorTemperatuur"
-        },
-        {
-          "id": "sensor.electricity_maps_co2_intensiteit",
-          "friendlyName": "Electricity Maps CO2-intensiteit",
-          "cSharpName": "ElectricityMapsCo2Intensiteit"
-        },
-        {
-          "id": "sensor.electricity_maps_elektriciteitsnet_percentage_fossiele_brandstoffen",
-          "friendlyName": "Electricity Maps Elektriciteitsnet percentage fossiele brandstoffen",
-          "cSharpName": "ElectricityMapsElektriciteitsnetPercentageFossieleBrandstoffen"
-        },
-        {
-          "id": "sensor.electricity_meter_dagelijks_energieproductie",
-          "friendlyName": "Electricity Meter dagelijks Energieproductie",
-          "cSharpName": "ElectricityMeterDagelijksEnergieproductie"
-        },
-        {
-          "id": "sensor.electricity_meter_dagelijks_energieverbruik",
-          "friendlyName": "Electricity Meter Dagelijks Energieverbruik",
-          "cSharpName": "ElectricityMeterDagelijksEnergieverbruik"
-        },
-        {
-          "id": "sensor.electricity_meter_energieproductie_tarief_1",
-          "friendlyName": "P1-meter Energieproductie (tarief 1)",
-          "cSharpName": "ElectricityMeterEnergieproductieTarief1"
-        },
-        {
-          "id": "sensor.electricity_meter_energieproductie_tarief_2",
-          "friendlyName": "P1-meter Energieproductie (tarief 2)",
-          "cSharpName": "ElectricityMeterEnergieproductieTarief2"
-        },
-        {
-          "id": "sensor.electricity_meter_energieproductie_total",
-          "friendlyName": "Electricity Meter Energieproductie total",
-          "cSharpName": "ElectricityMeterEnergieproductieTotal"
-        },
-        {
-          "id": "sensor.electricity_meter_energieverbruik_tarief_1",
-          "friendlyName": "P1-meter Energieverbruik (tarief 1)",
-          "cSharpName": "ElectricityMeterEnergieverbruikTarief1"
-        },
-        {
-          "id": "sensor.electricity_meter_energieverbruik_tarief_2",
-          "friendlyName": "P1-meter Energieverbruik (tarief 2)",
-          "cSharpName": "ElectricityMeterEnergieverbruikTarief2"
-        },
-        {
-          "id": "sensor.electricity_meter_energieverbruik_total",
-          "friendlyName": "Electricity Meter Energieverbruik total",
-          "cSharpName": "ElectricityMeterEnergieverbruikTotal"
-        },
-        {
-          "id": "sensor.energie_meter_channel_a_current",
-          "friendlyName": "Energie-Meter channel A current",
-          "cSharpName": "EnergieMeterChannelACurrent"
-        },
-        {
-          "id": "sensor.energie_meter_channel_a_energy",
-          "friendlyName": "Energie-Meter channel A energy",
-          "cSharpName": "EnergieMeterChannelAEnergy"
-        },
-        {
-          "id": "sensor.energie_meter_channel_a_energy_returned",
-          "friendlyName": "Energie-Meter channel A energy returned",
-          "cSharpName": "EnergieMeterChannelAEnergyReturned"
-        },
-        {
-          "id": "sensor.energie_meter_channel_a_power",
-          "friendlyName": "Energie-Meter channel A power",
-          "cSharpName": "EnergieMeterChannelAPower"
-        },
-        {
-          "id": "sensor.energie_meter_channel_a_voltage",
-          "friendlyName": "Energie-Meter channel A voltage",
-          "cSharpName": "EnergieMeterChannelAVoltage"
-        },
-        {
-          "id": "sensor.energie_meter_channel_b_current",
-          "friendlyName": "Energie-Meter channel B current",
-          "cSharpName": "EnergieMeterChannelBCurrent"
-        },
-        {
-          "id": "sensor.energie_meter_channel_b_energy",
-          "friendlyName": "Energie-Meter channel B energy",
-          "cSharpName": "EnergieMeterChannelBEnergy"
-        },
-        {
-          "id": "sensor.energie_meter_channel_b_energy_returned",
-          "friendlyName": "Energie-Meter channel B energy returned",
-          "cSharpName": "EnergieMeterChannelBEnergyReturned"
-        },
-        {
-          "id": "sensor.energie_meter_channel_b_power",
-          "friendlyName": "Energie-Meter channel B power",
-          "cSharpName": "EnergieMeterChannelBPower"
-        },
-        {
-          "id": "sensor.energie_meter_channel_b_voltage",
-          "friendlyName": "Energie-Meter channel B voltage",
-          "cSharpName": "EnergieMeterChannelBVoltage"
-        },
-        {
-          "id": "sensor.energie_meter_channel_c_current",
-          "friendlyName": "Energie-Meter channel C current",
-          "cSharpName": "EnergieMeterChannelCCurrent"
-        },
-        {
-          "id": "sensor.energie_meter_channel_c_energy",
-          "friendlyName": "Energie-Meter channel C energy",
-          "cSharpName": "EnergieMeterChannelCEnergy"
-        },
-        {
-          "id": "sensor.energie_meter_channel_c_energy_returned",
-          "friendlyName": "Energie-Meter channel C energy returned",
-          "cSharpName": "EnergieMeterChannelCEnergyReturned"
-        },
-        {
-          "id": "sensor.energie_meter_channel_c_power",
-          "friendlyName": "Energie-Meter channel C power",
-          "cSharpName": "EnergieMeterChannelCPower"
-        },
-        {
-          "id": "sensor.energie_meter_channel_c_voltage",
-          "friendlyName": "Energie-Meter channel C voltage",
-          "cSharpName": "EnergieMeterChannelCVoltage"
-        },
-        {
-          "id": "sensor.energyzero_today_energy_average_price",
-          "friendlyName": "Energy market price Average - today",
-          "cSharpName": "EnergyzeroTodayEnergyAveragePrice"
-        },
-        {
-          "id": "sensor.energyzero_today_energy_current_hour_price",
-          "friendlyName": "Energy market price Huidig uur",
-          "cSharpName": "EnergyzeroTodayEnergyCurrentHourPrice"
-        },
-        {
-          "id": "sensor.energyzero_today_energy_hours_priced_equal_or_lower",
-          "friendlyName": "Energy market price Hours priced equal or lower than current - today",
-          "cSharpName": "EnergyzeroTodayEnergyHoursPricedEqualOrLower"
-        },
-        {
-          "id": "sensor.energyzero_today_energy_max_price",
-          "friendlyName": "Energy market price Highest price - today",
-          "cSharpName": "EnergyzeroTodayEnergyMaxPrice"
-        },
-        {
-          "id": "sensor.energyzero_today_energy_min_price",
-          "friendlyName": "Energy market price Lowest price - today",
-          "cSharpName": "EnergyzeroTodayEnergyMinPrice"
-        },
-        {
-          "id": "sensor.energyzero_today_energy_next_hour_price",
-          "friendlyName": "Energy market price Next hour",
-          "cSharpName": "EnergyzeroTodayEnergyNextHourPrice"
-        },
-        {
-          "id": "sensor.energyzero_today_energy_percentage_of_max",
-          "friendlyName": "Energy market price Current percentage of highest price - today",
-          "cSharpName": "EnergyzeroTodayEnergyPercentageOfMax"
-        },
-        {
-          "id": "sensor.energyzero_today_gas_current_hour_price",
-          "friendlyName": "Gas market price Huidig uur",
-          "cSharpName": "EnergyzeroTodayGasCurrentHourPrice"
-        },
-        {
-          "id": "sensor.energyzero_today_gas_next_hour_price",
-          "friendlyName": "Gas market price Next hour",
-          "cSharpName": "EnergyzeroTodayGasNextHourPrice"
-        },
-        {
-          "id": "sensor.envoy_122234050736_current_power_production",
-          "friendlyName": "Envoy 122234050736 Power Production",
-          "cSharpName": "Envoy122234050736CurrentPowerProduction"
-        },
-        {
-          "id": "sensor.envoy_122234050736_inverter_482231095526",
-          "friendlyName": "Inverter 482231095526 Production",
-          "cSharpName": "Envoy122234050736Inverter482231095526"
-        },
-        {
-          "id": "sensor.envoy_122234050736_inverter_482231098740",
-          "friendlyName": "Inverter 482231098740 Production",
-          "cSharpName": "Envoy122234050736Inverter482231098740"
-        },
-        {
-          "id": "sensor.envoy_122234050736_inverter_482231099070",
-          "friendlyName": "Inverter 482231099070 Production",
-          "cSharpName": "Envoy122234050736Inverter482231099070"
-        },
-        {
-          "id": "sensor.envoy_122234050736_inverter_482231099073",
-          "friendlyName": "Inverter 482231099073 Production",
-          "cSharpName": "Envoy122234050736Inverter482231099073"
-        },
-        {
-          "id": "sensor.envoy_122234050736_inverter_482231099074",
-          "friendlyName": "Inverter 482231099074 Production",
-          "cSharpName": "Envoy122234050736Inverter482231099074"
-        },
-        {
-          "id": "sensor.envoy_122234050736_inverter_482231099077",
-          "friendlyName": "Inverter 482231099077 Production",
-          "cSharpName": "Envoy122234050736Inverter482231099077"
-        },
-        {
-          "id": "sensor.envoy_122234050736_inverter_482231099157",
-          "friendlyName": "Inverter 482231099157 Production",
-          "cSharpName": "Envoy122234050736Inverter482231099157"
-        },
-        {
-          "id": "sensor.envoy_122234050736_inverter_482231099164",
-          "friendlyName": "Inverter 482231099164 Production",
-          "cSharpName": "Envoy122234050736Inverter482231099164"
-        },
-        {
-          "id": "sensor.envoy_122234050736_inverter_482245045431",
-          "friendlyName": "Inverter 482245045431 Production",
-          "cSharpName": "Envoy122234050736Inverter482245045431"
-        },
-        {
-          "id": "sensor.envoy_122234050736_inverter_482245046121",
-          "friendlyName": "Inverter 482245046121 Production",
-          "cSharpName": "Envoy122234050736Inverter482245046121"
-        },
-        {
-          "id": "sensor.envoy_122234050736_last_seven_days_energy_production",
-          "friendlyName": "Envoy 122234050736 Last Seven Days Energy Production",
-          "cSharpName": "Envoy122234050736LastSevenDaysEnergyProduction"
-        },
-        {
-          "id": "sensor.envoy_122234050736_lifetime_energy_production",
-          "friendlyName": "Envoy 122234050736 Lifetime Energy Production",
-          "cSharpName": "Envoy122234050736LifetimeEnergyProduction"
-        },
-        {
-          "id": "sensor.envoy_122234050736_today_s_energy_production",
-          "friendlyName": "Envoy 122234050736 Today\u0027s Energy Production",
-          "cSharpName": "Envoy122234050736TodaySEnergyProduction"
-        },
-        {
-          "id": "sensor.envoy_daily_power_production",
-          "friendlyName": "Envoy Daily Power Production",
-          "cSharpName": "EnvoyDailyPowerProduction"
-        },
-        {
-          "id": "sensor.familie_brok_s_onedrive_gebruikte_opslag",
-          "friendlyName": "Gebruikte opslag",
-          "cSharpName": "FamilieBrokSOnedriveGebruikteOpslag"
-        },
-        {
-          "id": "sensor.familie_brok_s_onedrive_resterende_opslag",
-          "friendlyName": "Resterende opslag",
-          "cSharpName": "FamilieBrokSOnedriveResterendeOpslag"
-        },
-        {
-          "id": "sensor.garage_roldeur_energy",
-          "friendlyName": "Garage-Roldeur energy",
-          "cSharpName": "GarageRoldeurEnergy"
-        },
-        {
-          "id": "sensor.garage_roldeur_power",
-          "friendlyName": "Garage-Roldeur power",
-          "cSharpName": "GarageRoldeurPower"
-        },
-        {
-          "id": "sensor.gas_meter_dagelijks_gasverbruik",
-          "friendlyName": "Gas Meter dagelijks Gasverbruik",
-          "cSharpName": "GasMeterDagelijksGasverbruik"
-        },
-        {
-          "id": "sensor.gas_meter_gasverbruik",
-          "friendlyName": "P1-meter Gasverbruik",
-          "cSharpName": "GasMeterGasverbruik"
-        },
-        {
-          "id": "sensor.inverter_482231095526_ac_current",
-          "friendlyName": "Inverter 482231095526 AC Current",
-          "cSharpName": "Inverter482231095526AcCurrent"
-        },
-        {
-          "id": "sensor.inverter_482231095526_ac_frequency",
-          "friendlyName": "Inverter 482231095526 AC Frequency",
-          "cSharpName": "Inverter482231095526AcFrequency"
-        },
-        {
-          "id": "sensor.inverter_482231095526_ac_voltage",
-          "friendlyName": "Inverter 482231095526 AC Voltage",
-          "cSharpName": "Inverter482231095526AcVoltage"
-        },
-        {
-          "id": "sensor.inverter_482231095526_dc_current",
-          "friendlyName": "Inverter 482231095526 DC Current",
-          "cSharpName": "Inverter482231095526DcCurrent"
-        },
-        {
-          "id": "sensor.inverter_482231095526_dc_voltage",
-          "friendlyName": "Inverter 482231095526 DC Voltage",
-          "cSharpName": "Inverter482231095526DcVoltage"
-        },
-        {
-          "id": "sensor.inverter_482231095526_last_reading_interval",
-          "friendlyName": "Inverter 482231095526 Last Reading Interval",
-          "cSharpName": "Inverter482231095526LastReadingInterval"
-        },
-        {
-          "id": "sensor.inverter_482231095526_lifetime_energy_production",
-          "friendlyName": "Inverter 482231095526 Lifetime Energy Production",
-          "cSharpName": "Inverter482231095526LifetimeEnergyProduction"
-        },
-        {
-          "id": "sensor.inverter_482231095526_max_reported_production",
-          "friendlyName": "Inverter 482231095526 Max Reported Production",
-          "cSharpName": "Inverter482231095526MaxReportedProduction"
-        },
-        {
-          "id": "sensor.inverter_482231095526_power_conversion_error_seconds",
-          "friendlyName": "Inverter 482231095526 Power Conversion Error Seconds",
-          "cSharpName": "Inverter482231095526PowerConversionErrorSeconds"
-        },
-        {
-          "id": "sensor.inverter_482231095526_production",
-          "friendlyName": "Inverter 482231095526 Production",
-          "cSharpName": "Inverter482231095526Production"
-        },
-        {
-          "id": "sensor.inverter_482231095526_temperature",
-          "friendlyName": "Inverter 482231095526 Temperature",
-          "cSharpName": "Inverter482231095526Temperature"
-        },
-        {
-          "id": "sensor.inverter_482231095526_this_week_s_energy_production",
-          "friendlyName": "Inverter 482231095526 This Week\u0027s Energy Production",
-          "cSharpName": "Inverter482231095526ThisWeekSEnergyProduction"
-        },
-        {
-          "id": "sensor.inverter_482231095526_today_s_energy_production",
-          "friendlyName": "Inverter 482231095526 Today\u0027s Energy Production",
-          "cSharpName": "Inverter482231095526TodaySEnergyProduction"
-        },
-        {
-          "id": "sensor.inverter_482231095526_yesterday_s_energy_production",
-          "friendlyName": "Inverter 482231095526 Yesterday\u0027s Energy Production",
-          "cSharpName": "Inverter482231095526YesterdaySEnergyProduction"
-        },
-        {
-          "id": "sensor.inverter_482231098740_ac_current",
-          "friendlyName": "Inverter 482231098740 AC Current",
-          "cSharpName": "Inverter482231098740AcCurrent"
-        },
-        {
-          "id": "sensor.inverter_482231098740_ac_frequency",
-          "friendlyName": "Inverter 482231098740 AC Frequency",
-          "cSharpName": "Inverter482231098740AcFrequency"
-        },
-        {
-          "id": "sensor.inverter_482231098740_ac_voltage",
-          "friendlyName": "Inverter 482231098740 AC Voltage",
-          "cSharpName": "Inverter482231098740AcVoltage"
-        },
-        {
-          "id": "sensor.inverter_482231098740_dc_current",
-          "friendlyName": "Inverter 482231098740 DC Current",
-          "cSharpName": "Inverter482231098740DcCurrent"
-        },
-        {
-          "id": "sensor.inverter_482231098740_dc_voltage",
-          "friendlyName": "Inverter 482231098740 DC Voltage",
-          "cSharpName": "Inverter482231098740DcVoltage"
-        },
-        {
-          "id": "sensor.inverter_482231098740_last_reading_interval",
-          "friendlyName": "Inverter 482231098740 Last Reading Interval",
-          "cSharpName": "Inverter482231098740LastReadingInterval"
-        },
-        {
-          "id": "sensor.inverter_482231098740_lifetime_energy_production",
-          "friendlyName": "Inverter 482231098740 Lifetime Energy Production",
-          "cSharpName": "Inverter482231098740LifetimeEnergyProduction"
-        },
-        {
-          "id": "sensor.inverter_482231098740_max_reported_production",
-          "friendlyName": "Inverter 482231098740 Max Reported Production",
-          "cSharpName": "Inverter482231098740MaxReportedProduction"
-        },
-        {
-          "id": "sensor.inverter_482231098740_power_conversion_error_seconds",
-          "friendlyName": "Inverter 482231098740 Power Conversion Error Seconds",
-          "cSharpName": "Inverter482231098740PowerConversionErrorSeconds"
-        },
-        {
-          "id": "sensor.inverter_482231098740_production",
-          "friendlyName": "Inverter 482231098740 Production",
-          "cSharpName": "Inverter482231098740Production"
-        },
-        {
-          "id": "sensor.inverter_482231098740_temperature",
-          "friendlyName": "Inverter 482231098740 Temperature",
-          "cSharpName": "Inverter482231098740Temperature"
-        },
-        {
-          "id": "sensor.inverter_482231098740_this_week_s_energy_production",
-          "friendlyName": "Inverter 482231098740 This Week\u0027s Energy Production",
-          "cSharpName": "Inverter482231098740ThisWeekSEnergyProduction"
-        },
-        {
-          "id": "sensor.inverter_482231098740_today_s_energy_production",
-          "friendlyName": "Inverter 482231098740 Today\u0027s Energy Production",
-          "cSharpName": "Inverter482231098740TodaySEnergyProduction"
-        },
-        {
-          "id": "sensor.inverter_482231098740_yesterday_s_energy_production",
-          "friendlyName": "Inverter 482231098740 Yesterday\u0027s Energy Production",
-          "cSharpName": "Inverter482231098740YesterdaySEnergyProduction"
-        },
-        {
-          "id": "sensor.inverter_482231099070_ac_current",
-          "friendlyName": "Inverter 482231099070 AC Current",
-          "cSharpName": "Inverter482231099070AcCurrent"
-        },
-        {
-          "id": "sensor.inverter_482231099070_ac_frequency",
-          "friendlyName": "Inverter 482231099070 AC Frequency",
-          "cSharpName": "Inverter482231099070AcFrequency"
-        },
-        {
-          "id": "sensor.inverter_482231099070_ac_voltage",
-          "friendlyName": "Inverter 482231099070 AC Voltage",
-          "cSharpName": "Inverter482231099070AcVoltage"
-        },
-        {
-          "id": "sensor.inverter_482231099070_dc_current",
-          "friendlyName": "Inverter 482231099070 DC Current",
-          "cSharpName": "Inverter482231099070DcCurrent"
-        },
-        {
-          "id": "sensor.inverter_482231099070_dc_voltage",
-          "friendlyName": "Inverter 482231099070 DC Voltage",
-          "cSharpName": "Inverter482231099070DcVoltage"
-        },
-        {
-          "id": "sensor.inverter_482231099070_last_reading_interval",
-          "friendlyName": "Inverter 482231099070 Last Reading Interval",
-          "cSharpName": "Inverter482231099070LastReadingInterval"
-        },
-        {
-          "id": "sensor.inverter_482231099070_lifetime_energy_production",
-          "friendlyName": "Inverter 482231099070 Lifetime Energy Production",
-          "cSharpName": "Inverter482231099070LifetimeEnergyProduction"
-        },
-        {
-          "id": "sensor.inverter_482231099070_max_reported_production",
-          "friendlyName": "Inverter 482231099070 Max Reported Production",
-          "cSharpName": "Inverter482231099070MaxReportedProduction"
-        },
-        {
-          "id": "sensor.inverter_482231099070_power_conversion_error_seconds",
-          "friendlyName": "Inverter 482231099070 Power Conversion Error Seconds",
-          "cSharpName": "Inverter482231099070PowerConversionErrorSeconds"
-        },
-        {
-          "id": "sensor.inverter_482231099070_production",
-          "friendlyName": "Inverter 482231099070 Production",
-          "cSharpName": "Inverter482231099070Production"
-        },
-        {
-          "id": "sensor.inverter_482231099070_temperature",
-          "friendlyName": "Inverter 482231099070 Temperature",
-          "cSharpName": "Inverter482231099070Temperature"
-        },
-        {
-          "id": "sensor.inverter_482231099070_this_week_s_energy_production",
-          "friendlyName": "Inverter 482231099070 This Week\u0027s Energy Production",
-          "cSharpName": "Inverter482231099070ThisWeekSEnergyProduction"
-        },
-        {
-          "id": "sensor.inverter_482231099070_today_s_energy_production",
-          "friendlyName": "Inverter 482231099070 Today\u0027s Energy Production",
-          "cSharpName": "Inverter482231099070TodaySEnergyProduction"
-        },
-        {
-          "id": "sensor.inverter_482231099070_yesterday_s_energy_production",
-          "friendlyName": "Inverter 482231099070 Yesterday\u0027s Energy Production",
-          "cSharpName": "Inverter482231099070YesterdaySEnergyProduction"
-        },
-        {
-          "id": "sensor.inverter_482231099073_ac_current",
-          "friendlyName": "Inverter 482231099073 AC Current",
-          "cSharpName": "Inverter482231099073AcCurrent"
-        },
-        {
-          "id": "sensor.inverter_482231099073_ac_frequency",
-          "friendlyName": "Inverter 482231099073 AC Frequency",
-          "cSharpName": "Inverter482231099073AcFrequency"
-        },
-        {
-          "id": "sensor.inverter_482231099073_ac_voltage",
-          "friendlyName": "Inverter 482231099073 AC Voltage",
-          "cSharpName": "Inverter482231099073AcVoltage"
-        },
-        {
-          "id": "sensor.inverter_482231099073_dc_current",
-          "friendlyName": "Inverter 482231099073 DC Current",
-          "cSharpName": "Inverter482231099073DcCurrent"
-        },
-        {
-          "id": "sensor.inverter_482231099073_dc_voltage",
-          "friendlyName": "Inverter 482231099073 DC Voltage",
-          "cSharpName": "Inverter482231099073DcVoltage"
-        },
-        {
-          "id": "sensor.inverter_482231099073_last_reading_interval",
-          "friendlyName": "Inverter 482231099073 Last Reading Interval",
-          "cSharpName": "Inverter482231099073LastReadingInterval"
-        },
-        {
-          "id": "sensor.inverter_482231099073_lifetime_energy_production",
-          "friendlyName": "Inverter 482231099073 Lifetime Energy Production",
-          "cSharpName": "Inverter482231099073LifetimeEnergyProduction"
-        },
-        {
-          "id": "sensor.inverter_482231099073_max_reported_production",
-          "friendlyName": "Inverter 482231099073 Max Reported Production",
-          "cSharpName": "Inverter482231099073MaxReportedProduction"
-        },
-        {
-          "id": "sensor.inverter_482231099073_power_conversion_error_seconds",
-          "friendlyName": "Inverter 482231099073 Power Conversion Error Seconds",
-          "cSharpName": "Inverter482231099073PowerConversionErrorSeconds"
-        },
-        {
-          "id": "sensor.inverter_482231099073_production",
-          "friendlyName": "Inverter 482231099073 Production",
-          "cSharpName": "Inverter482231099073Production"
-        },
-        {
-          "id": "sensor.inverter_482231099073_temperature",
-          "friendlyName": "Inverter 482231099073 Temperature",
-          "cSharpName": "Inverter482231099073Temperature"
-        },
-        {
-          "id": "sensor.inverter_482231099073_this_week_s_energy_production",
-          "friendlyName": "Inverter 482231099073 This Week\u0027s Energy Production",
-          "cSharpName": "Inverter482231099073ThisWeekSEnergyProduction"
-        },
-        {
-          "id": "sensor.inverter_482231099073_today_s_energy_production",
-          "friendlyName": "Inverter 482231099073 Today\u0027s Energy Production",
-          "cSharpName": "Inverter482231099073TodaySEnergyProduction"
-        },
-        {
-          "id": "sensor.inverter_482231099073_yesterday_s_energy_production",
-          "friendlyName": "Inverter 482231099073 Yesterday\u0027s Energy Production",
-          "cSharpName": "Inverter482231099073YesterdaySEnergyProduction"
-        },
-        {
-          "id": "sensor.inverter_482231099074_ac_current",
-          "friendlyName": "Inverter 482231099074 AC Current",
-          "cSharpName": "Inverter482231099074AcCurrent"
-        },
-        {
-          "id": "sensor.inverter_482231099074_ac_frequency",
-          "friendlyName": "Inverter 482231099074 AC Frequency",
-          "cSharpName": "Inverter482231099074AcFrequency"
-        },
-        {
-          "id": "sensor.inverter_482231099074_ac_voltage",
-          "friendlyName": "Inverter 482231099074 AC Voltage",
-          "cSharpName": "Inverter482231099074AcVoltage"
-        },
-        {
-          "id": "sensor.inverter_482231099074_dc_current",
-          "friendlyName": "Inverter 482231099074 DC Current",
-          "cSharpName": "Inverter482231099074DcCurrent"
-        },
-        {
-          "id": "sensor.inverter_482231099074_dc_voltage",
-          "friendlyName": "Inverter 482231099074 DC Voltage",
-          "cSharpName": "Inverter482231099074DcVoltage"
-        },
-        {
-          "id": "sensor.inverter_482231099074_last_reading_interval",
-          "friendlyName": "Inverter 482231099074 Last Reading Interval",
-          "cSharpName": "Inverter482231099074LastReadingInterval"
-        },
-        {
-          "id": "sensor.inverter_482231099074_lifetime_energy_production",
-          "friendlyName": "Inverter 482231099074 Lifetime Energy Production",
-          "cSharpName": "Inverter482231099074LifetimeEnergyProduction"
-        },
-        {
-          "id": "sensor.inverter_482231099074_max_reported_production",
-          "friendlyName": "Inverter 482231099074 Max Reported Production",
-          "cSharpName": "Inverter482231099074MaxReportedProduction"
-        },
-        {
-          "id": "sensor.inverter_482231099074_power_conversion_error_seconds",
-          "friendlyName": "Inverter 482231099074 Power Conversion Error Seconds",
-          "cSharpName": "Inverter482231099074PowerConversionErrorSeconds"
-        },
-        {
-          "id": "sensor.inverter_482231099074_production",
-          "friendlyName": "Inverter 482231099074 Production",
-          "cSharpName": "Inverter482231099074Production"
-        },
-        {
-          "id": "sensor.inverter_482231099074_temperature",
-          "friendlyName": "Inverter 482231099074 Temperature",
-          "cSharpName": "Inverter482231099074Temperature"
-        },
-        {
-          "id": "sensor.inverter_482231099074_this_week_s_energy_production",
-          "friendlyName": "Inverter 482231099074 This Week\u0027s Energy Production",
-          "cSharpName": "Inverter482231099074ThisWeekSEnergyProduction"
-        },
-        {
-          "id": "sensor.inverter_482231099074_today_s_energy_production",
-          "friendlyName": "Inverter 482231099074 Today\u0027s Energy Production",
-          "cSharpName": "Inverter482231099074TodaySEnergyProduction"
-        },
-        {
-          "id": "sensor.inverter_482231099074_yesterday_s_energy_production",
-          "friendlyName": "Inverter 482231099074 Yesterday\u0027s Energy Production",
-          "cSharpName": "Inverter482231099074YesterdaySEnergyProduction"
-        },
-        {
-          "id": "sensor.inverter_482231099077_ac_current",
-          "friendlyName": "Inverter 482231099077 AC Current",
-          "cSharpName": "Inverter482231099077AcCurrent"
-        },
-        {
-          "id": "sensor.inverter_482231099077_ac_frequency",
-          "friendlyName": "Inverter 482231099077 AC Frequency",
-          "cSharpName": "Inverter482231099077AcFrequency"
-        },
-        {
-          "id": "sensor.inverter_482231099077_ac_voltage",
-          "friendlyName": "Inverter 482231099077 AC Voltage",
-          "cSharpName": "Inverter482231099077AcVoltage"
-        },
-        {
-          "id": "sensor.inverter_482231099077_dc_current",
-          "friendlyName": "Inverter 482231099077 DC Current",
-          "cSharpName": "Inverter482231099077DcCurrent"
-        },
-        {
-          "id": "sensor.inverter_482231099077_dc_voltage",
-          "friendlyName": "Inverter 482231099077 DC Voltage",
-          "cSharpName": "Inverter482231099077DcVoltage"
-        },
-        {
-          "id": "sensor.inverter_482231099077_last_reading_interval",
-          "friendlyName": "Inverter 482231099077 Last Reading Interval",
-          "cSharpName": "Inverter482231099077LastReadingInterval"
-        },
-        {
-          "id": "sensor.inverter_482231099077_lifetime_energy_production",
-          "friendlyName": "Inverter 482231099077 Lifetime Energy Production",
-          "cSharpName": "Inverter482231099077LifetimeEnergyProduction"
-        },
-        {
-          "id": "sensor.inverter_482231099077_max_reported_production",
-          "friendlyName": "Inverter 482231099077 Max Reported Production",
-          "cSharpName": "Inverter482231099077MaxReportedProduction"
-        },
-        {
-          "id": "sensor.inverter_482231099077_power_conversion_error_seconds",
-          "friendlyName": "Inverter 482231099077 Power Conversion Error Seconds",
-          "cSharpName": "Inverter482231099077PowerConversionErrorSeconds"
-        },
-        {
-          "id": "sensor.inverter_482231099077_production",
-          "friendlyName": "Inverter 482231099077 Production",
-          "cSharpName": "Inverter482231099077Production"
-        },
-        {
-          "id": "sensor.inverter_482231099077_temperature",
-          "friendlyName": "Inverter 482231099077 Temperature",
-          "cSharpName": "Inverter482231099077Temperature"
-        },
-        {
-          "id": "sensor.inverter_482231099077_this_week_s_energy_production",
-          "friendlyName": "Inverter 482231099077 This Week\u0027s Energy Production",
-          "cSharpName": "Inverter482231099077ThisWeekSEnergyProduction"
-        },
-        {
-          "id": "sensor.inverter_482231099077_today_s_energy_production",
-          "friendlyName": "Inverter 482231099077 Today\u0027s Energy Production",
-          "cSharpName": "Inverter482231099077TodaySEnergyProduction"
-        },
-        {
-          "id": "sensor.inverter_482231099077_yesterday_s_energy_production",
-          "friendlyName": "Inverter 482231099077 Yesterday\u0027s Energy Production",
-          "cSharpName": "Inverter482231099077YesterdaySEnergyProduction"
-        },
-        {
-          "id": "sensor.inverter_482231099157_ac_current",
-          "friendlyName": "Inverter 482231099157 AC Current",
-          "cSharpName": "Inverter482231099157AcCurrent"
-        },
-        {
-          "id": "sensor.inverter_482231099157_ac_frequency",
-          "friendlyName": "Inverter 482231099157 AC Frequency",
-          "cSharpName": "Inverter482231099157AcFrequency"
-        },
-        {
-          "id": "sensor.inverter_482231099157_ac_voltage",
-          "friendlyName": "Inverter 482231099157 AC Voltage",
-          "cSharpName": "Inverter482231099157AcVoltage"
-        },
-        {
-          "id": "sensor.inverter_482231099157_dc_current",
-          "friendlyName": "Inverter 482231099157 DC Current",
-          "cSharpName": "Inverter482231099157DcCurrent"
-        },
-        {
-          "id": "sensor.inverter_482231099157_dc_voltage",
-          "friendlyName": "Inverter 482231099157 DC Voltage",
-          "cSharpName": "Inverter482231099157DcVoltage"
-        },
-        {
-          "id": "sensor.inverter_482231099157_last_reading_interval",
-          "friendlyName": "Inverter 482231099157 Last Reading Interval",
-          "cSharpName": "Inverter482231099157LastReadingInterval"
-        },
-        {
-          "id": "sensor.inverter_482231099157_lifetime_energy_production",
-          "friendlyName": "Inverter 482231099157 Lifetime Energy Production",
-          "cSharpName": "Inverter482231099157LifetimeEnergyProduction"
-        },
-        {
-          "id": "sensor.inverter_482231099157_max_reported_production",
-          "friendlyName": "Inverter 482231099157 Max Reported Production",
-          "cSharpName": "Inverter482231099157MaxReportedProduction"
-        },
-        {
-          "id": "sensor.inverter_482231099157_power_conversion_error_seconds",
-          "friendlyName": "Inverter 482231099157 Power Conversion Error Seconds",
-          "cSharpName": "Inverter482231099157PowerConversionErrorSeconds"
-        },
-        {
-          "id": "sensor.inverter_482231099157_production",
-          "friendlyName": "Inverter 482231099157 Production",
-          "cSharpName": "Inverter482231099157Production"
-        },
-        {
-          "id": "sensor.inverter_482231099157_temperature",
-          "friendlyName": "Inverter 482231099157 Temperature",
-          "cSharpName": "Inverter482231099157Temperature"
-        },
-        {
-          "id": "sensor.inverter_482231099157_this_week_s_energy_production",
-          "friendlyName": "Inverter 482231099157 This Week\u0027s Energy Production",
-          "cSharpName": "Inverter482231099157ThisWeekSEnergyProduction"
-        },
-        {
-          "id": "sensor.inverter_482231099157_today_s_energy_production",
-          "friendlyName": "Inverter 482231099157 Today\u0027s Energy Production",
-          "cSharpName": "Inverter482231099157TodaySEnergyProduction"
-        },
-        {
-          "id": "sensor.inverter_482231099157_yesterday_s_energy_production",
-          "friendlyName": "Inverter 482231099157 Yesterday\u0027s Energy Production",
-          "cSharpName": "Inverter482231099157YesterdaySEnergyProduction"
-        },
-        {
-          "id": "sensor.inverter_482231099164_ac_current",
-          "friendlyName": "Inverter 482231099164 AC Current",
-          "cSharpName": "Inverter482231099164AcCurrent"
-        },
-        {
-          "id": "sensor.inverter_482231099164_ac_frequency",
-          "friendlyName": "Inverter 482231099164 AC Frequency",
-          "cSharpName": "Inverter482231099164AcFrequency"
-        },
-        {
-          "id": "sensor.inverter_482231099164_ac_voltage",
-          "friendlyName": "Inverter 482231099164 AC Voltage",
-          "cSharpName": "Inverter482231099164AcVoltage"
-        },
-        {
-          "id": "sensor.inverter_482231099164_dc_current",
-          "friendlyName": "Inverter 482231099164 DC Current",
-          "cSharpName": "Inverter482231099164DcCurrent"
-        },
-        {
-          "id": "sensor.inverter_482231099164_dc_voltage",
-          "friendlyName": "Inverter 482231099164 DC Voltage",
-          "cSharpName": "Inverter482231099164DcVoltage"
-        },
-        {
-          "id": "sensor.inverter_482231099164_last_reading_interval",
-          "friendlyName": "Inverter 482231099164 Last Reading Interval",
-          "cSharpName": "Inverter482231099164LastReadingInterval"
-        },
-        {
-          "id": "sensor.inverter_482231099164_lifetime_energy_production",
-          "friendlyName": "Inverter 482231099164 Lifetime Energy Production",
-          "cSharpName": "Inverter482231099164LifetimeEnergyProduction"
-        },
-        {
-          "id": "sensor.inverter_482231099164_max_reported_production",
-          "friendlyName": "Inverter 482231099164 Max Reported Production",
-          "cSharpName": "Inverter482231099164MaxReportedProduction"
-        },
-        {
-          "id": "sensor.inverter_482231099164_power_conversion_error_seconds",
-          "friendlyName": "Inverter 482231099164 Power Conversion Error Seconds",
-          "cSharpName": "Inverter482231099164PowerConversionErrorSeconds"
-        },
-        {
-          "id": "sensor.inverter_482231099164_production",
-          "friendlyName": "Inverter 482231099164 Production",
-          "cSharpName": "Inverter482231099164Production"
-        },
-        {
-          "id": "sensor.inverter_482231099164_temperature",
-          "friendlyName": "Inverter 482231099164 Temperature",
-          "cSharpName": "Inverter482231099164Temperature"
-        },
-        {
-          "id": "sensor.inverter_482231099164_this_week_s_energy_production",
-          "friendlyName": "Inverter 482231099164 This Week\u0027s Energy Production",
-          "cSharpName": "Inverter482231099164ThisWeekSEnergyProduction"
-        },
-        {
-          "id": "sensor.inverter_482231099164_today_s_energy_production",
-          "friendlyName": "Inverter 482231099164 Today\u0027s Energy Production",
-          "cSharpName": "Inverter482231099164TodaySEnergyProduction"
-        },
-        {
-          "id": "sensor.inverter_482231099164_yesterday_s_energy_production",
-          "friendlyName": "Inverter 482231099164 Yesterday\u0027s Energy Production",
-          "cSharpName": "Inverter482231099164YesterdaySEnergyProduction"
-        },
-        {
-          "id": "sensor.inverter_482245045431_ac_current",
-          "friendlyName": "Inverter 482245045431 AC Current",
-          "cSharpName": "Inverter482245045431AcCurrent"
-        },
-        {
-          "id": "sensor.inverter_482245045431_ac_frequency",
-          "friendlyName": "Inverter 482245045431 AC Frequency",
-          "cSharpName": "Inverter482245045431AcFrequency"
-        },
-        {
-          "id": "sensor.inverter_482245045431_ac_voltage",
-          "friendlyName": "Inverter 482245045431 AC Voltage",
-          "cSharpName": "Inverter482245045431AcVoltage"
-        },
-        {
-          "id": "sensor.inverter_482245045431_dc_current",
-          "friendlyName": "Inverter 482245045431 DC Current",
-          "cSharpName": "Inverter482245045431DcCurrent"
-        },
-        {
-          "id": "sensor.inverter_482245045431_dc_voltage",
-          "friendlyName": "Inverter 482245045431 DC Voltage",
-          "cSharpName": "Inverter482245045431DcVoltage"
-        },
-        {
-          "id": "sensor.inverter_482245045431_last_reading_interval",
-          "friendlyName": "Inverter 482245045431 Last Reading Interval",
-          "cSharpName": "Inverter482245045431LastReadingInterval"
-        },
-        {
-          "id": "sensor.inverter_482245045431_lifetime_energy_production",
-          "friendlyName": "Inverter 482245045431 Lifetime Energy Production",
-          "cSharpName": "Inverter482245045431LifetimeEnergyProduction"
-        },
-        {
-          "id": "sensor.inverter_482245045431_max_reported_production",
-          "friendlyName": "Inverter 482245045431 Max Reported Production",
-          "cSharpName": "Inverter482245045431MaxReportedProduction"
-        },
-        {
-          "id": "sensor.inverter_482245045431_power_conversion_error_seconds",
-          "friendlyName": "Inverter 482245045431 Power Conversion Error Seconds",
-          "cSharpName": "Inverter482245045431PowerConversionErrorSeconds"
-        },
-        {
-          "id": "sensor.inverter_482245045431_production",
-          "friendlyName": "Inverter 482245045431 Production",
-          "cSharpName": "Inverter482245045431Production"
-        },
-        {
-          "id": "sensor.inverter_482245045431_temperature",
-          "friendlyName": "Inverter 482245045431 Temperature",
-          "cSharpName": "Inverter482245045431Temperature"
-        },
-        {
-          "id": "sensor.inverter_482245045431_this_week_s_energy_production",
-          "friendlyName": "Inverter 482245045431 This Week\u0027s Energy Production",
-          "cSharpName": "Inverter482245045431ThisWeekSEnergyProduction"
-        },
-        {
-          "id": "sensor.inverter_482245045431_today_s_energy_production",
-          "friendlyName": "Inverter 482245045431 Today\u0027s Energy Production",
-          "cSharpName": "Inverter482245045431TodaySEnergyProduction"
-        },
-        {
-          "id": "sensor.inverter_482245045431_yesterday_s_energy_production",
-          "friendlyName": "Inverter 482245045431 Yesterday\u0027s Energy Production",
-          "cSharpName": "Inverter482245045431YesterdaySEnergyProduction"
-        },
-        {
-          "id": "sensor.inverter_482245046121_ac_current",
-          "friendlyName": "Inverter 482245046121 AC Current",
-          "cSharpName": "Inverter482245046121AcCurrent"
-        },
-        {
-          "id": "sensor.inverter_482245046121_ac_frequency",
-          "friendlyName": "Inverter 482245046121 AC Frequency",
-          "cSharpName": "Inverter482245046121AcFrequency"
-        },
-        {
-          "id": "sensor.inverter_482245046121_ac_voltage",
-          "friendlyName": "Inverter 482245046121 AC Voltage",
-          "cSharpName": "Inverter482245046121AcVoltage"
-        },
-        {
-          "id": "sensor.inverter_482245046121_dc_current",
-          "friendlyName": "Inverter 482245046121 DC Current",
-          "cSharpName": "Inverter482245046121DcCurrent"
-        },
-        {
-          "id": "sensor.inverter_482245046121_dc_voltage",
-          "friendlyName": "Inverter 482245046121 DC Voltage",
-          "cSharpName": "Inverter482245046121DcVoltage"
-        },
-        {
-          "id": "sensor.inverter_482245046121_last_reading_interval",
-          "friendlyName": "Inverter 482245046121 Last Reading Interval",
-          "cSharpName": "Inverter482245046121LastReadingInterval"
-        },
-        {
-          "id": "sensor.inverter_482245046121_lifetime_energy_production",
-          "friendlyName": "Inverter 482245046121 Lifetime Energy Production",
-          "cSharpName": "Inverter482245046121LifetimeEnergyProduction"
-        },
-        {
-          "id": "sensor.inverter_482245046121_max_reported_production",
-          "friendlyName": "Inverter 482245046121 Max Reported Production",
-          "cSharpName": "Inverter482245046121MaxReportedProduction"
-        },
-        {
-          "id": "sensor.inverter_482245046121_power_conversion_error_seconds",
-          "friendlyName": "Inverter 482245046121 Power Conversion Error Seconds",
-          "cSharpName": "Inverter482245046121PowerConversionErrorSeconds"
-        },
-        {
-          "id": "sensor.inverter_482245046121_production",
-          "friendlyName": "Inverter 482245046121 Production",
-          "cSharpName": "Inverter482245046121Production"
-        },
-        {
-          "id": "sensor.inverter_482245046121_temperature",
-          "friendlyName": "Inverter 482245046121 Temperature",
-          "cSharpName": "Inverter482245046121Temperature"
-        },
-        {
-          "id": "sensor.inverter_482245046121_this_week_s_energy_production",
-          "friendlyName": "Inverter 482245046121 This Week\u0027s Energy Production",
-          "cSharpName": "Inverter482245046121ThisWeekSEnergyProduction"
-        },
-        {
-          "id": "sensor.inverter_482245046121_today_s_energy_production",
-          "friendlyName": "Inverter 482245046121 Today\u0027s Energy Production",
-          "cSharpName": "Inverter482245046121TodaySEnergyProduction"
-        },
-        {
-          "id": "sensor.inverter_482245046121_yesterday_s_energy_production",
-          "friendlyName": "Inverter 482245046121 Yesterday\u0027s Energy Production",
-          "cSharpName": "Inverter482245046121YesterdaySEnergyProduction"
+          "id": "sensor.fambrok_memory_utilization",
+          "friendlyName": "FamBrok Memory utilization",
+          "cSharpName": "FambrokMemoryUtilization"
         },
         {
           "id": "sensor.kasper_christel_buitentemperatuur",
@@ -4332,114 +2727,89 @@
           "cSharpName": "KasperChristelZonneEnergiePercentage"
         },
         {
-          "id": "sensor.land_rover_explore_r_battery_level",
-          "friendlyName": "Land Rover Explore R Battery level",
-          "cSharpName": "LandRoverExploreRBatteryLevel"
+          "id": "sensor.roldeur_garage_energy",
+          "friendlyName": "Roldeur Garage Energy",
+          "cSharpName": "RoldeurGarageEnergy"
         },
         {
-          "id": "sensor.onedrive_gebruikte_opslag",
-          "friendlyName": "OneDrive Gebruikte opslag",
-          "cSharpName": "OnedriveGebruikteOpslag"
+          "id": "sensor.roldeur_garage_power",
+          "friendlyName": "Roldeur Garage Power",
+          "cSharpName": "RoldeurGaragePower"
         },
         {
-          "id": "sensor.onedrive_resterende_opslag",
-          "friendlyName": "OneDrive Resterende opslag",
-          "cSharpName": "OnedriveResterendeOpslag"
+          "id": "sensor.shellyem3_40f52001a247_phase_a_current",
+          "friendlyName": "shellyem3-40F52001A247 Phase A Current",
+          "cSharpName": "Shellyem340f52001a247PhaseACurrent"
         },
         {
-          "id": "sensor.p1_meter_energieproductie",
-          "friendlyName": "P1-meter Energieproductie",
-          "cSharpName": "P1MeterEnergieproductie"
+          "id": "sensor.shellyem3_40f52001a247_phase_a_energy",
+          "friendlyName": "shellyem3-40F52001A247 Phase A Energy",
+          "cSharpName": "Shellyem340f52001a247PhaseAEnergy"
         },
         {
-          "id": "sensor.p1_meter_energieproductie_fase_l1",
-          "friendlyName": "P1-meter Energieproductie Fase L1",
-          "cSharpName": "P1MeterEnergieproductieFaseL1"
+          "id": "sensor.shellyem3_40f52001a247_phase_a_energy_returned",
+          "friendlyName": "shellyem3-40F52001A247 Phase A Energy returned",
+          "cSharpName": "Shellyem340f52001a247PhaseAEnergyReturned"
         },
         {
-          "id": "sensor.p1_meter_energieproductie_fase_l2",
-          "friendlyName": "P1-meter Energieproductie Fase L2",
-          "cSharpName": "P1MeterEnergieproductieFaseL2"
+          "id": "sensor.shellyem3_40f52001a247_phase_a_power",
+          "friendlyName": "shellyem3-40F52001A247 Phase A Power",
+          "cSharpName": "Shellyem340f52001a247PhaseAPower"
         },
         {
-          "id": "sensor.p1_meter_energieproductie_fase_l3",
-          "friendlyName": "P1-meter Energieproductie Fase L3",
-          "cSharpName": "P1MeterEnergieproductieFaseL3"
+          "id": "sensor.shellyem3_40f52001a247_phase_a_voltage",
+          "friendlyName": "shellyem3-40F52001A247 Phase A Voltage",
+          "cSharpName": "Shellyem340f52001a247PhaseAVoltage"
         },
         {
-          "id": "sensor.p1_meter_energieverbruik",
-          "friendlyName": "P1-meter Energieverbruik",
-          "cSharpName": "P1MeterEnergieverbruik"
+          "id": "sensor.shellyem3_40f52001a247_phase_b_current",
+          "friendlyName": "Wasmachine Current",
+          "cSharpName": "Shellyem340f52001a247PhaseBCurrent"
         },
         {
-          "id": "sensor.p1_meter_energieverbruik_fase_l1",
-          "friendlyName": "P1-meter Energieverbruik Fase L1",
-          "cSharpName": "P1MeterEnergieverbruikFaseL1"
+          "id": "sensor.shellyem3_40f52001a247_phase_b_energy",
+          "friendlyName": "Wasmachine Energy",
+          "cSharpName": "Shellyem340f52001a247PhaseBEnergy"
         },
         {
-          "id": "sensor.p1_meter_energieverbruik_fase_l2",
-          "friendlyName": "P1-meter Energieverbruik Fase L2",
-          "cSharpName": "P1MeterEnergieverbruikFaseL2"
+          "id": "sensor.shellyem3_40f52001a247_phase_b_energy_returned",
+          "friendlyName": "Wasmachine Energy returned",
+          "cSharpName": "Shellyem340f52001a247PhaseBEnergyReturned"
         },
         {
-          "id": "sensor.p1_meter_energieverbruik_fase_l3",
-          "friendlyName": "P1-meter Energieverbruik Fase L3",
-          "cSharpName": "P1MeterEnergieverbruikFaseL3"
+          "id": "sensor.shellyem3_40f52001a247_phase_b_power",
+          "friendlyName": "Wasmachine Power",
+          "cSharpName": "Shellyem340f52001a247PhaseBPower"
         },
         {
-          "id": "sensor.p1_meter_spanning_fase_l1",
-          "friendlyName": "P1-meter Spanning fase L1",
-          "cSharpName": "P1MeterSpanningFaseL1"
+          "id": "sensor.shellyem3_40f52001a247_phase_b_voltage",
+          "friendlyName": "Wasmachine Voltage",
+          "cSharpName": "Shellyem340f52001a247PhaseBVoltage"
         },
         {
-          "id": "sensor.p1_meter_spanning_fase_l2",
-          "friendlyName": "P1-meter Spanning fase L2",
-          "cSharpName": "P1MeterSpanningFaseL2"
+          "id": "sensor.shellyem3_40f52001a247_phase_c_current",
+          "friendlyName": "shellyem3-40F52001A247 Phase C Current",
+          "cSharpName": "Shellyem340f52001a247PhaseCCurrent"
         },
         {
-          "id": "sensor.p1_meter_spanning_fase_l3",
-          "friendlyName": "P1-meter Spanning fase L3",
-          "cSharpName": "P1MeterSpanningFaseL3"
+          "id": "sensor.shellyem3_40f52001a247_phase_c_energy",
+          "friendlyName": "shellyem3-40F52001A247 Phase C Energy",
+          "cSharpName": "Shellyem340f52001a247PhaseCEnergy"
         },
         {
-          "id": "sensor.p1_meter_stroom_fase_l1",
-          "friendlyName": "P1-meter Stroom fase L1",
-          "cSharpName": "P1MeterStroomFaseL1"
+          "id": "sensor.shellyem3_40f52001a247_phase_c_energy_returned",
+          "friendlyName": "shellyem3-40F52001A247 Phase C Energy returned",
+          "cSharpName": "Shellyem340f52001a247PhaseCEnergyReturned"
         },
         {
-          "id": "sensor.p1_meter_stroom_fase_l2",
-          "friendlyName": "P1-meter Stroom fase L2",
-          "cSharpName": "P1MeterStroomFaseL2"
+          "id": "sensor.shellyem3_40f52001a247_phase_c_power",
+          "friendlyName": "shellyem3-40F52001A247 Phase C Power",
+          "cSharpName": "Shellyem340f52001a247PhaseCPower"
         },
         {
-          "id": "sensor.p1_meter_stroom_fase_l3",
-          "friendlyName": "P1-meter Stroom fase L3",
-          "cSharpName": "P1MeterStroomFaseL3"
-        },
-        {
-          "id": "sensor.relay_122230039629_frequency",
-          "friendlyName": "Relay 122230039629 Frequency",
-          "cSharpName": "Relay122230039629Frequency"
-        },
-        {
-          "id": "sensor.relay_122230039629_temperature",
-          "friendlyName": "Relay 122230039629 Temperature",
-          "cSharpName": "Relay122230039629Temperature"
-        },
-        {
-          "id": "sensor.relay_122230039629_voltage_l1",
-          "friendlyName": "Relay 122230039629 Voltage L1",
-          "cSharpName": "Relay122230039629VoltageL1"
-        },
-        {
-          "id": "sensor.relay_122230039629_voltage_l2",
-          "friendlyName": "Relay 122230039629 Voltage L2",
-          "cSharpName": "Relay122230039629VoltageL2"
-        },
-        {
-          "id": "sensor.relay_122230039629_voltage_l3",
-          "friendlyName": "Relay 122230039629 Voltage L3",
-          "cSharpName": "Relay122230039629VoltageL3"
+          "id": "sensor.shellyem3_40f52001a247_phase_c_voltage",
+          "friendlyName": "shellyem3-40F52001A247 Phase C Voltage",
+          "cSharpName": "Shellyem340f52001a247PhaseCVoltage"
         },
         {
           "id": "sensor.slaapkamer_kasper_christel_luchtvochtigheid",
@@ -4458,33 +2828,33 @@
         },
         {
           "id": "sensor.slaapkamer_sjoerd_luchtvochtigheid",
-          "friendlyName": "Slaapkamer Sjoerd Luchtvochtigheid",
+          "friendlyName": "Droog kamer Luchtvochtigheid",
           "cSharpName": "SlaapkamerSjoerdLuchtvochtigheid"
         },
         {
           "id": "sensor.slaapkamer_sjoerd_temperatuur",
-          "friendlyName": "Slaapkamer Sjoerd Temperatuur",
+          "friendlyName": "Droog kamer Temperatuur",
           "cSharpName": "SlaapkamerSjoerdTemperatuur"
         },
         {
           "id": "sensor.slaapkamer_sjoerd_verwarmen",
-          "friendlyName": "Slaapkamer Sjoerd Verwarmen",
+          "friendlyName": "Droog kamer Verwarmen",
           "cSharpName": "SlaapkamerSjoerdVerwarmen"
         },
         {
-          "id": "sensor.slaapkamer_wouter_jeroen_luchtvochtigheid",
-          "friendlyName": "Slaapkamer Wouter Luchtvochtigheid",
-          "cSharpName": "SlaapkamerWouterJeroenLuchtvochtigheid"
+          "id": "sensor.slaapkamer_wouter_luchtvochtigheid",
+          "friendlyName": "Slaapkamer Sjoerd Luchtvochtigheid",
+          "cSharpName": "SlaapkamerWouterLuchtvochtigheid"
         },
         {
-          "id": "sensor.slaapkamer_wouter_jeroen_temperatuur",
-          "friendlyName": "Slaapkamer Wouter Temperatuur",
-          "cSharpName": "SlaapkamerWouterJeroenTemperatuur"
+          "id": "sensor.slaapkamer_wouter_temperatuur",
+          "friendlyName": "Slaapkamer Sjoerd Temperatuur",
+          "cSharpName": "SlaapkamerWouterTemperatuur"
         },
         {
-          "id": "sensor.slaapkamer_wouter_jeroen_verwarmen",
-          "friendlyName": "Slaapkamer Wouter Verwarmen",
-          "cSharpName": "SlaapkamerWouterJeroenVerwarmen"
+          "id": "sensor.slaapkamer_wouter_verwarmen",
+          "friendlyName": "Slaapkamer Sjoerd Verwarmen",
+          "cSharpName": "SlaapkamerWouterVerwarmen"
         },
         {
           "id": "sensor.sm_a556b_battery_level",
@@ -4492,44 +2862,24 @@
           "cSharpName": "SmA556bBatteryLevel"
         },
         {
-          "id": "sensor.smart_series_8000_1041_time",
-          "friendlyName": "Smart Series 8000 1041 Time",
-          "cSharpName": "SmartSeries80001041Time"
+          "id": "sensor.usw_16_poe_cpu_utilization",
+          "friendlyName": "USW-16-PoE CPU utilization",
+          "cSharpName": "Usw16PoeCpuUtilization"
         },
         {
-          "id": "sensor.system_monitor_disk_use",
-          "friendlyName": "System Monitor Disk use /",
-          "cSharpName": "SystemMonitorDiskUse"
+          "id": "sensor.usw_16_poe_memory_utilization",
+          "friendlyName": "USW-16-PoE Memory utilization",
+          "cSharpName": "Usw16PoeMemoryUtilization"
         },
         {
-          "id": "sensor.system_monitor_disk_use_media",
-          "friendlyName": "System Monitor Disk use /media",
-          "cSharpName": "SystemMonitorDiskUseMedia"
+          "id": "sensor.usw_flex_mini_cpu_utilization",
+          "friendlyName": "USW Flex Mini CPU utilization",
+          "cSharpName": "UswFlexMiniCpuUtilization"
         },
         {
-          "id": "sensor.system_monitor_geheugengebruik",
-          "friendlyName": "System Monitor Geheugengebruik",
-          "cSharpName": "SystemMonitorGeheugengebruik"
-        },
-        {
-          "id": "sensor.system_monitor_memory_free",
-          "friendlyName": "System Monitor Memory free",
-          "cSharpName": "SystemMonitorMemoryFree"
-        },
-        {
-          "id": "sensor.system_monitor_memory_use",
-          "friendlyName": "System Monitor Memory use",
-          "cSharpName": "SystemMonitorMemoryUse"
-        },
-        {
-          "id": "sensor.system_monitor_processor_use",
-          "friendlyName": "System Monitor Processor use",
-          "cSharpName": "SystemMonitorProcessorUse"
-        },
-        {
-          "id": "sensor.system_monitor_processortemperatuur",
-          "friendlyName": "System Monitor Processortemperatuur",
-          "cSharpName": "SystemMonitorProcessortemperatuur"
+          "id": "sensor.usw_flex_mini_memory_utilization",
+          "friendlyName": "USW Flex Mini Memory utilization",
+          "cSharpName": "UswFlexMiniMemoryUtilization"
         },
         {
           "id": "sensor.voordeur_all_active_count",
@@ -4540,6 +2890,36 @@
           "id": "sensor.voordeur_all_count",
           "friendlyName": "Voordeur All count",
           "cSharpName": "VoordeurAllCount"
+        },
+        {
+          "id": "sensor.voordeur_car_active_count",
+          "friendlyName": "Voordeur Car Active Count",
+          "cSharpName": "VoordeurCarActiveCount"
+        },
+        {
+          "id": "sensor.voordeur_car_count",
+          "friendlyName": "Voordeur Car count",
+          "cSharpName": "VoordeurCarCount"
+        },
+        {
+          "id": "sensor.voordeur_cat_active_count",
+          "friendlyName": "Voordeur Cat Active Count",
+          "cSharpName": "VoordeurCatActiveCount"
+        },
+        {
+          "id": "sensor.voordeur_cat_count",
+          "friendlyName": "Voordeur Cat count",
+          "cSharpName": "VoordeurCatCount"
+        },
+        {
+          "id": "sensor.voordeur_dog_active_count",
+          "friendlyName": "Voordeur Dog Active Count",
+          "cSharpName": "VoordeurDogActiveCount"
+        },
+        {
+          "id": "sensor.voordeur_dog_count",
+          "friendlyName": "Voordeur Dog count",
+          "cSharpName": "VoordeurDogCount"
         },
         {
           "id": "sensor.voordeur_person_active_count",
@@ -4577,6 +2957,36 @@
           "cSharpName": "WoonkamerAllCount"
         },
         {
+          "id": "sensor.woonkamer_car_active_count",
+          "friendlyName": "Woonkamer Car Active Count",
+          "cSharpName": "WoonkamerCarActiveCount"
+        },
+        {
+          "id": "sensor.woonkamer_car_count",
+          "friendlyName": "Woonkamer Car count",
+          "cSharpName": "WoonkamerCarCount"
+        },
+        {
+          "id": "sensor.woonkamer_cat_active_count",
+          "friendlyName": "Woonkamer Cat Active Count",
+          "cSharpName": "WoonkamerCatActiveCount"
+        },
+        {
+          "id": "sensor.woonkamer_cat_count",
+          "friendlyName": "Woonkamer Cat count",
+          "cSharpName": "WoonkamerCatCount"
+        },
+        {
+          "id": "sensor.woonkamer_dog_active_count",
+          "friendlyName": "Woonkamer Dog Active Count",
+          "cSharpName": "WoonkamerDogActiveCount"
+        },
+        {
+          "id": "sensor.woonkamer_dog_count",
+          "friendlyName": "Woonkamer Dog count",
+          "cSharpName": "WoonkamerDogCount"
+        },
+        {
           "id": "sensor.woonkamer_luchtvochtigheid",
           "friendlyName": "Woonkamer Luchtvochtigheid",
           "cSharpName": "WoonkamerLuchtvochtigheid"
@@ -4602,23 +3012,18 @@
           "cSharpName": "WoonkamerVerwarmen"
         },
         {
-          "id": "sensor.xq_cc54_battery_level",
-          "friendlyName": "XQ-CC54 Battery level",
-          "cSharpName": "XqCc54BatteryLevel"
-        },
-        {
           "id": "sensor.zolder_achterkant_luchtvochtigheid",
-          "friendlyName": "Zolder achterkant Luchtvochtigheid",
+          "friendlyName": "Slaapkamer Jeroen Luchtvochtigheid",
           "cSharpName": "ZolderAchterkantLuchtvochtigheid"
         },
         {
           "id": "sensor.zolder_achterkant_temperatuur",
-          "friendlyName": "Zolder achterkant Temperatuur",
+          "friendlyName": "Slaapkamer Jeroen Temperatuur",
           "cSharpName": "ZolderAchterkantTemperatuur"
         },
         {
           "id": "sensor.zolder_achterkant_verwarmen",
-          "friendlyName": "Zolder achterkant Verwarmen",
+          "friendlyName": "Slaapkamer Jeroen Verwarmen",
           "cSharpName": "ZolderAchterkantVerwarmen"
         }
       ],
@@ -4825,64 +3230,99 @@
       "domain": "switch",
       "entities": [
         {
-          "id": "switch.achtertuin_stopcontact",
-          "friendlyName": "Stopcontact Achtertuin",
-          "cSharpName": "AchtertuinStopcontact"
-        },
-        {
-          "id": "switch.afzuiging_badkamer",
-          "friendlyName": "Badkamer-Afzuiger",
-          "cSharpName": "AfzuigingBadkamer"
-        },
-        {
-          "id": "switch.anycubic_kobra_s1_combo_chamber_light",
-          "friendlyName": "Chamber Light",
-          "cSharpName": "AnycubicKobraS1ComboChamberLight"
-        },
-        {
-          "id": "switch.auto_entities_pre_release",
-          "friendlyName": "auto-entities Pre-release",
-          "cSharpName": "AutoEntitiesPreRelease"
-        },
-        {
-          "id": "switch.badkamer_lamp",
-          "friendlyName": "Lamp badkamer",
-          "cSharpName": "BadkamerLamp"
-        },
-        {
-          "id": "switch.badkamer_spiegel",
+          "id": "switch.brok_b_s",
           "friendlyName": "Lamp spiegel",
-          "cSharpName": "BadkamerSpiegel"
+          "cSharpName": "BrokBS"
         },
         {
           "id": "switch.energie_meter",
-          "friendlyName": "Energie-Meter",
+          "friendlyName": "Energie meter",
           "cSharpName": "EnergieMeter"
         },
         {
-          "id": "switch.garage_lamp",
-          "friendlyName": "Garage-Lamp",
-          "cSharpName": "GarageLamp"
+          "id": "switch.fambrok",
+          "friendlyName": "FamBrok",
+          "cSharpName": "Fambrok"
         },
         {
-          "id": "switch.grote_kamer_voor_lamp_switch_0",
-          "friendlyName": "Grote kamer voor Lamp switch_0",
-          "cSharpName": "GroteKamerVoorLampSwitch0"
-        },
-        {
-          "id": "switch.grotekamerachter_lamp_switch_0",
-          "friendlyName": "GroteKamerAchter-Lamp switch_0",
-          "cSharpName": "GrotekamerachterLampSwitch0"
-        },
-        {
-          "id": "switch.kleinekamerachterkantlamp_switch_0",
-          "friendlyName": "KleineKamerAchterkantLamp switch_0",
-          "cSharpName": "KleinekamerachterkantlampSwitch0"
+          "id": "switch.fambrok_iot",
+          "friendlyName": "fambrok-iot",
+          "cSharpName": "FambrokIot"
         },
         {
           "id": "switch.lamp_overloop",
-          "friendlyName": "Lamp overloop",
+          "friendlyName": "Lamp",
           "cSharpName": "LampOverloop"
+        },
+        {
+          "id": "switch.shelly1mini_543204b8f5ec",
+          "friendlyName": "shelly1mini-543204b8f5ec",
+          "cSharpName": "Shelly1mini543204b8f5ec"
+        },
+        {
+          "id": "switch.shelly1mini_543204b8f67c",
+          "friendlyName": "Lamp",
+          "cSharpName": "Shelly1mini543204b8f67c"
+        },
+        {
+          "id": "switch.shelly1mini_543204b8f7a8",
+          "friendlyName": "Lamp",
+          "cSharpName": "Shelly1mini543204b8f7a8"
+        },
+        {
+          "id": "switch.shelly1mini_543204b96788",
+          "friendlyName": "Lamp",
+          "cSharpName": "Shelly1mini543204b96788"
+        },
+        {
+          "id": "switch.shelly1mini_543204b9b26c",
+          "friendlyName": "shelly1mini-543204b9b26c",
+          "cSharpName": "Shelly1mini543204b9b26c"
+        },
+        {
+          "id": "switch.shelly1mini_543204b9d78c",
+          "friendlyName": "Lamp",
+          "cSharpName": "Shelly1mini543204b9d78c"
+        },
+        {
+          "id": "switch.shelly1mini_543204b9eba0",
+          "friendlyName": "Lamp",
+          "cSharpName": "Shelly1mini543204b9eba0"
+        },
+        {
+          "id": "switch.shelly1mini_543204ba9294",
+          "friendlyName": "Lamp",
+          "cSharpName": "Shelly1mini543204ba9294"
+        },
+        {
+          "id": "switch.shelly1mini_543204ba9ca0",
+          "friendlyName": "Lamp",
+          "cSharpName": "Shelly1mini543204ba9ca0"
+        },
+        {
+          "id": "switch.shelly1mini_543204baa850",
+          "friendlyName": "Afzuiger",
+          "cSharpName": "Shelly1mini543204baa850"
+        },
+        {
+          "id": "switch.shelly1mini_543204baae20",
+          "friendlyName": "Lamp",
+          "cSharpName": "Shelly1mini543204baae20"
+        },
+        {
+          "id": "switch.shelly1mini_543204bae5ec",
+          "friendlyName": "Stopcontact",
+          "cSharpName": "Shelly1mini543204bae5ec"
+        },
+        {
+          "id": "switch.shelly1mini_543204bb90dc",
+          "friendlyName": "Lamp",
+          "cSharpName": "Shelly1mini543204bb90dc"
+        },
+        {
+          "id": "switch.shelly1mini_543204bc1380",
+          "friendlyName": "shelly1mini-543204bc1380",
+          "cSharpName": "Shelly1mini543204bc1380"
         },
         {
           "id": "switch.slaapkamer_kasper_christel_kinderslot",
@@ -4891,23 +3331,33 @@
         },
         {
           "id": "switch.slaapkamer_sjoerd_kinderslot",
-          "friendlyName": "Slaapkamer Sjoerd Kinderslot",
+          "friendlyName": "Droog kamer Kinderslot",
           "cSharpName": "SlaapkamerSjoerdKinderslot"
         },
         {
           "id": "switch.slaapkamer_wouter_kinderslot",
-          "friendlyName": "Slaapkamer Wouter Kinderslot",
+          "friendlyName": "Slaapkamer Sjoerd Kinderslot",
           "cSharpName": "SlaapkamerWouterKinderslot"
         },
         {
-          "id": "switch.stopcontact_voortuin",
-          "friendlyName": "Stopcontact voortuin",
-          "cSharpName": "StopcontactVoortuin"
+          "id": "switch.unifi_network_allowed_internal",
+          "friendlyName": "UniFi Network allowed internal",
+          "cSharpName": "UnifiNetworkAllowedInternal"
         },
         {
-          "id": "switch.trapkast_lamp",
-          "friendlyName": "Lamp trapkast",
-          "cSharpName": "TrapkastLamp"
+          "id": "switch.unifi_network_mail",
+          "friendlyName": "UniFi Network mail",
+          "cSharpName": "UnifiNetworkMail"
+        },
+        {
+          "id": "switch.unifi_network_portainer_temp",
+          "friendlyName": "UniFi Network portainer temp",
+          "cSharpName": "UnifiNetworkPortainerTemp"
+        },
+        {
+          "id": "switch.unifi_network_web",
+          "friendlyName": "UniFi Network Web",
+          "cSharpName": "UnifiNetworkWeb"
         },
         {
           "id": "switch.voordeur_detect",
@@ -4935,24 +3385,9 @@
           "cSharpName": "VoorhalKinderslot"
         },
         {
-          "id": "switch.voortuin_lamp",
-          "friendlyName": "Voortuin lamp",
-          "cSharpName": "VoortuinLamp"
-        },
-        {
-          "id": "switch.wc_lamp_switch_0",
-          "friendlyName": "WC-Lamp switch_0",
-          "cSharpName": "WcLampSwitch0"
-        },
-        {
           "id": "switch.woonkamer_detect",
           "friendlyName": "Woonkamer Detect",
           "cSharpName": "WoonkamerDetect"
-        },
-        {
-          "id": "switch.woonkamer_lamp_switch_0",
-          "friendlyName": "Woonkamer Lamp",
-          "cSharpName": "WoonkamerLampSwitch0"
         },
         {
           "id": "switch.woonkamer_motion",
@@ -4971,18 +3406,8 @@
         },
         {
           "id": "switch.zolder_achterkant_kinderslot",
-          "friendlyName": "Zolder achterkant Kinderslot",
+          "friendlyName": "Slaapkamer Jeroen Kinderslot",
           "cSharpName": "ZolderAchterkantKinderslot"
-        },
-        {
-          "id": "switch.zolderachterkant_lamp_switch_0",
-          "friendlyName": "ZolderAchterkant-Lamp switch_0",
-          "cSharpName": "ZolderachterkantLampSwitch0"
-        },
-        {
-          "id": "switch.zoldervoorkant_lamp",
-          "friendlyName": "Lamp Zolder Voorkant",
-          "cSharpName": "ZoldervoorkantLamp"
         }
       ],
       "attributes": [
@@ -5071,9 +3496,9 @@
       "domain": "tts",
       "entities": [
         {
-          "id": "tts.google_en_com",
+          "id": "tts.google_translate_en_com",
           "friendlyName": "Google Translate en com",
-          "cSharpName": "GoogleEnCom"
+          "cSharpName": "GoogleTranslateEnCom"
         }
       ],
       "attributes": [
@@ -5088,64 +3513,29 @@
       "domain": "update",
       "entities": [
         {
-          "id": "update.achtertuin_stopcontact_firmware_update",
-          "friendlyName": "Achtertuin-Stopcontact firmware update",
-          "cSharpName": "AchtertuinStopcontactFirmwareUpdate"
+          "id": "update.ac_pro_garage",
+          "friendlyName": "AC Pro - Garage",
+          "cSharpName": "AcProGarage"
         },
         {
-          "id": "update.advanced_camera_card_update",
-          "friendlyName": "Advanced Camera Card update",
-          "cSharpName": "AdvancedCameraCardUpdate"
+          "id": "update.ac_pro_woonkamer",
+          "friendlyName": "AC Pro - Woonkamer",
+          "cSharpName": "AcProWoonkamer"
         },
         {
-          "id": "update.afvalwijzer_update",
-          "friendlyName": "Afvalwijzer update",
-          "cSharpName": "AfvalwijzerUpdate"
+          "id": "update.ap_zolder",
+          "friendlyName": "AP-zolder",
+          "cSharpName": "ApZolder"
         },
         {
-          "id": "update.alarmo_card_update",
-          "friendlyName": "Alarmo Card update",
-          "cSharpName": "AlarmoCardUpdate"
+          "id": "update.brok_b_s_firmware",
+          "friendlyName": "Lamp spiegel Firmware",
+          "cSharpName": "BrokBSFirmware"
         },
         {
-          "id": "update.alarmo_update",
-          "friendlyName": "Alarmo update",
-          "cSharpName": "AlarmoUpdate"
-        },
-        {
-          "id": "update.auto_entities_update",
-          "friendlyName": "auto-entities update",
-          "cSharpName": "AutoEntitiesUpdate"
-        },
-        {
-          "id": "update.badkamer_afzuiger_firmware_update",
-          "friendlyName": "Badkamer-Afzuiger firmware update",
-          "cSharpName": "BadkamerAfzuigerFirmwareUpdate"
-        },
-        {
-          "id": "update.badkamer_lamp_firmware_update",
-          "friendlyName": "Badkamer-Lamp firmware update",
-          "cSharpName": "BadkamerLampFirmwareUpdate"
-        },
-        {
-          "id": "update.badkamer_spiegel_firmware_update",
-          "friendlyName": "Badkamer-Spiegel firmware update",
-          "cSharpName": "BadkamerSpiegelFirmwareUpdate"
-        },
-        {
-          "id": "update.button_card_update",
-          "friendlyName": "button-card update",
-          "cSharpName": "ButtonCardUpdate"
-        },
-        {
-          "id": "update.enphase_envoy_dev_update",
-          "friendlyName": "Enphase Envoy (DEV) update",
-          "cSharpName": "EnphaseEnvoyDevUpdate"
-        },
-        {
-          "id": "update.enphase_envoy_installer_update",
-          "friendlyName": "Enphase Envoy (Installer) update",
-          "cSharpName": "EnphaseEnvoyInstallerUpdate"
+          "id": "update.fambrok",
+          "friendlyName": "FamBrok",
+          "cSharpName": "Fambrok"
         },
         {
           "id": "update.frigate_server",
@@ -5158,114 +3548,89 @@
           "cSharpName": "FrigateUpdate"
         },
         {
-          "id": "update.garage_lamp_firmware_update",
-          "friendlyName": "Garage-Lamp firmware update",
-          "cSharpName": "GarageLampFirmwareUpdate"
-        },
-        {
-          "id": "update.grote_kamer_voor_lamp_firmware_update",
-          "friendlyName": "Grote kamer voor Lamp firmware update",
-          "cSharpName": "GroteKamerVoorLampFirmwareUpdate"
-        },
-        {
-          "id": "update.grotekamerachter_lamp_firmware_update",
-          "friendlyName": "GroteKamerAchter-Lamp firmware update",
-          "cSharpName": "GrotekamerachterLampFirmwareUpdate"
-        },
-        {
           "id": "update.hacs_update",
           "friendlyName": "HACS update",
           "cSharpName": "HacsUpdate"
         },
         {
-          "id": "update.kleinekamerachterkantlamp_firmware_update",
-          "friendlyName": "KleineKamerAchterkantLamp firmware update",
-          "cSharpName": "KleinekamerachterkantlampFirmwareUpdate"
+          "id": "update.shelly1mini_543204b8f5ec_firmware",
+          "friendlyName": "shelly1mini-543204b8f5ec Firmware",
+          "cSharpName": "Shelly1mini543204b8f5ecFirmware"
         },
         {
-          "id": "update.local_tuya_update",
-          "friendlyName": "Local Tuya update",
-          "cSharpName": "LocalTuyaUpdate"
+          "id": "update.shelly1mini_543204b8f67c_firmware",
+          "friendlyName": "Lamp Firmware",
+          "cSharpName": "Shelly1mini543204b8f67cFirmware"
         },
         {
-          "id": "update.mini_media_player_update",
-          "friendlyName": "Mini Media Player update",
-          "cSharpName": "MiniMediaPlayerUpdate"
+          "id": "update.shelly1mini_543204b8f7a8_firmware",
+          "friendlyName": "Lamp Firmware",
+          "cSharpName": "Shelly1mini543204b8f7a8Firmware"
         },
         {
-          "id": "update.moonraker_update",
-          "friendlyName": "Moonraker update",
-          "cSharpName": "MoonrakerUpdate"
+          "id": "update.shelly1mini_543204b96788_firmware",
+          "friendlyName": "Lamp Firmware",
+          "cSharpName": "Shelly1mini543204b96788Firmware"
         },
         {
-          "id": "update.mushroom_update",
-          "friendlyName": "Mushroom update",
-          "cSharpName": "MushroomUpdate"
+          "id": "update.shelly1mini_543204b9b26c_firmware",
+          "friendlyName": "shelly1mini-543204b9b26c Firmware",
+          "cSharpName": "Shelly1mini543204b9b26cFirmware"
         },
         {
-          "id": "update.my_cards_bundle_update",
-          "friendlyName": "My Cards Bundle update",
-          "cSharpName": "MyCardsBundleUpdate"
+          "id": "update.shelly1mini_543204b9d78c_firmware",
+          "friendlyName": "Lamp Firmware",
+          "cSharpName": "Shelly1mini543204b9d78cFirmware"
         },
         {
-          "id": "update.netdaemon_update",
-          "friendlyName": "NetDaemon update",
-          "cSharpName": "NetdaemonUpdate"
+          "id": "update.shelly1mini_543204b9eba0_firmware",
+          "friendlyName": "Lamp Firmware",
+          "cSharpName": "Shelly1mini543204b9eba0Firmware"
         },
         {
-          "id": "update.sonicare_ble_update",
-          "friendlyName": "Sonicare BLE update",
-          "cSharpName": "SonicareBleUpdate"
+          "id": "update.shelly1mini_543204ba9294_firmware",
+          "friendlyName": "Lamp Firmware",
+          "cSharpName": "Shelly1mini543204ba9294Firmware"
         },
         {
-          "id": "update.stack_in_card_update",
-          "friendlyName": "Stack In Card update",
-          "cSharpName": "StackInCardUpdate"
+          "id": "update.shelly1mini_543204ba9ca0_firmware",
+          "friendlyName": "Lamp Firmware",
+          "cSharpName": "Shelly1mini543204ba9ca0Firmware"
         },
         {
-          "id": "update.state_switch_update",
-          "friendlyName": "state-switch update",
-          "cSharpName": "StateSwitchUpdate"
+          "id": "update.shelly1mini_543204baa850_firmware",
+          "friendlyName": "Afzuiger Firmware",
+          "cSharpName": "Shelly1mini543204baa850Firmware"
         },
         {
-          "id": "update.stopcontact_voortuin_firmware_update",
-          "friendlyName": "Stopcontact voortuin firmware update",
-          "cSharpName": "StopcontactVoortuinFirmwareUpdate"
+          "id": "update.shelly1mini_543204baae20_firmware",
+          "friendlyName": "Lamp Firmware",
+          "cSharpName": "Shelly1mini543204baae20Firmware"
         },
         {
-          "id": "update.trapkast_lamp_firmware_update",
-          "friendlyName": "Trapkast Lamp firmware update",
-          "cSharpName": "TrapkastLampFirmwareUpdate"
+          "id": "update.shelly1mini_543204bae5ec_firmware",
+          "friendlyName": "Stopcontact Firmware",
+          "cSharpName": "Shelly1mini543204bae5ecFirmware"
         },
         {
-          "id": "update.voortuin_lamp_firmware_update",
-          "friendlyName": "Voortuin lamp firmware update",
-          "cSharpName": "VoortuinLampFirmwareUpdate"
+          "id": "update.shelly1mini_543204bb90dc_firmware",
+          "friendlyName": "Lamp Firmware",
+          "cSharpName": "Shelly1mini543204bb90dcFirmware"
         },
         {
-          "id": "update.wc_lamp_firmware_update",
-          "friendlyName": "WC-Lamp firmware update",
-          "cSharpName": "WcLampFirmwareUpdate"
+          "id": "update.shelly1mini_543204bc1380_firmware",
+          "friendlyName": "shelly1mini-543204bc1380 Firmware",
+          "cSharpName": "Shelly1mini543204bc1380Firmware"
         },
         {
-          "id": "update.week_planner_card_update",
-          "friendlyName": "Week planner card update",
-          "cSharpName": "WeekPlannerCardUpdate"
+          "id": "update.usw_16_poe",
+          "friendlyName": "USW-16-PoE",
+          "cSharpName": "Usw16Poe"
         },
         {
-          "id": "update.woonkamer_lamp_firmware_update",
-          "friendlyName": "Woonkamer Lamp firmware update",
-          "cSharpName": "WoonkamerLampFirmwareUpdate"
-        },
-        {
-          "id": "update.zolderachterkant_lamp_firmware_update",
-          "friendlyName": "ZolderAchterkant-Lamp firmware update",
-          "cSharpName": "ZolderachterkantLampFirmwareUpdate"
-        },
-        {
-          "id": "update.zoldervoorkant_lamp_firmware_update",
-          "friendlyName": "ZolderVoorkant-Lamp firmware update",
-          "cSharpName": "ZoldervoorkantLampFirmwareUpdate"
+          "id": "update.usw_flex_mini",
+          "friendlyName": "USW Flex Mini",
+          "cSharpName": "UswFlexMini"
         }
       ],
       "attributes": [
@@ -5407,11 +3772,6 @@
       "domain": "weather",
       "entities": [
         {
-          "id": "weather.buienradar",
-          "friendlyName": "Buienradar",
-          "cSharpName": "Buienradar"
-        },
-        {
           "id": "weather.forecast_thuis",
           "friendlyName": "Forecast Thuis",
           "cSharpName": "ForecastThuis"
@@ -5519,24 +3879,19 @@
       "domain": "zone",
       "entities": [
         {
+          "id": "zone.grootvalk",
+          "friendlyName": "Grootvalk",
+          "cSharpName": "Grootvalk"
+        },
+        {
           "id": "zone.home",
           "friendlyName": "Thuis",
           "cSharpName": "Home"
         },
         {
-          "id": "zone.john_petra",
-          "friendlyName": "John \u0026 Petra",
-          "cSharpName": "JohnPetra"
-        },
-        {
-          "id": "zone.kasper_werk",
-          "friendlyName": "Kasper Werk",
-          "cSharpName": "KasperWerk"
-        },
-        {
-          "id": "zone.werk_christel",
-          "friendlyName": "Werk Christel",
-          "cSharpName": "WerkChristel"
+          "id": "zone.mondcentrum_drunen",
+          "friendlyName": "Mondcentrum Drunen",
+          "cSharpName": "MondcentrumDrunen"
         }
       ],
       "attributes": [
