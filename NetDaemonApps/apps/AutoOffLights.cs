@@ -3,22 +3,18 @@
 using System.Threading.Tasks;
 using HomeAssistantGenerated;
 
-namespace HassModel;
+namespace FamBrok.Apps;
 
-/// <summary>
-///     Hello world showcase using the new HassModel API
-/// </summary>
-[NetDaemonApp]
-public class LightsAutoOffAppApp
+public static class LightsAutoOffApp
 {
-    public LightsAutoOffAppApp(Entities entities)
+    public static void Toilet10min(Entities entities)
     {
         entities.Switch.ShellyToiletLamp.StateChanges().Where(e => e.New?.State != e.Old?.State)
             .Subscribe(async _ =>
             {
                 if (entities.Light.ShellyToiletLamp.State == "on")
                 {
-                    await Task.Delay(TimeSpan.FromMinutes(5));
+                    await Task.Delay(TimeSpan.FromMinutes(10));
 
                     if (entities.Light.ShellyToiletLamp.State == "on")
                     {
@@ -26,13 +22,16 @@ public class LightsAutoOffAppApp
                     }
                 }
             });
-        
+    }
+
+    public static void Trapkast2min(Entities entities)
+    {
         entities.Switch.ShellyTrapkastLamp.StateChanges().Where(e => e.New?.State != e.Old?.State)
             .Subscribe(async _ =>
             {
                 if (entities.Light.ShellyTrapkastLamp.State == "on")
                 {
-                    await Task.Delay(TimeSpan.FromMinutes(5));
+                    await Task.Delay(TimeSpan.FromMinutes(2));
 
                     if (entities.Light.ShellyTrapkastLamp.State == "on")
                     {
