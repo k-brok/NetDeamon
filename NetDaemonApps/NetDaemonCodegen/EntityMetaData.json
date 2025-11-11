@@ -657,6 +657,16 @@
           "cSharpName": "VoordeurAllOccupancy"
         },
         {
+          "id": "binary_sensor.voordeur_bicycle_occupancy",
+          "friendlyName": "Voordeur Bicycle occupancy",
+          "cSharpName": "VoordeurBicycleOccupancy"
+        },
+        {
+          "id": "binary_sensor.voordeur_bird_occupancy",
+          "friendlyName": "Voordeur Bird occupancy",
+          "cSharpName": "VoordeurBirdOccupancy"
+        },
+        {
           "id": "binary_sensor.voordeur_car_occupancy",
           "friendlyName": "Voordeur Car occupancy",
           "cSharpName": "VoordeurCarOccupancy"
@@ -667,6 +677,11 @@
           "cSharpName": "VoordeurCatOccupancy"
         },
         {
+          "id": "binary_sensor.voordeur_cell_phone_occupancy",
+          "friendlyName": "Voordeur Cell Phone occupancy",
+          "cSharpName": "VoordeurCellPhoneOccupancy"
+        },
+        {
           "id": "binary_sensor.voordeur_dog_occupancy",
           "friendlyName": "Voordeur Dog occupancy",
           "cSharpName": "VoordeurDogOccupancy"
@@ -675,6 +690,11 @@
           "id": "binary_sensor.voordeur_motion",
           "friendlyName": "Voordeur Motion",
           "cSharpName": "VoordeurMotion"
+        },
+        {
+          "id": "binary_sensor.voordeur_motorcycle_occupancy",
+          "friendlyName": "Voordeur Motorcycle occupancy",
+          "cSharpName": "VoordeurMotorcycleOccupancy"
         },
         {
           "id": "binary_sensor.voordeur_person_occupancy",
@@ -727,6 +747,16 @@
           "cSharpName": "WoonkamerAllOccupancy"
         },
         {
+          "id": "binary_sensor.woonkamer_bicycle_occupancy",
+          "friendlyName": "Woonkamer Bicycle occupancy",
+          "cSharpName": "WoonkamerBicycleOccupancy"
+        },
+        {
+          "id": "binary_sensor.woonkamer_bird_occupancy",
+          "friendlyName": "Woonkamer Bird occupancy",
+          "cSharpName": "WoonkamerBirdOccupancy"
+        },
+        {
           "id": "binary_sensor.woonkamer_car_occupancy",
           "friendlyName": "Woonkamer Car occupancy",
           "cSharpName": "WoonkamerCarOccupancy"
@@ -735,6 +765,11 @@
           "id": "binary_sensor.woonkamer_cat_occupancy",
           "friendlyName": "Woonkamer Cat occupancy",
           "cSharpName": "WoonkamerCatOccupancy"
+        },
+        {
+          "id": "binary_sensor.woonkamer_cell_phone_occupancy",
+          "friendlyName": "Woonkamer Cell Phone occupancy",
+          "cSharpName": "WoonkamerCellPhoneOccupancy"
         },
         {
           "id": "binary_sensor.woonkamer_connectiviteit",
@@ -750,6 +785,11 @@
           "id": "binary_sensor.woonkamer_motion",
           "friendlyName": "Woonkamer Motion",
           "cSharpName": "WoonkamerMotion"
+        },
+        {
+          "id": "binary_sensor.woonkamer_motorcycle_occupancy",
+          "friendlyName": "Woonkamer Motorcycle occupancy",
+          "cSharpName": "WoonkamerMotorcycleOccupancy"
         },
         {
           "id": "binary_sensor.woonkamer_overlay",
@@ -1198,6 +1238,11 @@
           "id": "conversation.home_assistant",
           "friendlyName": "Home Assistant",
           "cSharpName": "HomeAssistant"
+        },
+        {
+          "id": "conversation.openai_conversation",
+          "friendlyName": "OpenAI Conversation",
+          "cSharpName": "OpenaiConversation"
         }
       ],
       "attributes": [
@@ -1236,6 +1281,11 @@
         {
           "jsonName": "supported_features",
           "cSharpName": "SupportedFeatures",
+          "clrType": "System.Double"
+        },
+        {
+          "jsonName": "current_position",
+          "cSharpName": "CurrentPosition",
           "clrType": "System.Double"
         }
       ]
@@ -1565,6 +1615,16 @@
       "domain": "image",
       "entities": [
         {
+          "id": "image.voordeur_bicycle",
+          "friendlyName": "Voordeur Bicycle",
+          "cSharpName": "VoordeurBicycle"
+        },
+        {
+          "id": "image.voordeur_bird",
+          "friendlyName": "Voordeur Bird",
+          "cSharpName": "VoordeurBird"
+        },
+        {
           "id": "image.voordeur_car",
           "friendlyName": "Voordeur Car",
           "cSharpName": "VoordeurCar"
@@ -1575,14 +1635,34 @@
           "cSharpName": "VoordeurCat"
         },
         {
+          "id": "image.voordeur_cell_phone",
+          "friendlyName": "Voordeur Cell Phone",
+          "cSharpName": "VoordeurCellPhone"
+        },
+        {
           "id": "image.voordeur_dog",
           "friendlyName": "Voordeur Dog",
           "cSharpName": "VoordeurDog"
         },
         {
+          "id": "image.voordeur_motorcycle",
+          "friendlyName": "Voordeur Motorcycle",
+          "cSharpName": "VoordeurMotorcycle"
+        },
+        {
           "id": "image.voordeur_person",
           "friendlyName": "Voordeur Person",
           "cSharpName": "VoordeurPerson"
+        },
+        {
+          "id": "image.woonkamer_bicycle",
+          "friendlyName": "Woonkamer Bicycle",
+          "cSharpName": "WoonkamerBicycle"
+        },
+        {
+          "id": "image.woonkamer_bird",
+          "friendlyName": "Woonkamer Bird",
+          "cSharpName": "WoonkamerBird"
         },
         {
           "id": "image.woonkamer_car",
@@ -1595,9 +1675,19 @@
           "cSharpName": "WoonkamerCat"
         },
         {
+          "id": "image.woonkamer_cell_phone",
+          "friendlyName": "Woonkamer Cell Phone",
+          "cSharpName": "WoonkamerCellPhone"
+        },
+        {
           "id": "image.woonkamer_dog",
           "friendlyName": "Woonkamer Dog",
           "cSharpName": "WoonkamerDog"
+        },
+        {
+          "id": "image.woonkamer_motorcycle",
+          "friendlyName": "Woonkamer Motorcycle",
+          "cSharpName": "WoonkamerMotorcycle"
         },
         {
           "id": "image.woonkamer_person",
@@ -1627,9 +1717,14 @@
       "domain": "input_boolean",
       "entities": [
         {
-          "id": "input_boolean.dev_netdaemon_hass_model_lights_auto_off_app_app",
-          "friendlyName": "dev_netdaemon_hass_model_lights_auto_off_app_app",
-          "cSharpName": "DevNetdaemonHassModelLightsAutoOffAppApp"
+          "id": "input_boolean.netdaemon_hass_model_bar_switch_setup",
+          "friendlyName": "netdaemon_hass_model_bar_switch_setup",
+          "cSharpName": "NetdaemonHassModelBarSwitchSetup"
+        },
+        {
+          "id": "input_boolean.netdaemon_hass_model_lights_auto_off_app_app",
+          "friendlyName": "netdaemon_hass_model_lights_auto_off_app_app",
+          "cSharpName": "NetdaemonHassModelLightsAutoOffAppApp"
         }
       ],
       "attributes": [
@@ -1817,7 +1912,7 @@
         },
         {
           "id": "sensor.shellyem3_40f52001a247_phase_a_power_factor",
-          "friendlyName": "shellyem3-40F52001A247 Phase A Power factor",
+          "friendlyName": "Drogtrommel Power factor",
           "cSharpName": "Shellyem340f52001a247PhaseAPowerFactor"
         },
         {
@@ -2040,27 +2135,27 @@
         },
         {
           "id": "sensor.shellyem3_40f52001a247_phase_a_current",
-          "friendlyName": "shellyem3-40F52001A247 Phase A Current",
+          "friendlyName": "Drogtrommel Current",
           "cSharpName": "Shellyem340f52001a247PhaseACurrent"
         },
         {
           "id": "sensor.shellyem3_40f52001a247_phase_a_energy",
-          "friendlyName": "shellyem3-40F52001A247 Phase A Energy",
+          "friendlyName": "Drogtrommel Energy",
           "cSharpName": "Shellyem340f52001a247PhaseAEnergy"
         },
         {
           "id": "sensor.shellyem3_40f52001a247_phase_a_energy_returned",
-          "friendlyName": "shellyem3-40F52001A247 Phase A Energy returned",
+          "friendlyName": "Drogtrommel Energy returned",
           "cSharpName": "Shellyem340f52001a247PhaseAEnergyReturned"
         },
         {
           "id": "sensor.shellyem3_40f52001a247_phase_a_power",
-          "friendlyName": "shellyem3-40F52001A247 Phase A Power",
+          "friendlyName": "Drogtrommel Power",
           "cSharpName": "Shellyem340f52001a247PhaseAPower"
         },
         {
           "id": "sensor.shellyem3_40f52001a247_phase_a_voltage",
-          "friendlyName": "shellyem3-40F52001A247 Phase A Voltage",
+          "friendlyName": "Drogtrommel Voltage",
           "cSharpName": "Shellyem340f52001a247PhaseAVoltage"
         },
         {
@@ -2080,7 +2175,7 @@
         },
         {
           "id": "sensor.shellyem3_40f52001a247_phase_c_power",
-          "friendlyName": "shellyem3-40F52001A247 Phase C Power",
+          "friendlyName": "Vaatwasser",
           "cSharpName": "Shellyem340f52001a247PhaseCPower"
         },
         {
@@ -2169,6 +2264,26 @@
           "cSharpName": "VoordeurAllCount"
         },
         {
+          "id": "sensor.voordeur_bicycle_active_count",
+          "friendlyName": "Voordeur Bicycle Active Count",
+          "cSharpName": "VoordeurBicycleActiveCount"
+        },
+        {
+          "id": "sensor.voordeur_bicycle_count",
+          "friendlyName": "Voordeur Bicycle count",
+          "cSharpName": "VoordeurBicycleCount"
+        },
+        {
+          "id": "sensor.voordeur_bird_active_count",
+          "friendlyName": "Voordeur Bird Active Count",
+          "cSharpName": "VoordeurBirdActiveCount"
+        },
+        {
+          "id": "sensor.voordeur_bird_count",
+          "friendlyName": "Voordeur Bird count",
+          "cSharpName": "VoordeurBirdCount"
+        },
+        {
           "id": "sensor.voordeur_car_active_count",
           "friendlyName": "Voordeur Car Active Count",
           "cSharpName": "VoordeurCarActiveCount"
@@ -2189,6 +2304,16 @@
           "cSharpName": "VoordeurCatCount"
         },
         {
+          "id": "sensor.voordeur_cell_phone_active_count",
+          "friendlyName": "Voordeur Cell Phone Active Count",
+          "cSharpName": "VoordeurCellPhoneActiveCount"
+        },
+        {
+          "id": "sensor.voordeur_cell_phone_count",
+          "friendlyName": "Voordeur Cell Phone count",
+          "cSharpName": "VoordeurCellPhoneCount"
+        },
+        {
           "id": "sensor.voordeur_dog_active_count",
           "friendlyName": "Voordeur Dog Active Count",
           "cSharpName": "VoordeurDogActiveCount"
@@ -2197,6 +2322,16 @@
           "id": "sensor.voordeur_dog_count",
           "friendlyName": "Voordeur Dog count",
           "cSharpName": "VoordeurDogCount"
+        },
+        {
+          "id": "sensor.voordeur_motorcycle_active_count",
+          "friendlyName": "Voordeur Motorcycle Active Count",
+          "cSharpName": "VoordeurMotorcycleActiveCount"
+        },
+        {
+          "id": "sensor.voordeur_motorcycle_count",
+          "friendlyName": "Voordeur Motorcycle count",
+          "cSharpName": "VoordeurMotorcycleCount"
         },
         {
           "id": "sensor.voordeur_person_active_count",
@@ -2259,6 +2394,26 @@
           "cSharpName": "WoonkamerAllCount"
         },
         {
+          "id": "sensor.woonkamer_bicycle_active_count",
+          "friendlyName": "Woonkamer Bicycle Active Count",
+          "cSharpName": "WoonkamerBicycleActiveCount"
+        },
+        {
+          "id": "sensor.woonkamer_bicycle_count",
+          "friendlyName": "Woonkamer Bicycle count",
+          "cSharpName": "WoonkamerBicycleCount"
+        },
+        {
+          "id": "sensor.woonkamer_bird_active_count",
+          "friendlyName": "Woonkamer Bird Active Count",
+          "cSharpName": "WoonkamerBirdActiveCount"
+        },
+        {
+          "id": "sensor.woonkamer_bird_count",
+          "friendlyName": "Woonkamer Bird count",
+          "cSharpName": "WoonkamerBirdCount"
+        },
+        {
           "id": "sensor.woonkamer_car_active_count",
           "friendlyName": "Woonkamer Car Active Count",
           "cSharpName": "WoonkamerCarActiveCount"
@@ -2279,6 +2434,16 @@
           "cSharpName": "WoonkamerCatCount"
         },
         {
+          "id": "sensor.woonkamer_cell_phone_active_count",
+          "friendlyName": "Woonkamer Cell Phone Active Count",
+          "cSharpName": "WoonkamerCellPhoneActiveCount"
+        },
+        {
+          "id": "sensor.woonkamer_cell_phone_count",
+          "friendlyName": "Woonkamer Cell Phone count",
+          "cSharpName": "WoonkamerCellPhoneCount"
+        },
+        {
           "id": "sensor.woonkamer_dog_active_count",
           "friendlyName": "Woonkamer Dog Active Count",
           "cSharpName": "WoonkamerDogActiveCount"
@@ -2292,6 +2457,16 @@
           "id": "sensor.woonkamer_luchtvochtigheid",
           "friendlyName": "Woonkamer Luchtvochtigheid",
           "cSharpName": "WoonkamerLuchtvochtigheid"
+        },
+        {
+          "id": "sensor.woonkamer_motorcycle_active_count",
+          "friendlyName": "Woonkamer Motorcycle Active Count",
+          "cSharpName": "WoonkamerMotorcycleActiveCount"
+        },
+        {
+          "id": "sensor.woonkamer_motorcycle_count",
+          "friendlyName": "Woonkamer Motorcycle count",
+          "cSharpName": "WoonkamerMotorcycleCount"
         },
         {
           "id": "sensor.woonkamer_person_active_count",
@@ -3076,6 +3251,45 @@
           "cSharpName": "Icon",
           "clrType": "System.String"
         },
+        {
+          "jsonName": "friendly_name",
+          "cSharpName": "FriendlyName",
+          "clrType": "System.String"
+        }
+      ]
+    },
+    {
+      "domain": "ai_task",
+      "entities": [
+        {
+          "id": "ai_task.openai_ai_task",
+          "friendlyName": "OpenAI AI Task",
+          "cSharpName": "OpenaiAiTask"
+        }
+      ],
+      "attributes": [
+        {
+          "jsonName": "friendly_name",
+          "cSharpName": "FriendlyName",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "supported_features",
+          "cSharpName": "SupportedFeatures",
+          "clrType": "System.Double"
+        }
+      ]
+    },
+    {
+      "domain": "stt",
+      "entities": [
+        {
+          "id": "stt.faster_whisper",
+          "friendlyName": "faster-whisper",
+          "cSharpName": "FasterWhisper"
+        }
+      ],
+      "attributes": [
         {
           "jsonName": "friendly_name",
           "cSharpName": "FriendlyName",
