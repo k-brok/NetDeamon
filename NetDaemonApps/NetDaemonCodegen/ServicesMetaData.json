@@ -2017,6 +2017,37 @@
           }
         }
       }
+    },
+    "mobile_app_xq_cc54": {
+      "name": "Send a notification via mobile_app_xq_cc54",
+      "description": "Sends a notification message using the mobile_app_xq_cc54 integration.",
+      "fields": {
+        "message": {
+          "required": true,
+          "example": "The garage door has been open for 10 minutes.",
+          "selector": {
+            "text": null
+          }
+        },
+        "title": {
+          "example": "Your Garage Door Friend",
+          "selector": {
+            "text": null
+          }
+        },
+        "target": {
+          "example": "platform specific",
+          "selector": {
+            "object": null
+          }
+        },
+        "data": {
+          "example": "platform specific",
+          "selector": {
+            "object": null
+          }
+        }
+      }
     }
   },
   "button": {
@@ -4779,6 +4810,563 @@
             ]
           }
         ]
+      }
+    }
+  },
+  "openai_conversation": {
+    "generate_content": {
+      "fields": {
+        "config_entry": {
+          "required": true,
+          "selector": {
+            "config_entry": {
+              "integration": "openai_conversation"
+            }
+          }
+        },
+        "prompt": {
+          "required": true,
+          "selector": {
+            "text": {
+              "multiline": true,
+              "multiple": false
+            }
+          },
+          "example": "Hello, how can I help you?"
+        },
+        "filenames": {
+          "selector": {
+            "text": {
+              "multiline": true,
+              "multiple": false
+            }
+          },
+          "example": "- /path/to/file1.txt\n- /path/to/file2.txt\n"
+        }
+      },
+      "response": {
+        "optional": false
+      }
+    },
+    "generate_image": {
+      "fields": {
+        "config_entry": {
+          "required": true,
+          "selector": {
+            "config_entry": {
+              "integration": "openai_conversation"
+            }
+          }
+        },
+        "prompt": {
+          "required": true,
+          "selector": {
+            "text": {
+              "multiline": true,
+              "multiple": false
+            }
+          }
+        },
+        "size": {
+          "required": false,
+          "example": "1024x1024",
+          "default": "1024x1024",
+          "selector": {
+            "select": {
+              "options": [
+                "1024x1024",
+                "1024x1792",
+                "1792x1024"
+              ],
+              "multiple": false,
+              "custom_value": false,
+              "sort": false
+            }
+          }
+        },
+        "quality": {
+          "required": false,
+          "example": "standard",
+          "default": "standard",
+          "selector": {
+            "select": {
+              "options": [
+                "standard",
+                "hd"
+              ],
+              "multiple": false,
+              "custom_value": false,
+              "sort": false
+            }
+          }
+        },
+        "style": {
+          "required": false,
+          "example": "vivid",
+          "default": "vivid",
+          "selector": {
+            "select": {
+              "options": [
+                "vivid",
+                "natural"
+              ],
+              "multiple": false,
+              "custom_value": false,
+              "sort": false
+            }
+          }
+        }
+      },
+      "response": {
+        "optional": false
+      }
+    }
+  },
+  "ai_task": {
+    "generate_data": {
+      "fields": {
+        "task_name": {
+          "example": "home summary",
+          "required": true,
+          "selector": {
+            "text": {
+              "multiple": false,
+              "multiline": false
+            }
+          }
+        },
+        "instructions": {
+          "example": "Generate a funny notification that the garage door was left open",
+          "required": true,
+          "selector": {
+            "text": {
+              "multiline": true,
+              "multiple": false
+            }
+          }
+        },
+        "entity_id": {
+          "required": false,
+          "selector": {
+            "entity": {
+              "filter": [
+                {
+                  "domain": [
+                    "ai_task"
+                  ],
+                  "supported_features": [
+                    1
+                  ]
+                }
+              ],
+              "multiple": false,
+              "reorder": false
+            }
+          }
+        },
+        "structure": {
+          "required": false,
+          "example": "{ \u0022name\u0022: { \u0022selector\u0022: { \u0022text\u0022: }, \u0022description\u0022: \u0022Name of the user\u0022, \u0022required\u0022: \u0022True\u0022 } } }, \u0022age\u0022: { \u0022selector\u0022: { \u0022number\u0022: }, \u0022description\u0022: \u0022Age of the user\u0022 } }",
+          "selector": {
+            "object": {
+              "multiple": false
+            }
+          }
+        },
+        "attachments": {
+          "required": false,
+          "selector": {
+            "media": {
+              "accept": [
+                "*"
+              ]
+            }
+          }
+        }
+      },
+      "response": {
+        "optional": false
+      }
+    },
+    "generate_image": {
+      "fields": {
+        "task_name": {
+          "example": "picture of a dog",
+          "required": true,
+          "selector": {
+            "text": {
+              "multiple": false,
+              "multiline": false
+            }
+          }
+        },
+        "instructions": {
+          "example": "Generate a high quality square image of a dog on transparent background",
+          "required": true,
+          "selector": {
+            "text": {
+              "multiline": true,
+              "multiple": false
+            }
+          }
+        },
+        "entity_id": {
+          "required": true,
+          "selector": {
+            "entity": {
+              "filter": [
+                {
+                  "domain": [
+                    "ai_task"
+                  ],
+                  "supported_features": [
+                    4
+                  ]
+                }
+              ],
+              "multiple": false,
+              "reorder": false
+            }
+          }
+        },
+        "attachments": {
+          "required": false,
+          "selector": {
+            "media": {
+              "accept": [
+                "*"
+              ]
+            }
+          }
+        }
+      },
+      "response": {
+        "optional": false
+      }
+    }
+  },
+  "assist_satellite": {
+    "announce": {
+      "fields": {
+        "message": {
+          "required": false,
+          "example": "Time to wake up!",
+          "default": "",
+          "selector": {
+            "text": {
+              "multiple": false,
+              "multiline": false
+            }
+          }
+        },
+        "media_id": {
+          "required": false,
+          "selector": {
+            "media": {
+              "accept": [
+                "audio/*"
+              ]
+            }
+          }
+        },
+        "preannounce": {
+          "required": false,
+          "default": true,
+          "selector": {
+            "boolean": {}
+          }
+        },
+        "preannounce_media_id": {
+          "required": false,
+          "selector": {
+            "media": {
+              "accept": [
+                "audio/*"
+              ]
+            }
+          }
+        }
+      },
+      "target": {
+        "entity": [
+          {
+            "domain": [
+              "assist_satellite"
+            ],
+            "supported_features": [
+              1
+            ]
+          }
+        ]
+      }
+    },
+    "start_conversation": {
+      "fields": {
+        "start_message": {
+          "required": false,
+          "example": "You left the lights on in the living room. Turn them off?",
+          "default": "",
+          "selector": {
+            "text": {
+              "multiple": false,
+              "multiline": false
+            }
+          }
+        },
+        "start_media_id": {
+          "required": false,
+          "selector": {
+            "media": {
+              "accept": [
+                "audio/*"
+              ]
+            }
+          }
+        },
+        "extra_system_prompt": {
+          "required": false,
+          "selector": {
+            "text": {
+              "multiple": false,
+              "multiline": false
+            }
+          }
+        },
+        "preannounce": {
+          "required": false,
+          "default": true,
+          "selector": {
+            "boolean": {}
+          }
+        },
+        "preannounce_media_id": {
+          "required": false,
+          "selector": {
+            "media": {
+              "accept": [
+                "audio/*"
+              ]
+            }
+          }
+        }
+      },
+      "target": {
+        "entity": [
+          {
+            "domain": [
+              "assist_satellite"
+            ],
+            "supported_features": [
+              2
+            ]
+          }
+        ]
+      }
+    },
+    "ask_question": {
+      "fields": {
+        "entity_id": {
+          "required": true,
+          "selector": {
+            "entity": {
+              "filter": [
+                {
+                  "domain": [
+                    "assist_satellite"
+                  ],
+                  "supported_features": [
+                    2
+                  ]
+                }
+              ],
+              "multiple": false,
+              "reorder": false
+            }
+          }
+        },
+        "question": {
+          "required": false,
+          "example": "What kind of music would you like to play?",
+          "default": "",
+          "selector": {
+            "text": {
+              "multiple": false,
+              "multiline": false
+            }
+          }
+        },
+        "question_media_id": {
+          "required": false,
+          "selector": {
+            "media": {
+              "accept": [
+                "audio/*"
+              ]
+            }
+          }
+        },
+        "preannounce": {
+          "required": false,
+          "default": true,
+          "selector": {
+            "boolean": {}
+          }
+        },
+        "preannounce_media_id": {
+          "required": false,
+          "selector": {
+            "media": {
+              "accept": [
+                "audio/*"
+              ]
+            }
+          }
+        },
+        "answers": {
+          "required": false,
+          "selector": {
+            "object": {
+              "label_field": "sentences",
+              "description_field": "id",
+              "multiple": true,
+              "translation_key": "answers",
+              "fields": {
+                "id": {
+                  "required": true,
+                  "selector": {
+                    "text": {
+                      "multiple": false,
+                      "multiline": false
+                    }
+                  }
+                },
+                "sentences": {
+                  "required": true,
+                  "selector": {
+                    "text": {
+                      "multiple": true,
+                      "multiline": false
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "response": {
+        "optional": false
+      }
+    }
+  },
+  "siren": {
+    "turn_on": {
+      "fields": {
+        "tone": {
+          "example": "fire",
+          "filter": {
+            "supported_features": [
+              4
+            ]
+          },
+          "required": false,
+          "selector": {
+            "text": {
+              "multiple": false,
+              "multiline": false
+            }
+          }
+        },
+        "volume_level": {
+          "example": 0.5,
+          "filter": {
+            "supported_features": [
+              8
+            ]
+          },
+          "required": false,
+          "selector": {
+            "number": {
+              "min": 0.0,
+              "max": 1.0,
+              "step": 0.05,
+              "mode": "slider"
+            }
+          }
+        },
+        "duration": {
+          "example": 15,
+          "filter": {
+            "supported_features": [
+              16
+            ]
+          },
+          "required": false,
+          "selector": {
+            "text": {
+              "multiple": false,
+              "multiline": false
+            }
+          }
+        }
+      },
+      "target": {
+        "entity": [
+          {
+            "domain": [
+              "siren"
+            ],
+            "supported_features": [
+              1
+            ]
+          }
+        ]
+      }
+    },
+    "turn_off": {
+      "fields": {},
+      "target": {
+        "entity": [
+          {
+            "domain": [
+              "siren"
+            ],
+            "supported_features": [
+              2
+            ]
+          }
+        ]
+      }
+    },
+    "toggle": {
+      "fields": {},
+      "target": {
+        "entity": [
+          {
+            "domain": [
+              "siren"
+            ],
+            "supported_features": [
+              3
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rfxtrx": {
+    "send": {
+      "fields": {
+        "event": {
+          "required": true,
+          "example": "0b11009e00e6116202020070",
+          "selector": {
+            "text": {
+              "multiple": false,
+              "multiline": false
+            }
+          }
+        }
       }
     }
   }
