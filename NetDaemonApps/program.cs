@@ -27,6 +27,7 @@ try
                 .AddNetDaemonApp("Trapkast2min",LightsAutoOffApp.Trapkast2min)
                 .AddNetDaemonApp("SwitchOverloop",BarSwitchSetup.SwitchOverloop)
                 .AddNetDaemonApp("SwitchSerre",BarSwitchSetup.SwitchSerre)
+                .AddNetDaemonApp("MotionNotification",FrigateSetup.MotionNotificationVoorduer)
         )
         .Build()
         .RunAsync()
