@@ -1437,6 +1437,11 @@
           "id": "device_tracker.usw_flex_mini",
           "friendlyName": "USW Flex Mini",
           "cSharpName": "UswFlexMini"
+        },
+        {
+          "id": "device_tracker.xq_cc54",
+          "friendlyName": "XQ-CC54",
+          "cSharpName": "XqCc54"
         }
       ],
       "attributes": [
@@ -1744,6 +1749,11 @@
       "domain": "person",
       "entities": [
         {
+          "id": "person.christel_stravers",
+          "friendlyName": "Christel Stravers",
+          "cSharpName": "ChristelStravers"
+        },
+        {
           "id": "person.kasper_brok",
           "friendlyName": "Kasper Brok",
           "cSharpName": "KasperBrok"
@@ -2024,6 +2034,16 @@
           "id": "sensor.woonkamer_tado_mode",
           "friendlyName": "Woonkamer Tado mode",
           "cSharpName": "WoonkamerTadoMode"
+        },
+        {
+          "id": "sensor.xq_cc54_battery_state",
+          "friendlyName": "XQ-CC54 Battery state",
+          "cSharpName": "XqCc54BatteryState"
+        },
+        {
+          "id": "sensor.xq_cc54_charger_type",
+          "friendlyName": "XQ-CC54 Charger type",
+          "cSharpName": "XqCc54ChargerType"
         },
         {
           "id": "sensor.zolder_achterkant_tado_mode",
@@ -2487,6 +2507,11 @@
           "id": "sensor.woonkamer_verwarmen",
           "friendlyName": "Woonkamer Verwarmen",
           "cSharpName": "WoonkamerVerwarmen"
+        },
+        {
+          "id": "sensor.xq_cc54_battery_level",
+          "friendlyName": "XQ-CC54 Battery level",
+          "cSharpName": "XqCc54BatteryLevel"
         },
         {
           "id": "sensor.zolder_achterkant_luchtvochtigheid",
