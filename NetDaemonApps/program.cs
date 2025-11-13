@@ -28,6 +28,7 @@ try
                 .AddNetDaemonApp("SwitchOverloop",BarSwitchSetup.SwitchOverloop)
                 .AddNetDaemonApp("SwitchSerre",BarSwitchSetup.SwitchSerre)
                 .AddNetDaemonApp("MotionNotification",FrigateSetup.MotionNotificationVoorduer)
+                .AddNetDaemonApp("KasperDeurbelNotification",DoorbellNotification.KasperDeurbelNotification)
         )
         .Build()
         .RunAsync()

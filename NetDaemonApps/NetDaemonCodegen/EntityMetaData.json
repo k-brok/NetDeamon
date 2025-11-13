@@ -2633,6 +2633,11 @@
       "domain": "switch",
       "entities": [
         {
+          "id": "switch.deurbel",
+          "friendlyName": "Deurbel",
+          "cSharpName": "Deurbel"
+        },
+        {
           "id": "switch.energie_meter",
           "friendlyName": "Energie meter",
           "cSharpName": "EnergieMeter"
@@ -2828,6 +2833,11 @@
           "jsonName": "device_class",
           "cSharpName": "DeviceClass",
           "clrType": "System.String"
+        },
+        {
+          "jsonName": "assumed_state",
+          "cSharpName": "AssumedState",
+          "clrType": "System.Boolean"
         }
       ]
     },

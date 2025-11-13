@@ -44,10 +44,11 @@ public class FrigateSetup
             .Where(e => e.New?.State == "on" && e.Old?.State != e.New?.State)
             .Subscribe(_ =>
             {
+                entities.Camera.Voordeur.Snapshot("/media/snapshots/voordeur/latest.jpg");
+
                 if (entities.Person.KasperBrok.State != "home")
                 {
                     logger.LogInformation("Kasper is not home, sending notification.");
-                    entities.Camera.Voordeur.Snapshot("/media/snapshots/voordeur/latest.jpg");
                     services.Notify.MobileAppSmA556b(
                         message: "Persoon gedetecteerd bij voordeur",
                         title: "Frigate Waarschuwing",
@@ -71,7 +72,6 @@ public class FrigateSetup
                 if (entities.Person.ChristelStravers.State != "home")
                 {
                     logger.LogInformation("Christel is not home, sending notification.");
-                    entities.Camera.Voordeur.Snapshot("/media/snapshots/voordeur/latest.jpg");
                     services.Notify.MobileAppXqCc54(
                         message: "Persoon gedetecteerd bij voordeur",
                         title: "Frigate Waarschuwing",
