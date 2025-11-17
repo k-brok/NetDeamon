@@ -6,6 +6,7 @@ namespace FamBrok.Apps;
 
 public class FrigateSetup
 {
+    private static DateTime _lastNotificationTime = DateTime.MinValue;
     public static void MotionNotificationVoorduer(IHaContext ha, ILogger<FrigateSetup> logger, Services services, Entities entities)
     {
         ha.Events
@@ -44,7 +45,15 @@ public class FrigateSetup
             .Where(e => e.New?.State == "on" && e.Old?.State != e.New?.State)
             .Subscribe(_ =>
             {
+                if (DateTime.UtcNow - _lastNotificationTime < TimeSpan.FromMinutes(5))
+                {
+                    logger.LogInformation("Cooldown actief, geen nieuwe notificatie verzonden.");
+                    return;
+                }
+
                 entities.Camera.Voordeur.Snapshot("/media/snapshots/voordeur/latest.jpg");
+
+                _lastNotificationTime = DateTime.UtcNow;
 
                 if (entities.Person.KasperBrok.State != "home")
                 {
