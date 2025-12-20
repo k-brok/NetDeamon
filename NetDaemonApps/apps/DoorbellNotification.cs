@@ -3,6 +3,7 @@ using HomeAssistantGenerated;
 
 namespace FamBrok.Apps;
 
+[NetDaemonApp]
 public class DoorbellNotification
 {
     public static void KasperDeurbelNotification(Entities entities, ILogger<DoorbellNotification> logger, Services services)

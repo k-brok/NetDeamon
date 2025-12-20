@@ -1,13 +1,12 @@
-// Use unique namespaces for your apps if you going to share with others to avoid
-// conflicting names
 using System.Threading.Tasks;
 using HomeAssistantGenerated;
 
 namespace FamBrok.Apps;
 
-public static class LightsAutoOffApp
+[NetDaemonApp]
+public class LightsAutoOffApp
 {
-    public static void Toilet10min(Entities entities)
+    public void Toilet10min(Entities entities)
     {
         entities.Switch.ShellyToiletLamp.StateChanges().Where(e => e.New?.State != e.Old?.State)
             .Subscribe(async _ =>
@@ -24,7 +23,7 @@ public static class LightsAutoOffApp
             });
     }
 
-    public static void Trapkast2min(Entities entities)
+    public void Trapkast2min(Entities entities)
     {
         entities.Switch.ShellyTrapkastLamp.StateChanges().Where(e => e.New?.State != e.Old?.State)
             .Subscribe(async _ =>

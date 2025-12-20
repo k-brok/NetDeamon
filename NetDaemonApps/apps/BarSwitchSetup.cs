@@ -3,6 +3,7 @@ using HomeAssistantGenerated;
 
 namespace FamBrok.Apps;
 
+[NetDaemonApp]
 public class BarSwitchSetup
 {
     public static void SwitchOverloop(Entities entities)

@@ -4,6 +4,7 @@ using HomeAssistantGenerated;
 
 namespace FamBrok.Apps;
 
+[NetDaemonApp]
 public class FrigateSetup
 {
     private static DateTime _lastNotificationTime = DateTime.MinValue;

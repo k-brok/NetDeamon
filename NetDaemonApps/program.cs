@@ -5,10 +5,6 @@ using NetDaemon.Extensions.Scheduler;
 using NetDaemon.Extensions.Tts;
 using NetDaemon.Runtime;
 using HomeAssistantGenerated;
-using FamBrok.Apps;
-using NetDaemon.AppModel;
-
-#pragma warning disable CA1812
 
 try
 {
@@ -23,12 +19,6 @@ try
                 .AddNetDaemonStateManager()
                 .AddNetDaemonScheduler()
                 .AddHomeAssistantGenerated()
-                .AddNetDaemonApp("Toilet10min",LightsAutoOffApp.Toilet10min)
-                .AddNetDaemonApp("Trapkast2min",LightsAutoOffApp.Trapkast2min)
-                .AddNetDaemonApp("SwitchOverloop",BarSwitchSetup.SwitchOverloop)
-                .AddNetDaemonApp("SwitchSerre",BarSwitchSetup.SwitchSerre)
-                .AddNetDaemonApp("MotionNotification",FrigateSetup.MotionNotificationVoorduer)
-                .AddNetDaemonApp("KasperDeurbelNotification",DoorbellNotification.KasperDeurbelNotification)
         )
         .Build()
         .RunAsync()
