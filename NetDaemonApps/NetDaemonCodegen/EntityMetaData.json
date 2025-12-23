@@ -4,6 +4,31 @@
       "domain": "light",
       "entities": [
         {
+          "id": "light.ac_27bc0cfe_0",
+          "friendlyName": "Lamp kast",
+          "cSharpName": "Ac27bc0cfe0"
+        },
+        {
+          "id": "light.ac_pro_garage_led",
+          "friendlyName": "AC Pro - Garage LED",
+          "cSharpName": "AcProGarageLed"
+        },
+        {
+          "id": "light.ac_pro_woonkamer_led",
+          "friendlyName": "AC Pro - Woonkamer LED",
+          "cSharpName": "AcProWoonkamerLed"
+        },
+        {
+          "id": "light.ap_zolder_led",
+          "friendlyName": "AP-zolder LED",
+          "cSharpName": "ApZolderLed"
+        },
+        {
+          "id": "light.kerstboom",
+          "friendlyName": "Kerstboom",
+          "cSharpName": "Kerstboom"
+        },
+        {
           "id": "light.shelly_badkamer_lamp",
           "friendlyName": "Shelly_Badkamer_Lamp",
           "cSharpName": "ShellyBadkamerLamp"
@@ -47,6 +72,11 @@
           "id": "light.shelly_trapkast_lamp",
           "friendlyName": "Shelly_Trapkast_Lamp",
           "cSharpName": "ShellyTrapkastLamp"
+        },
+        {
+          "id": "light.shelly_voortuin_lamp",
+          "friendlyName": "Shelly_Voortuin_Lamp",
+          "cSharpName": "ShellyVoortuinLamp"
         },
         {
           "id": "light.shelly_woonkamer_lamp",
@@ -144,6 +174,11 @@
           "jsonName": "friendly_name",
           "cSharpName": "FriendlyName",
           "clrType": "System.String"
+        },
+        {
+          "jsonName": "assumed_state",
+          "cSharpName": "AssumedState",
+          "clrType": "System.Boolean"
         }
       ]
     },
@@ -422,33 +457,43 @@
           "cSharpName": "ShellyTrapkastLampInput0"
         },
         {
+          "id": "binary_sensor.shelly_voortuin_lamp_input_0",
+          "friendlyName": "Shelly_Voortuin_Lamp Input 0",
+          "cSharpName": "ShellyVoortuinLampInput0"
+        },
+        {
+          "id": "binary_sensor.shelly_voortuin_stopcontact_input_0",
+          "friendlyName": "Shelly_Voortuin_Stopcontact Input 0",
+          "cSharpName": "ShellyVoortuinStopcontactInput0"
+        },
+        {
           "id": "binary_sensor.shelly_woonkamer_lamp_input_0",
           "friendlyName": "Shelly_Woonkamer_Lamp Input 0",
           "cSharpName": "ShellyWoonkamerLampInput0"
         },
         {
           "id": "binary_sensor.shelly_woonkamer_schaklaars_bar_schakelaar1_input",
-          "friendlyName": "Shelly_Woonkamer_Schaklaars_Bar Schakelaar1 input",
+          "friendlyName": "Shelly_Woonkamer_Schaklaars_Bar Input",
           "cSharpName": "ShellyWoonkamerSchaklaarsBarSchakelaar1Input"
         },
         {
           "id": "binary_sensor.shelly_woonkamer_schaklaars_bar_schakelaar2_input",
-          "friendlyName": "Shelly_Woonkamer_Schaklaars_Bar Schakelaar2 input",
+          "friendlyName": "Shelly_Woonkamer_Schaklaars_Bar Input",
           "cSharpName": "ShellyWoonkamerSchaklaarsBarSchakelaar2Input"
         },
         {
           "id": "binary_sensor.shelly_woonkamer_schaklaars_bar_schakelaar3_input",
-          "friendlyName": "Shelly_Woonkamer_Schaklaars_Bar Schakelaar3 input",
+          "friendlyName": "Shelly_Woonkamer_Schaklaars_Bar Input",
           "cSharpName": "ShellyWoonkamerSchaklaarsBarSchakelaar3Input"
         },
         {
           "id": "binary_sensor.shelly_woonkamer_serre_lamp_channel_1_input",
-          "friendlyName": "Shelly_Woonkamer_Serre_Lamp Channel 1 input",
+          "friendlyName": "Shelly_Woonkamer_Serre_Lamp Input",
           "cSharpName": "ShellyWoonkamerSerreLampChannel1Input"
         },
         {
           "id": "binary_sensor.shelly_woonkamer_serre_lamp_channel_2_input",
-          "friendlyName": "Shelly_Woonkamer_Serre_Lamp Channel 2 input",
+          "friendlyName": "Shelly_Woonkamer_Serre_Lamp Input",
           "cSharpName": "ShellyWoonkamerSerreLampChannel2Input"
         },
         {
@@ -460,16 +505,6 @@
           "id": "binary_sensor.shelly_woonkamer_serre_lamp_overpowering",
           "friendlyName": "Shelly_Woonkamer_Serre_Lamp Overpowering",
           "cSharpName": "ShellyWoonkamerSerreLampOverpowering"
-        },
-        {
-          "id": "binary_sensor.shelly1mini_543204b8f5ec_input_0",
-          "friendlyName": "shelly1mini-543204b8f5ec Input 0",
-          "cSharpName": "Shelly1mini543204b8f5ecInput0"
-        },
-        {
-          "id": "binary_sensor.shelly1mini_543204b9b26c_input_0",
-          "friendlyName": "shelly1mini-543204b9b26c Input 0",
-          "cSharpName": "Shelly1mini543204b9b26cInput0"
         },
         {
           "id": "binary_sensor.shelly1mini_543204bc1380_input_0",
@@ -727,6 +762,16 @@
           "cSharpName": "VoorhalVroegeStart"
         },
         {
+          "id": "binary_sensor.voortuin_all_occupancy",
+          "friendlyName": "Voortuin All occupancy",
+          "cSharpName": "VoortuinAllOccupancy"
+        },
+        {
+          "id": "binary_sensor.voortuin_person_occupancy",
+          "friendlyName": "Voortuin Person occupancy",
+          "cSharpName": "VoortuinPersonOccupancy"
+        },
+        {
           "id": "binary_sensor.warm_water_connectiviteit",
           "friendlyName": "Warm water Connectiviteit",
           "cSharpName": "WarmWaterConnectiviteit"
@@ -885,7 +930,7 @@
         },
         {
           "id": "button.energie_meter_restart",
-          "friendlyName": "Energie meter Restart",
+          "friendlyName": "Energie meter Herstarten",
           "cSharpName": "EnergieMeterRestart"
         },
         {
@@ -895,97 +940,97 @@
         },
         {
           "id": "button.shelly_achtertuin_stopkontact_restart",
-          "friendlyName": "Shelly_Achtertuin_Stopkontact Restart",
+          "friendlyName": "Shelly_Achtertuin_Stopkontact Herstarten",
           "cSharpName": "ShellyAchtertuinStopkontactRestart"
         },
         {
           "id": "button.shelly_badkamer_afzuiger_restart",
-          "friendlyName": "Shelly_Badkamer_Afzuiger Restart",
+          "friendlyName": "Shelly_Badkamer_Afzuiger Herstarten",
           "cSharpName": "ShellyBadkamerAfzuigerRestart"
         },
         {
           "id": "button.shelly_badkamer_lamp_restart",
-          "friendlyName": "Shelly_Badkamer_Lamp Restart",
+          "friendlyName": "Shelly_Badkamer_Lamp Herstarten",
           "cSharpName": "ShellyBadkamerLampRestart"
         },
         {
           "id": "button.shelly_badkamer_spiegel_restart",
-          "friendlyName": "Shelly_Badkamer_Spiegel Restart",
+          "friendlyName": "Shelly_Badkamer_Spiegel Herstarten",
           "cSharpName": "ShellyBadkamerSpiegelRestart"
         },
         {
           "id": "button.shelly_garage_lamp_restart",
-          "friendlyName": "Shelly_Garage_Lamp Restart",
+          "friendlyName": "Shelly_Garage_Lamp Herstarten",
           "cSharpName": "ShellyGarageLampRestart"
         },
         {
           "id": "button.shelly_garage_roldeur_restart",
-          "friendlyName": "Shelly_Garage_Roldeur Restart",
+          "friendlyName": "Shelly_Garage_Roldeur Herstarten",
           "cSharpName": "ShellyGarageRoldeurRestart"
         },
         {
           "id": "button.shelly_kantoor_lamp_restart",
-          "friendlyName": "Shelly_Kantoor_Lamp Restart",
+          "friendlyName": "Shelly_Kantoor_Lamp Herstarten",
           "cSharpName": "ShellyKantoorLampRestart"
         },
         {
           "id": "button.shelly_overloop_lamp_restart",
-          "friendlyName": "Shelly_Overloop_Lamp Restart",
+          "friendlyName": "Shelly_Overloop_Lamp Herstarten",
           "cSharpName": "ShellyOverloopLampRestart"
         },
         {
           "id": "button.shelly_slaapkamer_jeroen_lamp_restart",
-          "friendlyName": "Shelly_Slaapkamer_Jeroen_Lamp Restart",
+          "friendlyName": "Shelly_Slaapkamer_Jeroen_Lamp Herstarten",
           "cSharpName": "ShellySlaapkamerJeroenLampRestart"
         },
         {
           "id": "button.shelly_slaapkamer_k_c_lamp_restart",
-          "friendlyName": "Shelly_Slaapkamer_K\u0026C_Lamp Restart",
+          "friendlyName": "Shelly_Slaapkamer_K\u0026C_Lamp Herstarten",
           "cSharpName": "ShellySlaapkamerKCLampRestart"
         },
         {
           "id": "button.shelly_slaapkamer_wouter_lamp_restart",
-          "friendlyName": "Shelly_Slaapkamer_Wouter_Lamp Restart",
+          "friendlyName": "Shelly_Slaapkamer_Wouter_Lamp Herstarten",
           "cSharpName": "ShellySlaapkamerWouterLampRestart"
         },
         {
           "id": "button.shelly_toilet_lamp_restart",
-          "friendlyName": "Shelly_Toilet_Lamp Restart",
+          "friendlyName": "Shelly_Toilet_Lamp Herstarten",
           "cSharpName": "ShellyToiletLampRestart"
         },
         {
           "id": "button.shelly_trapkast_lamp_restart",
-          "friendlyName": "Shelly_Trapkast_Lamp Restart",
+          "friendlyName": "Shelly_Trapkast_Lamp Herstarten",
           "cSharpName": "ShellyTrapkastLampRestart"
         },
         {
+          "id": "button.shelly_voortuin_lamp_restart",
+          "friendlyName": "Shelly_Voortuin_Lamp Herstarten",
+          "cSharpName": "ShellyVoortuinLampRestart"
+        },
+        {
+          "id": "button.shelly_voortuin_stopcontact_herstarten",
+          "friendlyName": "Shelly_Voortuin_Stopcontact Herstarten",
+          "cSharpName": "ShellyVoortuinStopcontactHerstarten"
+        },
+        {
           "id": "button.shelly_woonkamer_lamp_restart",
-          "friendlyName": "Shelly_Woonkamer_Lamp Restart",
+          "friendlyName": "Shelly_Woonkamer_Lamp Herstarten",
           "cSharpName": "ShellyWoonkamerLampRestart"
         },
         {
           "id": "button.shelly_woonkamer_schaklaars_bar_restart",
-          "friendlyName": "Shelly_Woonkamer_Schaklaars_Bar Restart",
+          "friendlyName": "Shelly_Woonkamer_Schaklaars_Bar Herstarten",
           "cSharpName": "ShellyWoonkamerSchaklaarsBarRestart"
         },
         {
           "id": "button.shelly_woonkamer_serre_lamp_restart",
-          "friendlyName": "Shelly_Woonkamer_Serre_Lamp Restart",
+          "friendlyName": "Shelly_Woonkamer_Serre_Lamp Herstarten",
           "cSharpName": "ShellyWoonkamerSerreLampRestart"
         },
         {
-          "id": "button.shelly1mini_543204b8f5ec_restart",
-          "friendlyName": "shelly1mini-543204b8f5ec Restart",
-          "cSharpName": "Shelly1mini543204b8f5ecRestart"
-        },
-        {
-          "id": "button.shelly1mini_543204b9b26c_restart",
-          "friendlyName": "shelly1mini-543204b9b26c Restart",
-          "cSharpName": "Shelly1mini543204b9b26cRestart"
-        },
-        {
           "id": "button.shelly1mini_543204bc1380_restart",
-          "friendlyName": "shelly1mini-543204bc1380 Restart",
+          "friendlyName": "shelly1mini-543204bc1380 Herstarten",
           "cSharpName": "Shelly1mini543204bc1380Restart"
         },
         {
@@ -1314,9 +1359,24 @@
           "cSharpName": "Christel"
         },
         {
+          "id": "device_tracker.desktop_i0j7t8d",
+          "friendlyName": "DESKTOP-I0J7T8D",
+          "cSharpName": "DesktopI0j7t8d"
+        },
+        {
+          "id": "device_tracker.envoy",
+          "friendlyName": "envoy",
+          "cSharpName": "Envoy"
+        },
+        {
           "id": "device_tracker.fambrok",
           "friendlyName": "FamBrok",
           "cSharpName": "Fambrok"
+        },
+        {
+          "id": "device_tracker.frigate",
+          "friendlyName": "frigate",
+          "cSharpName": "Frigate"
         },
         {
           "id": "device_tracker.kasper_s_telefoon",
@@ -1324,94 +1384,119 @@
           "cSharpName": "KasperSTelefoon"
         },
         {
+          "id": "device_tracker.kc_01",
+          "friendlyName": "kc-01",
+          "cSharpName": "Kc01"
+        },
+        {
+          "id": "device_tracker.kd_01",
+          "friendlyName": "kd-01",
+          "cSharpName": "Kd01"
+        },
+        {
+          "id": "device_tracker.kw_01",
+          "friendlyName": "kw-01",
+          "cSharpName": "Kw01"
+        },
+        {
+          "id": "device_tracker.kw_02",
+          "friendlyName": "kw-02",
+          "cSharpName": "Kw02"
+        },
+        {
+          "id": "device_tracker.localhost",
+          "friendlyName": "LocalHost",
+          "cSharpName": "Localhost"
+        },
+        {
           "id": "device_tracker.shelly_achtertuin_stopkontact_shelly1mini_543204bae5ec",
-          "friendlyName": "Shelly_Achtertuin_Stopkontact shelly1mini-543204bae5ec",
+          "friendlyName": "shelly1mini-543204bae5ec",
           "cSharpName": "ShellyAchtertuinStopkontactShelly1mini543204bae5ec"
         },
         {
           "id": "device_tracker.shelly_badkamer_afzuiger_shelly1mini_543204baa850",
-          "friendlyName": "Shelly_Badkamer_Afzuiger shelly1mini-543204baa850",
+          "friendlyName": "shelly1mini-543204baa850",
           "cSharpName": "ShellyBadkamerAfzuigerShelly1mini543204baa850"
         },
         {
           "id": "device_tracker.shelly_badkamer_lamp_shelly1mini_543204b9eba0",
-          "friendlyName": "Shelly_Badkamer_Lamp shelly1mini-543204b9eba0",
+          "friendlyName": "shelly1mini-543204b9eba0",
           "cSharpName": "ShellyBadkamerLampShelly1mini543204b9eba0"
         },
         {
           "id": "device_tracker.shelly_badkamer_spiegel_shelly1mini_543204b8dce4",
-          "friendlyName": "Shelly_Badkamer_Spiegel shelly1mini-543204b8dce4",
+          "friendlyName": "shelly1mini-543204b8dce4",
           "cSharpName": "ShellyBadkamerSpiegelShelly1mini543204b8dce4"
         },
         {
           "id": "device_tracker.shelly_garage_lamp_shelly1mini_543204b8f67c",
-          "friendlyName": "Shelly_Garage_Lamp shelly1mini-543204b8f67c",
+          "friendlyName": "shelly1mini-543204b8f67c",
           "cSharpName": "ShellyGarageLampShelly1mini543204b8f67c"
         },
         {
           "id": "device_tracker.shelly_garage_roldeur_shellyswitch25_40f52027ae4d",
-          "friendlyName": "Shelly_Garage_Roldeur shellyswitch25-40F52027AE4D",
+          "friendlyName": "shellyswitch25-40F52027AE4D",
           "cSharpName": "ShellyGarageRoldeurShellyswitch2540f52027ae4d"
         },
         {
           "id": "device_tracker.shelly_kantoor_lamp_shelly1mini_543204ba9294",
-          "friendlyName": "Shelly_Kantoor_Lamp shelly1mini-543204ba9294",
+          "friendlyName": "shelly1mini-543204ba9294",
           "cSharpName": "ShellyKantoorLampShelly1mini543204ba9294"
         },
         {
           "id": "device_tracker.shelly_overloop_lamp_shelly1_34945470bd7d",
-          "friendlyName": "Shelly_Overloop_Lamp shelly1-34945470BD7D",
+          "friendlyName": "shelly1-34945470BD7D",
           "cSharpName": "ShellyOverloopLampShelly134945470bd7d"
         },
         {
           "id": "device_tracker.shelly_slaapkamer_jeroen_lamp_shelly1mini_543204b8f7a8",
-          "friendlyName": "Shelly_Slaapkamer_Jeroen_Lamp shelly1mini-543204b8f7a8",
+          "friendlyName": "shelly1mini-543204b8f7a8",
           "cSharpName": "ShellySlaapkamerJeroenLampShelly1mini543204b8f7a8"
         },
         {
           "id": "device_tracker.shelly_slaapkamer_k_c_lamp_shelly1mini_543204b9d78c",
-          "friendlyName": "Shelly_Slaapkamer_K\u0026C_Lamp shelly1mini-543204b9d78c",
+          "friendlyName": "shelly1mini-543204b9d78c",
           "cSharpName": "ShellySlaapkamerKCLampShelly1mini543204b9d78c"
         },
         {
           "id": "device_tracker.shelly_slaapkamer_wouter_lamp_shelly1mini_543204b96788",
-          "friendlyName": "Shelly_Slaapkamer_Wouter_Lamp shelly1mini-543204b96788",
+          "friendlyName": "shelly1mini-543204b96788",
           "cSharpName": "ShellySlaapkamerWouterLampShelly1mini543204b96788"
         },
         {
           "id": "device_tracker.shelly_toilet_lamp_shelly1mini_543204baae20",
-          "friendlyName": "Shelly_Toilet_Lamp shelly1mini-543204baae20",
+          "friendlyName": "shelly1mini-543204baae20",
           "cSharpName": "ShellyToiletLampShelly1mini543204baae20"
         },
         {
           "id": "device_tracker.shelly_trapkast_lamp_shelly1mini_543204ba9ca0",
-          "friendlyName": "Shelly_Trapkast_Lamp shelly1mini-543204ba9ca0",
+          "friendlyName": "shelly1mini-543204ba9ca0",
           "cSharpName": "ShellyTrapkastLampShelly1mini543204ba9ca0"
         },
         {
+          "id": "device_tracker.shelly_voortuin_lamp_shelly1mini_543204b9b26c",
+          "friendlyName": "shelly1mini-543204b9b26c",
+          "cSharpName": "ShellyVoortuinLampShelly1mini543204b9b26c"
+        },
+        {
+          "id": "device_tracker.shelly_voortuin_stopcontact_shelly1mini_543204b8f5ec",
+          "friendlyName": "Shelly_Voortuin_Stopcontact shelly1mini-543204b8f5ec",
+          "cSharpName": "ShellyVoortuinStopcontactShelly1mini543204b8f5ec"
+        },
+        {
           "id": "device_tracker.shelly_woonkamer_lamp_shelly1mini_543204bb90dc",
-          "friendlyName": "Shelly_Woonkamer_Lamp shelly1mini-543204bb90dc",
+          "friendlyName": "shelly1mini-543204bb90dc",
           "cSharpName": "ShellyWoonkamerLampShelly1mini543204bb90dc"
         },
         {
           "id": "device_tracker.shelly_woonkamer_schaklaars_bar_shellyix3_8caab5436ff2",
-          "friendlyName": "Shelly_Woonkamer_Schaklaars_Bar shellyix3-8CAAB5436FF2",
+          "friendlyName": "shellyix3-8CAAB5436FF2",
           "cSharpName": "ShellyWoonkamerSchaklaarsBarShellyix38caab5436ff2"
         },
         {
           "id": "device_tracker.shelly_woonkamer_serre_lamp_shellydimmer2_c8c9a325aa51",
-          "friendlyName": "Shelly_Woonkamer_Serre_Lamp shellydimmer2-C8C9A325AA51",
+          "friendlyName": "shellydimmer2-C8C9A325AA51",
           "cSharpName": "ShellyWoonkamerSerreLampShellydimmer2C8c9a325aa51"
-        },
-        {
-          "id": "device_tracker.shelly1mini_543204b8f5ec",
-          "friendlyName": "shelly1mini-543204b8f5ec",
-          "cSharpName": "Shelly1mini543204b8f5ec"
-        },
-        {
-          "id": "device_tracker.shelly1mini_543204b9b26c",
-          "friendlyName": "shelly1mini-543204b9b26c",
-          "cSharpName": "Shelly1mini543204b9b26c"
         },
         {
           "id": "device_tracker.shelly1mini_543204bc1380",
@@ -1427,6 +1512,31 @@
           "id": "device_tracker.sm_a556b",
           "friendlyName": "SM-A556B",
           "cSharpName": "SmA556b"
+        },
+        {
+          "id": "device_tracker.tado",
+          "friendlyName": "Tado",
+          "cSharpName": "Tado"
+        },
+        {
+          "id": "device_tracker.unifi_default_50_b0_3b_0c_e3_e6",
+          "friendlyName": "",
+          "cSharpName": "UnifiDefault50B03b0cE3E6"
+        },
+        {
+          "id": "device_tracker.unifi_default_a0_bd_1d_16_ab_9d",
+          "friendlyName": "",
+          "cSharpName": "UnifiDefaultA0Bd1d16Ab9d"
+        },
+        {
+          "id": "device_tracker.unifi_default_a0_bd_1d_16_ad_8d",
+          "friendlyName": "",
+          "cSharpName": "UnifiDefaultA0Bd1d16Ad8d"
+        },
+        {
+          "id": "device_tracker.unifi_default_da_96_79_e4_c8_e0",
+          "friendlyName": "",
+          "cSharpName": "UnifiDefaultDa9679E4C8E0"
         },
         {
           "id": "device_tracker.usw_16_poe",
@@ -1554,6 +1664,11 @@
           "jsonName": "vlan",
           "cSharpName": "Vlan",
           "clrType": "System.Double"
+        },
+        {
+          "jsonName": "name",
+          "cSharpName": "Name",
+          "clrType": "System.String"
         }
       ]
     },
@@ -1567,7 +1682,7 @@
         },
         {
           "id": "event.shelly_garage_lamp_input_0",
-          "friendlyName": "Shelly_Garage_Lamp Input 0",
+          "friendlyName": "Shelly_Garage_Lamp Ingang ",
           "cSharpName": "ShellyGarageLampInput0"
         }
       ],
@@ -1591,6 +1706,16 @@
           "jsonName": "device_class",
           "cSharpName": "DeviceClass",
           "clrType": "System.String"
+        },
+        {
+          "jsonName": "backup_stage",
+          "cSharpName": "BackupStage",
+          "clrType": null
+        },
+        {
+          "jsonName": "failed_reason",
+          "cSharpName": "FailedReason",
+          "clrType": null
         }
       ]
     },
@@ -1722,14 +1847,39 @@
       "domain": "input_boolean",
       "entities": [
         {
-          "id": "input_boolean.netdaemon_hass_model_bar_switch_setup",
-          "friendlyName": "netdaemon_hass_model_bar_switch_setup",
-          "cSharpName": "NetdaemonHassModelBarSwitchSetup"
+          "id": "input_boolean.kerstverlichting",
+          "friendlyName": "KerstVerlichting",
+          "cSharpName": "Kerstverlichting"
         },
         {
-          "id": "input_boolean.netdaemon_hass_model_lights_auto_off_app_app",
-          "friendlyName": "netdaemon_hass_model_lights_auto_off_app_app",
-          "cSharpName": "NetdaemonHassModelLightsAutoOffAppApp"
+          "id": "input_boolean.netdaemon_kasper_deurbel_notification",
+          "friendlyName": "netdaemon_kasper_deurbel_notification",
+          "cSharpName": "NetdaemonKasperDeurbelNotification"
+        },
+        {
+          "id": "input_boolean.netdaemon_motion_notification",
+          "friendlyName": "netdaemon_motion_notification",
+          "cSharpName": "NetdaemonMotionNotification"
+        },
+        {
+          "id": "input_boolean.netdaemon_switch_overloop",
+          "friendlyName": "netdaemon_switch_overloop",
+          "cSharpName": "NetdaemonSwitchOverloop"
+        },
+        {
+          "id": "input_boolean.netdaemon_switch_serre",
+          "friendlyName": "netdaemon_switch_serre",
+          "cSharpName": "NetdaemonSwitchSerre"
+        },
+        {
+          "id": "input_boolean.netdaemon_toilet10min",
+          "friendlyName": "netdaemon_toilet10min",
+          "cSharpName": "NetdaemonToilet10min"
+        },
+        {
+          "id": "input_boolean.netdaemon_trapkast2min",
+          "friendlyName": "netdaemon_trapkast2min",
+          "cSharpName": "NetdaemonTrapkast2min"
         }
       ],
       "attributes": [
@@ -1741,6 +1891,11 @@
         {
           "jsonName": "friendly_name",
           "cSharpName": "FriendlyName",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "icon",
+          "cSharpName": "Icon",
           "clrType": "System.String"
         }
       ]
@@ -1922,12 +2077,12 @@
         },
         {
           "id": "sensor.shellyem3_40f52001a247_phase_a_power_factor",
-          "friendlyName": "Drogtrommel Power factor",
+          "friendlyName": "Drogtrommel Vermogensfactor",
           "cSharpName": "Shellyem340f52001a247PhaseAPowerFactor"
         },
         {
           "id": "sensor.shellyem3_40f52001a247_phase_c_power_factor",
-          "friendlyName": "shellyem3-40F52001A247 Phase C Power factor",
+          "friendlyName": "Vaatwasser Vermogensfactor",
           "cSharpName": "Shellyem340f52001a247PhaseCPowerFactor"
         },
         {
@@ -2016,6 +2171,11 @@
           "cSharpName": "UswFlexMiniUptime"
         },
         {
+          "id": "sensor.voordeur_review_status",
+          "friendlyName": "Voordeur Review Status",
+          "cSharpName": "VoordeurReviewStatus"
+        },
+        {
           "id": "sensor.voorhal_tado_mode",
           "friendlyName": "Voorhal Tado mode",
           "cSharpName": "VoorhalTadoMode"
@@ -2027,8 +2187,13 @@
         },
         {
           "id": "sensor.wasmachine_power_factor",
-          "friendlyName": "Wasmachine Power factor",
+          "friendlyName": "Wasmachine Vermogensfactor",
           "cSharpName": "WasmachinePowerFactor"
+        },
+        {
+          "id": "sensor.woonkamer_review_status",
+          "friendlyName": "Woonkamer Review Status",
+          "cSharpName": "WoonkamerReviewStatus"
         },
         {
           "id": "sensor.woonkamer_tado_mode",
@@ -2089,6 +2254,16 @@
       "isNumeric": true,
       "entities": [
         {
+          "id": "sensor.ac_pro_garage_cpu_utilization",
+          "friendlyName": "AC Pro - Garage CPU utilization",
+          "cSharpName": "AcProGarageCpuUtilization"
+        },
+        {
+          "id": "sensor.ac_pro_garage_memory_utilization",
+          "friendlyName": "AC Pro - Garage Memory utilization",
+          "cSharpName": "AcProGarageMemoryUtilization"
+        },
+        {
           "id": "sensor.ac_pro_woonkamer_cpu_utilization",
           "friendlyName": "AC Pro - Woonkamer CPU utilization",
           "cSharpName": "AcProWoonkamerCpuUtilization"
@@ -2134,6 +2309,11 @@
           "cSharpName": "FambrokMemoryUtilization"
         },
         {
+          "id": "sensor.grocy_meal_plan",
+          "friendlyName": "Grocy meal plan",
+          "cSharpName": "GrocyMealPlan"
+        },
+        {
           "id": "sensor.kasper_christel_buitentemperatuur",
           "friendlyName": "Kasper \u0026 Christel Buitentemperatuur",
           "cSharpName": "KasperChristelBuitentemperatuur"
@@ -2145,22 +2325,22 @@
         },
         {
           "id": "sensor.shelly_garage_roldeur_energy",
-          "friendlyName": "Shelly_Garage_Roldeur Energy",
+          "friendlyName": "Shelly_Garage_Roldeur Energie",
           "cSharpName": "ShellyGarageRoldeurEnergy"
         },
         {
           "id": "sensor.shelly_garage_roldeur_power",
-          "friendlyName": "Shelly_Garage_Roldeur Power",
+          "friendlyName": "Shelly_Garage_Roldeur Vermogen",
           "cSharpName": "ShellyGarageRoldeurPower"
         },
         {
           "id": "sensor.shellyem3_40f52001a247_phase_a_current",
-          "friendlyName": "Drogtrommel Current",
+          "friendlyName": "Drogtrommel Stroom",
           "cSharpName": "Shellyem340f52001a247PhaseACurrent"
         },
         {
           "id": "sensor.shellyem3_40f52001a247_phase_a_energy",
-          "friendlyName": "Drogtrommel Energy",
+          "friendlyName": "Drogtrommel Energie",
           "cSharpName": "Shellyem340f52001a247PhaseAEnergy"
         },
         {
@@ -2170,27 +2350,27 @@
         },
         {
           "id": "sensor.shellyem3_40f52001a247_phase_a_power",
-          "friendlyName": "Drogtrommel Power",
+          "friendlyName": "Drogtrommel Vermogen",
           "cSharpName": "Shellyem340f52001a247PhaseAPower"
         },
         {
           "id": "sensor.shellyem3_40f52001a247_phase_a_voltage",
-          "friendlyName": "Drogtrommel Voltage",
+          "friendlyName": "Drogtrommel Spanning",
           "cSharpName": "Shellyem340f52001a247PhaseAVoltage"
         },
         {
           "id": "sensor.shellyem3_40f52001a247_phase_c_current",
-          "friendlyName": "shellyem3-40F52001A247 Phase C Current",
+          "friendlyName": "Vaatwasser Stroom",
           "cSharpName": "Shellyem340f52001a247PhaseCCurrent"
         },
         {
           "id": "sensor.shellyem3_40f52001a247_phase_c_energy",
-          "friendlyName": "shellyem3-40F52001A247 Phase C Energy",
+          "friendlyName": "Vaatwasser Energie",
           "cSharpName": "Shellyem340f52001a247PhaseCEnergy"
         },
         {
           "id": "sensor.shellyem3_40f52001a247_phase_c_energy_returned",
-          "friendlyName": "shellyem3-40F52001A247 Phase C Energy returned",
+          "friendlyName": "Vaatwasser Energy returned",
           "cSharpName": "Shellyem340f52001a247PhaseCEnergyReturned"
         },
         {
@@ -2200,7 +2380,7 @@
         },
         {
           "id": "sensor.shellyem3_40f52001a247_phase_c_voltage",
-          "friendlyName": "shellyem3-40F52001A247 Phase C Voltage",
+          "friendlyName": "Vaatwasser Spanning",
           "cSharpName": "Shellyem340f52001a247PhaseCVoltage"
         },
         {
@@ -2379,13 +2559,33 @@
           "cSharpName": "VoorhalVerwarmen"
         },
         {
+          "id": "sensor.voortuin_all_active_count",
+          "friendlyName": "Voortuin All Active Count",
+          "cSharpName": "VoortuinAllActiveCount"
+        },
+        {
+          "id": "sensor.voortuin_all_count",
+          "friendlyName": "Voortuin All count",
+          "cSharpName": "VoortuinAllCount"
+        },
+        {
+          "id": "sensor.voortuin_person_active_count",
+          "friendlyName": "Voortuin Person Active Count",
+          "cSharpName": "VoortuinPersonActiveCount"
+        },
+        {
+          "id": "sensor.voortuin_person_count",
+          "friendlyName": "Voortuin Person count",
+          "cSharpName": "VoortuinPersonCount"
+        },
+        {
           "id": "sensor.wasmachine_current",
-          "friendlyName": "Wasmachine Current",
+          "friendlyName": "Wasmachine Stroom",
           "cSharpName": "WasmachineCurrent"
         },
         {
           "id": "sensor.wasmachine_energy",
-          "friendlyName": "Wasmachine Energy",
+          "friendlyName": "Wasmachine Energie",
           "cSharpName": "WasmachineEnergy"
         },
         {
@@ -2395,12 +2595,12 @@
         },
         {
           "id": "sensor.wasmachine_power",
-          "friendlyName": "Wasmachine Power",
+          "friendlyName": "Wasmachine Vermogen",
           "cSharpName": "WasmachinePower"
         },
         {
           "id": "sensor.wasmachine_voltage",
-          "friendlyName": "Wasmachine Voltage",
+          "friendlyName": "Wasmachine Spanning",
           "cSharpName": "WasmachineVoltage"
         },
         {
@@ -2713,19 +2913,19 @@
           "cSharpName": "ShellyTrapkastLamp"
         },
         {
+          "id": "switch.shelly_voortuin_lamp",
+          "friendlyName": "Shelly_Voortuin_Lamp",
+          "cSharpName": "ShellyVoortuinLamp"
+        },
+        {
+          "id": "switch.shelly_voortuin_stopcontact",
+          "friendlyName": "Shelly_Voortuin_Stopcontact",
+          "cSharpName": "ShellyVoortuinStopcontact"
+        },
+        {
           "id": "switch.shelly_woonkamer_lamp",
           "friendlyName": "Shelly_Woonkamer_Lamp",
           "cSharpName": "ShellyWoonkamerLamp"
-        },
-        {
-          "id": "switch.shelly1mini_543204b8f5ec",
-          "friendlyName": "shelly1mini-543204b8f5ec",
-          "cSharpName": "Shelly1mini543204b8f5ec"
-        },
-        {
-          "id": "switch.shelly1mini_543204b9b26c",
-          "friendlyName": "shelly1mini-543204b9b26c",
-          "cSharpName": "Shelly1mini543204b9b26c"
         },
         {
           "id": "switch.shelly1mini_543204bc1380",
@@ -2753,21 +2953,6 @@
           "cSharpName": "UnifiNetworkAllowedInternal"
         },
         {
-          "id": "switch.unifi_network_mail",
-          "friendlyName": "UniFi Network mail",
-          "cSharpName": "UnifiNetworkMail"
-        },
-        {
-          "id": "switch.unifi_network_portainer_temp",
-          "friendlyName": "UniFi Network portainer temp",
-          "cSharpName": "UnifiNetworkPortainerTemp"
-        },
-        {
-          "id": "switch.unifi_network_web",
-          "friendlyName": "UniFi Network Web",
-          "cSharpName": "UnifiNetworkWeb"
-        },
-        {
           "id": "switch.voordeur_detect",
           "friendlyName": "Voordeur Detect",
           "cSharpName": "VoordeurDetect"
@@ -2781,6 +2966,16 @@
           "id": "switch.voordeur_recordings",
           "friendlyName": "Voordeur Recordings",
           "cSharpName": "VoordeurRecordings"
+        },
+        {
+          "id": "switch.voordeur_review_alerts",
+          "friendlyName": "Voordeur Review Alerts",
+          "cSharpName": "VoordeurReviewAlerts"
+        },
+        {
+          "id": "switch.voordeur_review_detections",
+          "friendlyName": "Voordeur Review Detections",
+          "cSharpName": "VoordeurReviewDetections"
         },
         {
           "id": "switch.voordeur_snapshots",
@@ -2806,6 +3001,16 @@
           "id": "switch.woonkamer_recordings",
           "friendlyName": "Woonkamer Recordings",
           "cSharpName": "WoonkamerRecordings"
+        },
+        {
+          "id": "switch.woonkamer_review_alerts",
+          "friendlyName": "Woonkamer Review Alerts",
+          "cSharpName": "WoonkamerReviewAlerts"
+        },
+        {
+          "id": "switch.woonkamer_review_detections",
+          "friendlyName": "Woonkamer Review Detections",
+          "cSharpName": "WoonkamerReviewDetections"
         },
         {
           "id": "switch.woonkamer_snapshots",
@@ -2845,6 +3050,11 @@
       "domain": "todo",
       "entities": [
         {
+          "id": "todo.grocy_meal_plan",
+          "friendlyName": "Grocy meal plan",
+          "cSharpName": "GrocyMealPlan"
+        },
+        {
           "id": "todo.shopping_list",
           "friendlyName": "Shopping List",
           "cSharpName": "ShoppingList"
@@ -2860,6 +3070,11 @@
           "jsonName": "supported_features",
           "cSharpName": "SupportedFeatures",
           "clrType": "System.Double"
+        },
+        {
+          "jsonName": "icon",
+          "cSharpName": "Icon",
+          "clrType": "System.String"
         }
       ]
     },
@@ -2894,9 +3109,24 @@
           "cSharpName": "AcProWoonkamer"
         },
         {
+          "id": "update.afvalwijzer_update",
+          "friendlyName": "Afvalwijzer update",
+          "cSharpName": "AfvalwijzerUpdate"
+        },
+        {
           "id": "update.ap_zolder",
           "friendlyName": "AP-zolder",
           "cSharpName": "ApZolder"
+        },
+        {
+          "id": "update.card_mod_update",
+          "friendlyName": "card-mod update",
+          "cSharpName": "CardModUpdate"
+        },
+        {
+          "id": "update.config_template_card_update",
+          "friendlyName": "Config Template Card update",
+          "cSharpName": "ConfigTemplateCardUpdate"
         },
         {
           "id": "update.fambrok",
@@ -2914,9 +3144,19 @@
           "cSharpName": "FrigateUpdate"
         },
         {
+          "id": "update.grocy_custom_component_update",
+          "friendlyName": "Grocy custom component update",
+          "cSharpName": "GrocyCustomComponentUpdate"
+        },
+        {
           "id": "update.hacs_update",
           "friendlyName": "HACS update",
           "cSharpName": "HacsUpdate"
+        },
+        {
+          "id": "update.mushroom_update",
+          "friendlyName": "Mushroom update",
+          "cSharpName": "MushroomUpdate"
         },
         {
           "id": "update.shelly_achtertuin_stopkontact_firmware",
@@ -2974,19 +3214,19 @@
           "cSharpName": "ShellyTrapkastLampFirmware"
         },
         {
+          "id": "update.shelly_voortuin_lamp_firmware",
+          "friendlyName": "Shelly_Voortuin_Lamp Firmware",
+          "cSharpName": "ShellyVoortuinLampFirmware"
+        },
+        {
+          "id": "update.shelly_voortuin_stopcontact_firmware",
+          "friendlyName": "Shelly_Voortuin_Stopcontact Firmware",
+          "cSharpName": "ShellyVoortuinStopcontactFirmware"
+        },
+        {
           "id": "update.shelly_woonkamer_lamp_firmware",
           "friendlyName": "Shelly_Woonkamer_Lamp Firmware",
           "cSharpName": "ShellyWoonkamerLampFirmware"
-        },
-        {
-          "id": "update.shelly1mini_543204b8f5ec_firmware",
-          "friendlyName": "shelly1mini-543204b8f5ec Firmware",
-          "cSharpName": "Shelly1mini543204b8f5ecFirmware"
-        },
-        {
-          "id": "update.shelly1mini_543204b9b26c_firmware",
-          "friendlyName": "shelly1mini-543204b9b26c Firmware",
-          "cSharpName": "Shelly1mini543204b9b26cFirmware"
         },
         {
           "id": "update.shelly1mini_543204bc1380_firmware",
@@ -3329,6 +3569,28 @@
           "jsonName": "friendly_name",
           "cSharpName": "FriendlyName",
           "clrType": "System.String"
+        }
+      ]
+    },
+    {
+      "domain": "calendar",
+      "entities": [
+        {
+          "id": "calendar.omroep_kalender",
+          "friendlyName": "Omroep kalender",
+          "cSharpName": "OmroepKalender"
+        }
+      ],
+      "attributes": [
+        {
+          "jsonName": "friendly_name",
+          "cSharpName": "FriendlyName",
+          "clrType": "System.String"
+        },
+        {
+          "jsonName": "supported_features",
+          "cSharpName": "SupportedFeatures",
+          "clrType": "System.Double"
         }
       ]
     }
