@@ -4,6 +4,7 @@ using HomeAssistantGenerated;
 
 namespace FamBrok.Apps;
 
+[NetDaemonApp]
 public class FrigateSetup
 {
     private static DateTime _lastNotificationTime = DateTime.MinValue;
@@ -41,7 +42,7 @@ public class FrigateSetup
             });
         
 
-        entities.BinarySensor.VoordeurPersonOccupancy.StateChanges()
+        entities.BinarySensor.VoortuinPersonOccupancy.StateChanges()
             .Where(e => e.New?.State == "on" && e.Old?.State != e.New?.State)
             .Subscribe(_ =>
             {
