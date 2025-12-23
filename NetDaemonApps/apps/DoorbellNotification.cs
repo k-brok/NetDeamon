@@ -6,7 +6,7 @@ namespace FamBrok.Apps;
 [NetDaemonApp]
 public class DoorbellNotification
 {
-    public static void KasperDeurbelNotification(Entities entities, ILogger<DoorbellNotification> logger, Services services)
+    public DoorbellNotification(Entities entities, ILogger<DoorbellNotification> logger, Services services)
     {
         entities.Switch.Deurbel.StateChanges()
             .Where(e => e.New?.State == "on")

@@ -8,7 +8,7 @@ namespace FamBrok.Apps;
 public class FrigateSetup
 {
     private static DateTime _lastNotificationTime = DateTime.MinValue;
-    public static void MotionNotificationVoorduer(IHaContext ha, ILogger<FrigateSetup> logger, Services services, Entities entities)
+    public FrigateSetup(IHaContext ha, ILogger<FrigateSetup> logger, Services services, Entities entities)
     {
         ha.Events
             .Where(e => e.EventType == "mobile_app_notification_action")

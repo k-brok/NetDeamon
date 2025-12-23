@@ -6,7 +6,7 @@ namespace FamBrok.Apps;
 [NetDaemonApp]
 public class LightsAutoOffApp
 {
-    public void Toilet10min(Entities entities)
+    public LightsAutoOffApp(Entities entities)
     {
         entities.Switch.ShellyToiletLamp.StateChanges().Where(e => e.New?.State != e.Old?.State)
             .Subscribe(async _ =>
@@ -21,10 +21,7 @@ public class LightsAutoOffApp
                     }
                 }
             });
-    }
-
-    public void Trapkast2min(Entities entities)
-    {
+        
         entities.Switch.ShellyTrapkastLamp.StateChanges().Where(e => e.New?.State != e.Old?.State)
             .Subscribe(async _ =>
             {

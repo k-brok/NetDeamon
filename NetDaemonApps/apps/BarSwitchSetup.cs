@@ -6,7 +6,7 @@ namespace FamBrok.Apps;
 [NetDaemonApp]
 public class BarSwitchSetup
 {
-    public static void SwitchOverloop(Entities entities)
+    public BarSwitchSetup(Entities entities)
     {
         entities.BinarySensor.ShellyWoonkamerSchaklaarsBarSchakelaar1Input.StateChanges()
             .Where(e => e.New?.State != e.Old?.State)
@@ -14,9 +14,6 @@ public class BarSwitchSetup
             {
                 entities.Light.ShellyOverloopLamp.Toggle();
             });
-    }
-    public static void  SwitchSerre(Entities entities)
-    {
         
         entities.BinarySensor.ShellyWoonkamerSchaklaarsBarSchakelaar3Input.StateChanges()
             .Where(e => e.New?.State != e.Old?.State)
